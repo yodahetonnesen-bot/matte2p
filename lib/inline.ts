@@ -24,6 +24,15 @@ export function inlineHtml(text: string): string {
   let buf = "";
   while (i < text.length) {
     const c = text[i];
+    // `kode` tas med uendret, slik at $ i regnearkformler (=B$5) ikke blir matte
+    if (c === "`") {
+      const end = text.indexOf("`", i + 1);
+      if (end > i) {
+        buf += text.slice(i, end + 1);
+        i = end + 1;
+        continue;
+      }
+    }
     if (c === "\\" && text[i + 1] === "$") {
       buf += "$";
       i += 2;
