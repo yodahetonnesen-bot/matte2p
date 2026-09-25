@@ -558,7 +558,7 @@ export function parseExercises(src: string, chapter: number): Exercise[] {
 
     if (depth === 0) {
       const partM = line.match(/^([a-z])\)\s*(.*)$/);
-      if (partM && c.mode !== "hint" && c.mode !== "solution") {
+      if (partM) {
         c.parts.push({ label: partM[1], body: partM[2] ? [partM[2]] : [], answer: [] });
         c.mode = "part";
         continue;
