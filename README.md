@@ -10,9 +10,9 @@ En øvingsnettside for Matematikk 2P (vg2): forklaringer til hvert tema, alle op
 | 2 | Likninger og ulikheter: lineære likninger, formler, likningssett, ulikheter, grafisk løsning |
 | 3 | Økonomi: indeks og KPI, kroneverdi og reallønn, lønn og skatt, sparing, lån og budsjett |
 | 4 | Statistikk – analyse og presentasjon: frekvens, søyle-, linje- og sektordiagram, histogram, kumulativ frekvens |
-| 5 | Sentralmål og spredningsmål: gjennomsnitt, median, typetall, variasjonsbredde, kvartiler, standardavvik |
-| 6 | Geometri: formlikhet, målestokk, Pytagoras, areal, overflate og volum |
-| 7 | Ekstra: tall på standardform, proporsjonalitet, funksjoner og modeller |
+| 5 | Sentralmål og spredningsmål: gjennomsnitt, typetall, median, kumulativ frekvens, variasjonsbredde, standardavvik, gruppert materiale |
+| 6 | Geometri: formlikhet, Pytagoras, målestokk, areal og omkrets, prisme, sylinder og kule |
+| 7 | Tillegg laget for sida: standardform, stigningstall, proporsjonalitet og regresjon med modellvalg (alle svar er egne svar) |
 
 - **Teori** for alle delkapitler, med regelbokser, eksempler med løsning, vanlige feil og «Utforsk».
 - **Oppgaver med fasit**: teoridelen, repetisjon, Øv mer, blandede og åpne oppgaver. Hint og løsningsforslag der det hjelper.
@@ -88,7 +88,7 @@ frekvens: 4 | 9 | 5
 ::
 ```
 
-Andre typer: `sektor`, `linje`, `kumulativ`. Geometrifigurer skrives som `::svg`.
+Andre typer: `sektor`, `linje`, `kumulativ`. Geometrifigurer skrives som `::svg` (rå SVG med klassene `ln`, `f1`–`f4`, `hid` osv. i `app/globals.css`).
 
 Oppgaver:
 
