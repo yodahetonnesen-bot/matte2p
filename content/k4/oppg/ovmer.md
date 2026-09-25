@@ -33,7 +33,7 @@ Menn: 20 | 17 | 14 | 12 | 12 | 9
 
 ## 4.113 @4.1
 Diagrammet viser CO₂-utslipp fra personbiler per innbygger over 18 år i noen byer (tall laget for denne siden, i samme stil som i Dagsavisen 3. mai 2019). Hvilken informasjon kan du hente ut?
-::diagram soyle liggende yl="Tonn CO₂ per innbygger" verdier des=2 h=260
+::diagram soyle liggende xl="Tonn CO₂ per innbygger" verdier des=2 h=260
 kat: Oslo | Bergen | Trondheim | Stavanger | Kristiansand | Tromsø
 Utslipp: 0,79 | 1,02 | 1,05 | 1,21 | 1,28 | 1,09
 ::

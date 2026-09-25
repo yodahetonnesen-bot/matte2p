@@ -196,18 +196,18 @@ d) Hvem har fått det beste lønnstilbudet?
 
 ## 2.43 @2.4
 Grafene til $f(x) = x^2 - 6x + 5$ og $g(x) = -x^2 - 6x + 7$ er tegnet nedenfor. Løs likningen $x^2 - 6x + 5 = -x^2 - 6x + 7$.
-::plot x=-8,8 y=-6,18 xs=2 ys=2 h=300
-f: x^2-6*x+5 | label=f | at=6.5
-f: -x^2-6*x+7 | label=g | at=-6
+::plot x=-10.5,10.5 y=-18,26 xs=1 ys=4 h=320
+f: x^2-6*x+5 | label=f(x)=x^2-6x+5 | at=8 | pos=w
+f: -x^2-6*x+7 | label=g(x)=-x^2-6x+7 | at=-8.5 | pos=e
 ::
 > $x = -1$ eller $x = 1$
 
 ## 2.44 @2.4
 Grafene til $y = \sqrt{25 - x^2}$, $y = \frac13 x + \frac53$ og $y = 4$ er tegnet nedenfor.
 ::plot x=-6,8 y=-1,6 xs=1 ys=1 h=260 eq
-f: sqrt(25-x^2) | label=y=\sqrt{25-x^2} | at=-4.5
-f: x/3+5/3 | label=y=\tfrac13x+\tfrac53 | at=7
-f: 4+0*x | label=y=4 | at=-5.5 | pos=n
+f: sqrt(25-x^2) | label=f(x)=\sqrt{25-x^2} | at=2.2 | pos=ne
+f: x/3+5/3 | label=h(x)=\tfrac13x+\tfrac53 | at=3 | pos=se
+f: 4+0*x | label=g(x)=4 | at=-3.2 | pos=n
 ::
 a) Løs likningene grafisk: 1. $\sqrt{25 - x^2} = 4$ 2. $\sqrt{25 - x^2} = \frac13 x + \frac53$ 3. $\frac13 x + \frac53 = 4$
 > 1. $x = -3$ eller $x = 3$ 2. $x = -5$ eller $x = 4$ 3. $x = 7$

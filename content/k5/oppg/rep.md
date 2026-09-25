@@ -58,18 +58,31 @@ frekvens: 2 | 6 | 5 | 6 | 12 | 6 | 3
 ::
 
 ## 5
-Turlaget Fjelltrim arrangerer «Topp 7» med 200 deltakere. Diagrammet viser hvor mange fjelltopper deltakerne har besøkt (tall laget for denne siden). Lag et regneark som finner gjennomsnittet og standardavviket.
-::diagram soyle xl="Antall fjelltopper" yl="Deltakere" verdier h=220
-kat: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
-Deltakere: 12 | 18 | 24 | 30 | 38 | 34 | 26 | 18
+Turlaget Fjelltrim arrangerer «Topp 7» med 200 deltakere. Diagrammet viser hvor mange fjelltopper deltakerne har besøkt.
+::diagram soyle tittel="Fjelltrim" xl="Antall fjelltopper" yl="Antall mosjonister" verdier h=240 ys=10
+kat: 1 | 2 | 3 | 4 | 5 | 6 | 7
+Mosjonister: 45 | 20 | 35 | 50 | 25 | 15 | 10
 ::
->> Gjennomsnitt 3,8 topper, standardavvik ca. 1,96 topper.
+Lag et regneark som vist nedenfor. Legg inn verdier i de gule cellene (B2–B8) og formler i de blå cellene. Bruk regnearket til å finne hvor mange fjelltopper deltakerne i gjennomsnitt har vært på, og standardavviket.
+
+| | A | B | C | D |
+|---|---|---|---|---|
+| **1** | Antall fjelltopper | Frekvens, $f$ | $f\cdot x$ | $f\cdot(x - g)^2$ |
+| **2** | 1 | | | |
+| **3** | 2 | | | |
+| **4** | 3 | | | |
+| **5** | 4 | | | |
+| **6** | 5 | | | |
+| **7** | 6 | | | |
+| **8** | 7 | | | |
+| **9** | Sum | | | |
+| **10** | | | | |
+| **11** | Gjennomsnitt | | | |
+| **12** | Standardavvik | | | |
+
+>> Gjennomsnitt ca. 3,4 topper, standardavvik ca. 1,76 topper.
 >>
->> | $x$ | $f$ | $x\cdot f$ | $(x - g)^2\cdot f$ |
->> |---|---|---|---|
->> | kolonne A | kolonne B | `=A2*B2` | `=(A2-$F$2)^2*B2` |
->>
->> Gjennomsnitt i F2: `=SUMMER(C2:C9)/SUMMER(B2:B9)`. Standardavvik: `=ROT(SUMMER(D2:D9)/SUMMER(B2:B9))`.
+>> Formler: `C2 = A2*B2`, `B9 = SUMMER(B2:B8)`, `C9 = SUMMER(C2:C8)`, `B11 = C9/B9`, `D2 = B2*(A2-$B$11)^2`, `D9 = SUMMER(D2:D8)` og `B12 = ROT(D9/B9)`. Kopier formlene i C2 og D2 nedover.
 
 ## 6
 Fødselsvekter (g) for de 15 første barna i Lillevik: 3750, 2900, 3200, 3450, 2750, 4250, 3500, 3770, 4100, 4480, 3550, 3500, 3800, 3290, 3180. I Storevik: 3720, 2790, 3150, 3850, 3000, 4850, 3200, 3790, 4120, 4980, 2750, 2800, 4820, 3950, 2750.

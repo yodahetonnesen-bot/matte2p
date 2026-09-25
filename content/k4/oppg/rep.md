@@ -99,16 +99,26 @@ d) Hvor mange prosent flere tilfeller er det i aldersgruppa 60–69 år enn i 50
 > 88,2 %
 
 ## 6
-Bestanden av lemen svinger fra år til år. Diagrammet under viser et omtrentlig forløp (tall laget for denne siden).
-::diagram linje yl="Lemen per km²" h=220 ymin=0
-x: 1990 | 1991 | 1992 | 1993 | 1994 | 1995 | 1996 | 1997 | 1998 | 1999 | 2000
-Lemen: 20 | 380 | 60 | 10 | 40 | 420 | 90 | 15 | 30 | 400 | 70
+Bestanden av lemen svinger slik figuren viser.
+::plot x=1989.3,2001 y=-0.4,7.2 xs=2 ys=1 h=240 nonum xl=\text{År} yl=Antall
+pl: 1990.00,6.20; 1990.13,6.19; 1990.26,6.15; 1990.39,6.10; 1990.52,6.04; 1990.65,5.97; 1990.78,5.85; 1990.91,5.69; 1991.04,5.49; 1991.17,5.25; 1991.30,5.00; 1991.43,4.73; 1991.56,4.45; 1991.69,4.18; 1991.83,3.92; 1991.96,3.68; 1992.09,3.45; 1992.22,3.19; 1992.35,2.91; 1992.48,2.63; 1992.61,2.34; 1992.74,2.06; 1992.87,1.80; 1993.00,1.56; 1993.13,1.37; 1993.26,1.22; 1993.39,1.13; 1993.52,1.10; 1993.65,1.18; 1993.78,1.36; 1993.91,1.62; 1994.04,1.93; 1994.17,2.27; 1994.30,2.62; 1994.43,2.95; 1994.56,3.23; 1994.69,3.48; 1994.82,3.74; 1994.95,4.03; 1995.08,4.31; 1995.22,4.59; 1995.35,4.86; 1995.48,5.10; 1995.61,5.30; 1995.74,5.46; 1995.87,5.56; 1996.00,5.60; 1996.13,5.55; 1996.26,5.41; 1996.39,5.19; 1996.52,4.91; 1996.65,4.60; 1996.78,4.25; 1996.91,3.91; 1997.04,3.57; 1997.17,3.26; 1997.30,3.00; 1997.43,2.75; 1997.56,2.48; 1997.69,2.19; 1997.82,1.91; 1997.95,1.63; 1998.08,1.37; 1998.21,1.14; 1998.34,0.95; 1998.47,0.80; 1998.61,0.72; 1998.74,0.71; 1998.87,0.82; 1999.00,1.07; 1999.13,1.42; 1999.26,1.83; 1999.39,2.27; 1999.52,2.73; 1999.65,3.16; 1999.78,3.64; 1999.91,4.16; 2000.04,4.74; 2000.17,5.36; 2000.30,6.00 | c=5
+txt: 1990,-0.25 | 1990 | sm
+txt: 1992,-0.25 | 92 | sm
+txt: 1994,-0.25 | 94 | sm
+txt: 1996,-0.25 | 96 | sm
+txt: 1998,-0.25 | 98 | sm
+txt: 2000,-0.25 | 2000 | sm
 ::
 a) Beskriv utviklingen med ord.
->> Bestanden svinger kraftig med «lemenår» omtrent hvert fjerde år (1991, 1995 og 1999). Mellom toppene faller bestanden til et svært lavt nivå, før den bygger seg opp igjen.
-b) En avis viste bare perioden januar 1996–juli 1998 og skrev «Lemenbestanden er truet». Gi en vurdering.
-::diagram linje yl="Lemen per km²" h=200 ymin=0
-kat: jan 96 | jul 96 | jan 97 | jul 97 | jan 98 | jul 98
-Lemen: 200 | 90 | 40 | 15 | 20 | 30
+>> Bestanden svinger kraftig. Den er høy i 1990, rundt 1996 og igjen i 2000 («lemenår»). Mellom toppene faller den til et svært lavt nivå, rundt 1993–1994 og 1998–1999, før den bygger seg opp igjen.
+b) En avis brukte illustrasjonen nedenfor med overskriften «Lemenbestanden er truet». Gi en vurdering av denne framstillingen. Gir den et riktig bilde av situasjonen?
+::plot x=-0.4,6 y=-0.8,7.2 xs=1 ys=1 h=220 nonum xl=\text{År} yl=Antall
+pl: 0.00,6.20; 0.11,6.20; 0.22,6.19; 0.34,6.17; 0.45,6.15; 0.56,6.13; 0.67,6.10; 0.79,6.07; 0.90,6.03; 1.01,6.00; 1.12,5.94; 1.23,5.87; 1.35,5.77; 1.46,5.66; 1.57,5.53; 1.68,5.40; 1.80,5.26; 1.91,5.12; 2.02,4.97; 2.13,4.82; 2.24,4.63; 2.36,4.44; 2.47,4.23; 2.58,4.02; 2.69,3.82; 2.81,3.61; 2.92,3.43; 3.03,3.25; 3.14,3.09; 3.26,2.92; 3.37,2.76; 3.48,2.60; 3.59,2.45; 3.70,2.30; 3.82,2.18; 3.93,2.06; 4.04,1.97; 4.15,1.87; 4.27,1.78; 4.38,1.69; 4.49,1.60; 4.60,1.53; 4.71,1.47; 4.83,1.43; 4.94,1.40; 5.05,1.40; 5.16,1.40; 5.28,1.40; 5.39,1.40; 5.50,1.40 | c=5
+txt: 0,-0.4 | jan. 96 | sm
+txt: 1,-0.4 | juli 96 | sm
+txt: 2,-0.4 | jan. 97 | sm
+txt: 3,-0.4 | juli 97 | sm
+txt: 4,-0.4 | jan. 98 | sm
+txt: 5,-0.4 | juli 98 | sm
 ::
->> Avisa har valgt et utsnitt som starter rett etter en topp og slutter i en bunn. Det gir et falskt inntrykk av en varig nedgang. Ser vi på hele perioden, er svingningene normale, og bestanden bygger seg opp igjen.
+>> Avisa har valgt et utsnitt som starter på en topp (januar 1996) og slutter i en bunn (sommeren 1998). Det gir et falskt inntrykk av en varig nedgang. Ser vi på hele perioden, er svingningene normale, og bestanden bygger seg opp igjen.

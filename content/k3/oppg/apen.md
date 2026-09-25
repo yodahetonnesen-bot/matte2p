@@ -84,7 +84,7 @@ Innlandet: 100 | 104,8 | 112,7 | 115,1 | 116,5 | 120,4
 
 ## 3.304 @3.2
 Diagrammet viser omtrent hvordan husholdningenes forbruk fordelte seg i 1980 og 2017 (tall avrundet og laget for denne siden ut fra SSBs forbruksundersøkelser). Hvordan har sammensetningen endret seg? Begynn med klær og skotøy.
-::diagram soyle liggende yl="Andel av forbruket (%)" verdier h=320
+::diagram soyle liggende xl="Andel av forbruket (%)" verdier h=320
 kat: Mat og drikke | Klær og skotøy | Bolig, lys og brensel | Møbler og husholdning | Helse | Transport | Kultur og fritid | Annet
 1980: 24 | 9 | 18 | 8 | 2 | 17 | 10 | 12
 2017: 12 | 5 | 30 | 6 | 3 | 16 | 12 | 16

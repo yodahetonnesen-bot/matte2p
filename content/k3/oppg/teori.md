@@ -29,12 +29,12 @@ b) Hvor mange prosent har prisen endret seg?
 > Ned 28,1 %
 
 ## 3.14 @3.1
-Diagrammet viser prisindeksene for klær og sko, helsepleie og utdanning (omtrentlige verdier, 2015 = 100).
-::diagram linje yl="Indeks" h=280 ymin=40 ymax=190 ys=20
-kat: 2000 | 2003 | 2006 | 2009 | 2012 | 2015 | 2017 | 2019
-Klær og sko: 175,9 | 158 | 138 | 120 | 104 | 100 | 99 | 101,8
-Helsepleie: 64 | 71 | 78 | 85 | 93 | 100 | 105 | 110
-Utdanning: 52 | 60 | 68 | 77 | 88 | 100 | 110 | 120
+Diagrammet viser prisindeksene for klær og sko, helsepleie og utdanning (2015 = 100).
+::diagram linje tittel="Prisindekser for klær og sko, helsepleie og utdanning" yl="Indeks" h=280 ymin=40 ymax=190 ys=20
+x: 2000 | 2005 | 2010 | 2015 | 2019
+Klær og sko: 175,9 | 130,9 | 106,7 | 100 | 101,8
+Helsepleie: 68,7 | 76,3 | 88,6 | 100 | 108,4
+Utdanning: 54,6 | 71,0 | 84,4 | 100 | 120,2
 ::
 Vurder påstandene.
 a) Klær og sko var billigere i 2019 enn i 2000.
@@ -121,18 +121,20 @@ Petter tjente 530 000 kr i 2016 (KPI 103,6). Hvor mye måtte han tjent i 2020 (K
 ## 3.34 @3.3
 a) Vi vet at kroneverdi $= \frac{100}{\text{KPI}}$ og reallønn $=$ nominell lønn $\cdot$ kroneverdi. Finn en formel for reallønna uttrykt med nominell lønn og KPI.
 > $\text{reallønn} = \text{nominell lønn}\cdot\frac{100}{\text{KPI}}$
-b) Programmet regner ut reallønna:
+b) Nedenfor ser du et program som regner ut reallønna når vi oppgir nominell lønn og KPI.
 ```python
-lonn = float(input("Nominell lønn: "))
-kpi = float(input("KPI: "))
-reallonn = lonn * 100 / kpi
-print("Reallønna er", round(reallonn), "kr")
+lønn = 32000
+KPI = 112.2
+
+reallønn = lønn*100/KPI
+
+print("Reallønna er", round(reallønn), "kr")
 ```
-Bruk det på Turid i eksemplet (405 000 kr med KPI 93,9 og 420 000 kr med KPI 103,6). Hvorfor får du litt andre tall?
+Bruk programmet (bytt ut tallene i linje 1 og 2) på Turid i eksemplet (405 000 kr med KPI 93,9 og 420 000 kr med KPI 103,6). Hvorfor får du litt andre tall?
 > 431 310 kr og 405 405 kr
 !! I eksemplet ble kroneverdien avrundet til fire desimaler før vi ganget. Programmet regner uten avrunding.
 c) Endre programmet slik at det også regner ut kroneverdien.
->> Legg til `kroneverdi = 100 / kpi` og `print("Kroneverdien er", round(kroneverdi, 4))`.
+>> Legg til `kroneverdi = 100/KPI` og `print("Kroneverdien er", round(kroneverdi, 4))`.
 d) Magnus tjente 320 000 kr i 2018 (KPI 108,4) og 330 000 kr i 2019 (KPI 110,8). Fikk han økt kjøpekraft?
 > Ja. Reallønna økte fra 295 203 kr til 297 834 kr.
 
@@ -261,6 +263,20 @@ b) Hvor stort er rentebeløpet?
 
 ## 3.72 @3.7
 Frida (fra eksemplet) kjøper en sofa til 10 000 kr på et kredittkort med 1,5 % per måned.
+Regnearket kan settes opp slik. I de blå cellene (B5–D9) skal du legge inn formler.
+
+| | A | B | C | D |
+|---|---|---|---|---|
+| **1** | Kredittbeløp | 10 000,00 kr | | |
+| **2** | Rente | 1,50 % | | |
+| **3** | | | | |
+| **4** | Måned nr. | Starten av måneden | Rente | Slutten av måneden |
+| **5** | 1 | | | |
+| **6** | 2 | | | |
+| **7** | 3 | | | |
+| **8** | 4 | | | |
+| **9** | 5 | | | |
+
 a) Lag et regneark som viser gjelden hver måned, utvid til 60 måneder, og finn når gjelden er doblet.
 > 47 måneder
 b) Endre beløpet til 20 000 kr. Hvor lang tid tar det nå? Kommenter.

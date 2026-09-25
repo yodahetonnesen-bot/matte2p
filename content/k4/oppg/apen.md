@@ -70,7 +70,7 @@ Folketall og areal i fylkene:
 
 Undersøk hvordan befolkningen og befolkningstettheten varierer, og presenter resultatene grafisk.
 >> Befolkningstetthet = innbyggere per km². Oslo har 1500 per km², Rogaland 51, Viken 50, mens Troms og Finnmark har bare 3,3. Landet som helhet har ca. 16 per km².
-::diagram soyle liggende yl="Innbyggere per km²" verdier des=1 h=320 ymax=60
+::diagram soyle liggende xl="Innbyggere per km²" verdier des=1 h=320 ymax=60
 kat: Rogaland | Viken | Vestfold og Telemark | Vestland | Agder | Møre og Romsdal | Trøndelag | Innlandet | Nordland | Troms og Finnmark
 Tetthet: 50,8 | 49,9 | 23,9 | 18,7 | 18,6 | 18,5 | 11,0 | 7,1 | 6,3 | 3,3
 ::

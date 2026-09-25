@@ -34,17 +34,17 @@ c) Hvilken framstilling gir best informasjon? Begrunn svaret.
 Diagrammene er tegnet på nytt fra Ungdata 2018 (prosent av elevene).
 ::cols
 ::diagram sektor tittel="Ungdomstrinnet" vis=verdi enhet=% des=0 mw=360
-Svært fornøyd: 36
-Litt fornøyd: 34
-Verken eller: 17
-Litt misfornøyd: 9
-Svært misfornøyd: 5
+Svært fornøyd: 40
+Litt fornøyd: 30
+Verken fornøyd eller misfornøyd: 17
+Litt misfornøyd: 8
+Svært misfornøyd: 6
 ::
 ||
-::diagram sektor tittel="Videregående" vis=verdi enhet=% des=0 mw=360
-Svært fornøyd: 30
-Litt fornøyd: 35
-Verken eller: 21
+::diagram sektor tittel="Videregående skole" vis=verdi enhet=% des=0 mw=360
+Svært fornøyd: 33
+Litt fornøyd: 32
+Verken fornøyd eller misfornøyd: 21
 Litt misfornøyd: 9
 Svært misfornøyd: 5
 ::
@@ -59,17 +59,17 @@ d) Legg sammen prosenttallene i hvert diagram. Hva får du?
 > Ungdomstrinnet: 101 %. Videregående: 100 %. De 101 % skyldes avrunding.
 
 ## 4.12 @4.1
-Diagrammet viser gjennomsnittlig månedslønn for noen yrker (omtrentlige verdier, SSB 2019).
-::diagram soyle liggende yl="Månedslønn (kr)" h=360 ys=10000 ymax=70000
-kat: Butikkmedarbeidere | Barne- og ungdomsarbeidere | Helsefagarbeidere | Førskolelærere | Vernepleiere | Sykepleiere | Grunnskolelærere | Lektorer | Journalister | Salgskonsulenter (IKT)
-Månedslønn: 33000 | 35000 | 37000 | 42000 | 43500 | 46000 | 47500 | 49000 | 54000 | 62500
+Diagrammet viser gjennomsnittlig månedslønn for noen yrker (verdiene er lest av diagrammet i boka, SSB 2019).
+::diagram soyle liggende xl="Månedslønn (kr)" h=300 ys=20000 ymax=65000
+kat: 2642 Journalister | 2434 Salgskonsulenter innen IKT-produkter | 2342 Førskolelærere | 2341 Grunnskolelærere | 2330 Lektorer mv. (videregående skole) | 2224 Vernepleiere | 2223 Sykepleiere
+Månedslønn: 50300 | 60200 | 39500 | 44400 | 47800 | 43900 | 44900
 ::
 a) Hvilke grupper har mellom 40 000 og 50 000 kr?
 > Førskolelærere, grunnskolelærere, lektorer, vernepleiere og sykepleiere
 b) Hvilke grupper har over 50 000 kr?
 > Journalister og salgskonsulenter
 c) Omtrent hvor stor er forskjellen mellom førskolelærere og salgskonsulenter?
-> Litt over 20 000 kr
+> Ca. 20 000 kr
 d) Omtrent hvor mange prosent høyere er lønna til en salgskonsulent enn til en sykepleier?
 > Ca. 35 %
 
@@ -97,7 +97,12 @@ b) I hvor mange prosent av kampene ble det skåret flere enn 3 mål?
 > 40 %
 
 ## 4.22 @4.2
-Ta utgangspunkt i søylediagrammet for 2P-1 og 2P-2 i teorien.
+Ta utgangspunkt i søylediagrammet for 2P-1 og 2P-2 i teorien:
+::diagram soyle tittel="Karakterfordeling i 2P-1 og 2P-2" xl="Karakter" yl="Frekvens" h=240 ys=1
+kat: 1 | 2 | 3 | 4 | 5 | 6
+2P-1: 2 | 5 | 8 | 7 | 4 | 1
+2P-2: 3 | 6 | 4 | 7 | 5 | 2
+::
 a) Hvor mange elever er det i 2P-2?
 > 27
 b) Sammenlikn karakternivået. Gir tabellen eller søylediagrammet best oversikt?
@@ -321,18 +326,18 @@ c) Sammenlikn diagrammene.
 >> Det første gir inntrykk av jevn framgang. Det andre viser at rekorden står stille i lange perioder, og at 1968-hoppet (Bob Beamon, 8,90 m) var et stort sprang som sto i 23 år.
 
 ## 4.50 @4.5
-Diagrammene viser timer per dag kvinner og menn brukte på husholdsarbeid og fritid i 1970 og 2010 (omtrentlige verdier, SSB).
+Søylediagrammene viser hvor mange timer kvinner og menn brukte på husholdsarbeid og fritid på en gjennomsnittsdag i 1970 og i 2010 (verdiene er lest av diagrammene i boka, kilde SSB).
 ::cols
-::diagram soyle tittel="Husholdsarbeid" yl="Timer" verdier h=220 ymin=1 ymax=6 ys=1
-kat: 1970 | 2010
-Kvinner: 5,5 | 3,6
-Menn: 1,7 | 2,8
+::diagram soyle tittel="Kvinner" yl="Antall timer" h=220 ymin=3,5 ymax=6,2 ys=0,5
+kat: Husholdsarbeid | Fritid
+1970: 5,85 | 5,0
+2010: 3,8 | 6,2
 ::
 ||
-::diagram soyle tittel="Fritid" yl="Timer" verdier h=220 ymin=4,5 ymax=6,5 ys=0,5
-kat: 1970 | 2010
-Kvinner: 5,1 | 6,0
-Menn: 5,6 | 6,4
+::diagram soyle tittel="Menn" yl="Antall timer" h=220 ymin=1 ymax=6,5 ys=1
+kat: Husholdsarbeid | Fritid
+1970: 2,2 | 5,4
+2010: 3,0 | 6,3
 ::
 ::
 a) Hva forteller diagrammet om kvinners tidsbruk?
@@ -340,7 +345,7 @@ a) Hva forteller diagrammet om kvinners tidsbruk?
 b) Hva forteller det om menns tidsbruk?
 >> Menn brukte over en time mer på husholdsarbeid og fikk litt mer fritid.
 c) Hvordan kan diagrammene gi misvisende informasjon?
->> Andreaksene starter ikke på 0 og har ulik skala. I fritidsdiagrammet ser det ut som om kvinner i 1970 hadde svært lite fritid sammenliknet med menn, men forskjellen er bare en halv time.
+>> Andreaksene starter ikke på 0, og de har ulik skala. I diagrammet for kvinner starter aksen på 3,5. Da ser det ut som om husholdsarbeidet falt til en brøkdel, selv om det bare gikk ned fra ca. 5,9 til 3,8 timer. Menns akse starter på 1, så søylene kan ikke sammenliknes direkte med kvinnenes.
 
 ## 4.51 @4.5
 A-klassen samlet inn 200 kr per elev i gjennomsnitt, B-klassen 175 kr. Lag et søylediagram der det ser ut som om A-klassen har samlet inn dobbelt så mye.
@@ -369,7 +374,7 @@ Timer: 12 | 16 | 22
 ## 4.53 @4.5
 Bankbeholdningen til Gunnar (oppgave 4.43) kan vises på to måter:
 ::cols
-::diagram linje yl="Tusen kr" h=200 ymin=0 ymax=200 ys=50
+::diagram linje yl="Tusen kr" h=200 ymin=0 ymax=200 ys=40
 x: 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020
 Beløp: 120 | 137 | 161 | 117 | 131 | 162 | 171 | 189
 ::

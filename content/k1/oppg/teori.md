@@ -31,14 +31,14 @@ c) Lag to regneoppgaver som blir lettere med en slik metode.
 ## 1.13 @1.1
 Nedenfor ser du Python-koden til et program.
 ```python
-prosent = float(input("Hvor mange prosent? "))
-tall = float(input("Av hvilket tall? "))
-svar = prosent / 100 * tall
-print(prosent, "% av", tall, "er", round(svar, 2))
+prosent = 23
+hele_tallet = 432
+prosentdelen = prosent/100 * hele_tallet
+print(prosent, "% av", hele_tallet, "er", round(prosentdelen, 2))
 ```
 a) Forklar hva hver linje i programmet gjør.
->> Linje 1 og 2 leser inn prosenten og tallet og gjør dem om til desimaltall. Linje 3 regner ut $\frac{p}{100}\cdot$ tallet. Linje 4 skriver ut svaret avrundet til to desimaler.
-b) Bruk programmet til å løse oppgave 1.10.
+>> Linje 1 og 2 lagrer prosenten (23) og det hele tallet (432). Linje 3 regner ut prosentdelen som $\frac{23}{100}\cdot 432$. Linje 4 skriver ut svaret avrundet til to desimaler: «23 % av 432 er 99.36».
+b) Bruk programmet til å løse oppgave 1.10. (Bytt ut tallene i linje 1 og 2.)
 > 45,90 kr, 2146,37 kr, 4377,50 kr og 4000 kr
 
 ## 1.14 @1.1
@@ -121,16 +121,18 @@ b) Hvor mange prosentpoeng måtte oppslutningen ha økt med for at den skulle ha
 ## 1.24 @1.2
 Nedenfor ser du et Python-program.
 ```python
-gammel = float(input("Gammel prosent: "))
-ny = float(input("Ny prosent: "))
-endring = ny - gammel
-prosent = endring / gammel * 100
-print("Endringen er", endring, "prosentpoeng")
-print("Det er en endring på", prosent, "%")
+startprosent = 5.7
+sluttprosent = 8.2
+
+prosentpoeng = sluttprosent - startprosent
+prosent = prosentpoeng/startprosent * 100
+
+print("Endringen i prosentpoeng er:", round(prosentpoeng, 1))
+print("Endringen i prosent er:", round(prosent, 1),"%")
 ```
 a) Forklar hva programmet gjør, og hvordan det virker.
->> Programmet leser inn to prosenttall. Differansen gir endringen i prosentpoeng. Når vi deler differansen på den gamle prosenten og ganger med 100, får vi endringen i prosent.
-b) Bruk programmet til å løse oppgave 1.20.
+>> Programmet lagrer startprosenten (5,7) og sluttprosenten (8,2). Differansen gir endringen i prosentpoeng (2,5). Når vi deler differansen på startprosenten og ganger med 100, får vi endringen i prosent (43,9 %). Begge svarene skrives ut avrundet til én desimal.
+b) Bruk programmet til å løse oppgave 1.20. (Bytt ut tallene i linje 1 og 2.)
 > 0,25 prosentpoeng og 25 %
 
 ## 1.30 @1.3
@@ -168,12 +170,15 @@ f) 36,5 %
 ## 1.32 @1.3
 Python-programmet nedenfor kan brukes til å finne vekstfaktoren ved prosentvis økning.
 ```python
-p = float(input("Hvor mange prosent øker størrelsen med? "))
-vekstfaktor = 1 + p / 100
-print("Vekstfaktoren er", vekstfaktor)
+svar = input("Hva er endringen i prosent?")
+prosenten = float(svar)
+
+vekstfaktor = 1 + prosenten/100
+
+print("Vekstfaktoren er", round(vekstfaktor, 3))
 ```
 a) Forklar hvordan programmet virker.
->> Programmet leser inn prosenten $p$, regner ut $1 + \frac{p}{100}$ og skriver ut svaret.
+>> Programmet spør om endringen i prosent og gjør svaret om til et desimaltall. Så regner det ut vekstfaktoren $1 + \frac{p}{100}$ og skriver den ut avrundet til tre desimaler.
 b) Hvordan kan vi bruke programmet uten endringer til å finne vekstfaktoren ved prosentvis nedgang?
 >> Skriv inn prosenten med minus foran. 12 % nedgang: skriv $-12$, og programmet gir $1 + \frac{-12}{100} = 0{,}88$.
 
@@ -201,16 +206,18 @@ i) 0
 
 ## 1.34 @1.3
 ```python
-k = float(input("Vekstfaktor: "))
-endring = (k - 1) * 100
-if endring >= 0:
-    print("Økning på", round(endring, 2), "%")
+vekstfaktor = 1.39
+
+if vekstfaktor > 1:
+  prosent = (vekstfaktor - 1) * 100
+  print("Det er en økning på", round(prosent, 2), "%")
 else:
-    print("Nedgang på", round(-endring, 2), "%")
+  prosent = (1 - vekstfaktor)*100
+  print("Det er en nedgang på", round(prosent, 2), "%")
 ```
 a) Hva gjør Python-programmet ovenfor? Forklar hver linje.
->> Linje 1 leser inn vekstfaktoren. Linje 2 regner ut endringen i prosent, $(k - 1)\cdot 100$. Er endringen positiv eller null, skrives den ut som en økning, ellers som en nedgang (med positivt tall).
-b) Bruk programmet til å løse oppgave 1.33.
+>> Linje 1 lagrer vekstfaktoren (1,39). Linje 3 sjekker om vekstfaktoren er større enn 1. Da er det en økning, og linje 4 regner ut $(1{,}39 - 1)\cdot 100 = 39$ prosent, som linje 5 skriver ut. Ellers er det en nedgang, og linje 7 regner ut $(1 - \text{vekstfaktor})\cdot 100$, som linje 8 skriver ut.
+b) Bruk programmet til å løse oppgave 1.33. (Bytt ut tallet i linje 1.)
 > Samme svar som i oppgave 1.33
 
 ## 1.35 @1.3

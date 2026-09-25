@@ -64,9 +64,9 @@ b) Endre opplysningene slik at det ikke er mulig å bestemme vektene.
 
 ## 10
 Figuren viser grafene til $f(x) = 2x - 8$ og $g(x) = -3x + 2$.
-::plot x=-2,6 y=-10,8 xs=1 ys=2 h=280
+::plot x=-3.4,8.6 y=-13,8 xs=1 ys=2 h=320
 f: 2*x-8 | label=f | at=5.5
-f: -3*x+2 | label=g | at=-1.5
+f: -3*x+2 | label=g | at=-1.5 | pos=e
 p: 2,-4
 vx: 2 | dash
 ::

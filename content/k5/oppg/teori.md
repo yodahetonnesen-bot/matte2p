@@ -68,7 +68,13 @@ b) Hvilket sentralmål gir dårligst og best beskrivelse?
 >> Typetallet 0 gir et dårlig bilde, fordi over halvparten gjør lekser. Gjennomsnittet 4,5 trekkes opp av noen få som gjør svært mye. Medianen 2 timer beskriver en typisk elev best.
 
 ## 5.30 @5.3
-Bruk kumulativ frekvens til å finne medianen for fraværet i oppgave 5.13.
+Fraværet i gruppe 2P-1 er gitt i denne tabellen:
+
+| Fravær (timer) | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|---|
+| Elever | 8 | 5 | 6 | 2 | 3 | 2 | 1 |
+
+Bruk kumulativ frekvens til å finne medianen.
 > 2
 
 ## 5.31 @5.3
@@ -164,10 +170,10 @@ b) Hva sier resultatet?
 >> De fleste familiene spiser sammen mer enn halvparten av dagene, men spredningen er stor.
 
 ## 5.46 @5.4
-Hvor mange typer frukt og grønt elevene på vg1 spiste siste døgn (tall tilpasset svaret i boka):
-::diagram soyle xl="Typer frukt og grønt" yl="Elever" verdier h=220
-kat: 0 | 1 | 2 | 3 | 4 | 5 | 6
-Elever: 1 | 3 | 7 | 9 | 7 | 3 | 1
+I en undersøkelse om matvanene ble elevene på vg1 spurt hvor mange typer frukt og grønt de hadde spist det siste døgnet. Her er resultatet:
+::diagram soyle liggende tittel="Daglig inntak av frukt og grønt blant elever på Vg1" xl="Antall elever" yl="Antall frukt og grønt" verdier h=260 ys=5
+kat: 6 | 5 | 4 | 3 | 2 | 1 | 0
+Elever: 6 | 8 | 32 | 42 | 28 | 12 | 5
 ::
 Finn gjennomsnittet og standardavviket.
 > Gjennomsnitt 3, standardavvik 1,34

@@ -45,28 +45,53 @@ d) Fra 2010 til 2019 sank reallønna hennes med 1,2 %. Hvilken timelønn hadde h
 
 ## 5
 Maren kjøper en motorsykkel til 82 000 kr. Hun har 30 000 kr og låner resten som annuitetslån over fire år med én termin per år, 3,2 % rente og terminbeløp 14 056 kr. Lag en nedbetalingsplan i regneark.
->> | År | Restlån | Renter | Avdrag | Terminbeløp |
+Maren lager et regneark med dette oppsettet:
+
+| | A | B | C | D | E |
+|---|---|---|---|---|---|
+| **1** | År | Renter | Terminbeløp | Avdrag | Restlån |
+| **2** | 1 | | | | |
+| **3** | 2 | | | | |
+| **4** | 3 | | | | |
+| **5** | 4 | | | | |
+
+>> | År | Renter | Terminbeløp | Avdrag | Restlån |
 >> |---|---|---|---|---|
->> | 1 | 52 000,00 | 1664,00 | 12 392,00 | 14 056 |
->> | 2 | 39 608,00 | 1267,46 | 12 788,54 | 14 056 |
->> | 3 | 26 819,46 | 858,22 | 13 197,78 | 14 056 |
->> | 4 | 13 621,68 | 435,89 | 13 620,11 | 14 056 |
+>> | 1 | 1664,00 | 14 056 | 12 392,00 | 39 608,00 |
+>> | 2 | 1267,46 | 14 056 | 12 788,54 | 26 819,46 |
+>> | 3 | 858,22 | 14 056 | 13 197,78 | 13 621,68 |
+>> | 4 | 435,89 | 14 056 | 13 620,11 | 1,57 |
 >>
->> Formler (år 1 i rad 8): renter `=B8*$B$2/100`, avdrag `=E8-C8`, nytt restlån `=B8-D8`. Restlånet etter siste termin blir ca. 1,57 kr fordi terminbeløpet er avrundet.
+>> Lånet er $82\,000 - 30\,000 = 52\,000$ kr. Formler i rad 2: renter `=52000*0,032`, avdrag `=C2-B2`, restlån `=52000-D2`. I rad 3 og videre: renter `=E2*0,032`, avdrag `=C3-B3`, restlån `=E2-D3`. Restlånet etter siste termin blir ca. 1,57 kr fordi terminbeløpet er avrundet.
 
 ## 6
 Anton trenger 45 000 kr til en ferie. Han setter inn 20 000 kr 1. januar 2020 og 5000 kr ved starten av hvert år etter det. Renta er 0,20 %.
-a) Lag et regneark som viser beløpet fram til og med 2025, og oppgi formlene.
->> | År | Start av året |
->> |---|---|
->> | 2020 | 20 000,00 |
->> | 2021 | 25 040,00 |
->> | 2022 | 30 090,08 |
->> | 2023 | 35 150,26 |
->> | 2024 | 40 220,56 |
->> | 2025 | 45 301,00 |
+a) Lag et regneark likt det nedenfor, og sett inn formler i de blå cellene slik at regnearket viser hvor mye det er på kontoen fram til og med 2025. Oppgi formlene.
+
+| | A | B | C |
+|---|---|---|---|
+| **1** | Startkapital | 20 000,00 kr | |
+| **2** | Årlig sparebeløp | 5 000,00 kr | |
+| **3** | Rente i prosent per år | 0,2 | |
+| **4** | | | |
+| **5** | År | Begynnelsen av året | Slutten av året |
+| **6** | 2020 | | |
+| **7** | 2021 | | |
+| **8** | 2022 | | |
+| **9** | 2023 | | |
+| **10** | 2024 | | |
+| **11** | 2025 | | |
+
+>> | År | Begynnelsen av året | Slutten av året |
+>> |---|---|---|
+>> | 2020 | 20 000,00 | 20 040,00 |
+>> | 2021 | 25 040,00 | 25 090,08 |
+>> | 2022 | 30 090,08 | 30 150,26 |
+>> | 2023 | 35 150,26 | 35 220,56 |
+>> | 2024 | 40 220,56 | 40 301,00 |
+>> | 2025 | 45 301,00 | 45 391,60 |
 >>
->> Formel: `=B5*(1+$B$2/100)+$B$3`, der B2 er renta og B3 er det årlige innskuddet.
+>> Formler: `B6 = B1`, `C6 = B6*(1+$B$3/100)` og `B7 = C6+$B$2`. Så kopierer vi formlene nedover.
 b) Når har Anton råd til å reise?
 > I 2025
 c) Han vil reise i 2023, men kan ikke spare mer enn 5000 kr i året. Hvor høy måtte renta vært?
