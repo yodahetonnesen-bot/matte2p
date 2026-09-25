@@ -28,18 +28,19 @@ Ulrik påstår at to av disse alternativene gir samme avslag. Har han rett?
 !! Halvparten av halv pris er $\frac12\cdot\frac12 = \frac14$ av prisen, altså 75 % avslag. «Kjøp 3, betal for 2» gir $\frac13 \approx 33\,\%$ avslag.
 
 ## 1.203 @1.1
-I boka er denne oppgaven et skjermbilde fra melk.no. Her er tallene skrevet om som tekst:
+Hent opplysninger i teksten nedenfor (fra melk.no).
 
-*Norske forbrukere kaster i gjennomsnitt 42 kg spiselig mat per person hvert år. Av det vi kaster, er 26 % bakervarer, 21 % middagsrester og 18 % frukt og grønnsaker. Det bor 5,4 millioner mennesker i Norge.*
-a) Hvor mye mat kaster norske forbrukere til sammen hvert år?
->> ca. 226 800 tonn
-b) Hvor mye kaster vi til sammen av bakervarer, middagsrester og frukt og grønnsaker?
->> ca. 147 400 tonn
-!! **a)** $42\ \text{kg}\cdot 5\,400\,000 = 226\,800\,000\ \text{kg} = 226\,800$ tonn. **b)** $26 + 21 + 18 = 65\,\%$, og $0{,}65\cdot 226\,800 \approx 147\,400$ tonn.
+::merk Hvor mye mat kaster nordmenn hvert år?
+I henhold til matvett.no viser beregninger at nordmenn kaster 385 000 tonn mat hvert år. Forbrukerne står for over halvparten av dette (58 prosent, 42,5 kg mat per person per år).
 
-::merk Om tallene
-Tallene i denne oppgaven er laget for siden fordi skjermbildet i boka ikke kan gjengis. Boka oppgir svarene 223 300 tonn og 231 000 tonn for sin tekst.
+De største kildene til matsvinn i Norge er bakervarer (21 prosent), middagsrester (20 prosent) og frukt og grønnsaker (19 prosent), mens meieriprodukter utgjør 11 prosent av det som kastes. Vi kaster faktisk omlag 100 millioner liter melk hvert år.
 ::
+
+a) Hvor mye mat kaster norske forbrukere hvert år?
+> 223 300 tonn
+b) Hvor mye kaster vi til sammen av bakervarer, middagsrester og frukt og grønnsaker?
+> 231 000 tonn
+!! **a)** $0{,}58\cdot 385\,000 = 223\,300$ tonn. **b)** $21\,\% + 20\,\% + 19\,\% = 60\,\%$, og $0{,}60\cdot 385\,000 = 231\,000$ tonn.
 
 ## 1.204 @1.1
 Eli-Trine har spart 12 000 kr. Hun bruker 4000 kr på en ergometersykkel og 1550 kr på klær.
@@ -62,33 +63,32 @@ I en bolle er det 15 grønne, 4 gule og 1 blå kule. Hvor mange prosent av kulen
 > 25 %
 
 ## 1.208 @1.1
-::svg w=200 h=200 mw=200 cap="Figuren har 25 like store ruter."
-<rect class="c1" x="10" y="10" width="36" height="36"/>
-<rect class="bg" x="46" y="10" width="36" height="36"/>
-<rect class="bg" x="82" y="10" width="36" height="36"/>
-<rect class="bg" x="118" y="10" width="36" height="36"/>
-<rect class="bg" x="154" y="10" width="36" height="36"/>
-<rect class="bg" x="10" y="46" width="36" height="36"/>
-<rect class="c1" x="46" y="46" width="36" height="36"/>
-<rect class="bg" x="82" y="46" width="36" height="36"/>
-<rect class="bg" x="118" y="46" width="36" height="36"/>
-<rect class="bg" x="154" y="46" width="36" height="36"/>
-<rect class="bg" x="10" y="82" width="36" height="36"/>
-<rect class="bg" x="46" y="82" width="36" height="36"/>
-<rect class="c1" x="82" y="82" width="36" height="36"/>
-<rect class="bg" x="118" y="82" width="36" height="36"/>
-<rect class="bg" x="154" y="82" width="36" height="36"/>
-<rect class="bg" x="10" y="118" width="36" height="36"/>
-<rect class="bg" x="46" y="118" width="36" height="36"/>
-<rect class="bg" x="82" y="118" width="36" height="36"/>
-<rect class="c1" x="118" y="118" width="36" height="36"/>
-<rect class="bg" x="154" y="118" width="36" height="36"/>
-<rect class="bg" x="10" y="154" width="36" height="36"/>
-<rect class="bg" x="46" y="154" width="36" height="36"/>
-<rect class="bg" x="82" y="154" width="36" height="36"/>
-<rect class="bg" x="118" y="154" width="36" height="36"/>
-<rect class="c1" x="154" y="154" width="36" height="36"/>
-<g class="ln2"><line x1="10" y1="10" x2="10" y2="190"/><line x1="10" y1="10" x2="190" y2="10"/><line x1="46" y1="10" x2="46" y2="190"/><line x1="10" y1="46" x2="190" y2="46"/><line x1="82" y1="10" x2="82" y2="190"/><line x1="10" y1="82" x2="190" y2="82"/><line x1="118" y1="10" x2="118" y2="190"/><line x1="10" y1="118" x2="190" y2="118"/><line x1="154" y1="10" x2="154" y2="190"/><line x1="10" y1="154" x2="190" y2="154"/><line x1="190" y1="10" x2="190" y2="190"/><line x1="10" y1="190" x2="190" y2="190"/></g>
+::svg w=350 h=170 mw=350 cap="Figuren har 25 like store ruter."
+<rect class="ln2" x="160" y="10" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="190" y="10" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="c1" x="220" y="10" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="160" y="40" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="190" y="40" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="220" y="40" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="250" y="40" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="c1" x="10" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="40" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="70" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="100" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="130" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="c1" x="160" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="190" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="220" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="250" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="280" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="c1" x="310" y="70" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="130" y="100" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="160" y="100" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="190" y="100" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="220" y="100" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="160" y="130" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="c1" x="190" y="130" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
+<rect class="ln2" x="220" y="130" width="30" height="30" style="stroke:var(--plot-ink);stroke-width:1"/>
 ::
 a) Hvor mange prosent av figuren er fargelagt?
 > 20 %
@@ -140,16 +140,19 @@ Elevene ble spurt om de liker engelsk eller matematikk best. 20 % svarte «vet i
 !! 200 elever er 80 %, så det var 250 elever. $\frac{120}{250} = 48\,\%$.
 
 ## 1.216 @1.1
-Elida har laget dette programmet:
+Elida har begynt å lage et dataprogram som ser slik ut:
 ```python
-salgspris = float(input("Salgspris: "))
-rabatt = float(input("Rabatt i prosent: "))
-print(salgspris / (1 - rabatt / 100))
+prosent = 25
+kroner = 1750
+
+pris = kroner*100/prosent
+
+print(pris)
 ```
 a) Hva regner programmet ut?
-> Den opprinnelige prisen på en vare før rabatten ble gitt
+>> Hele beløpet (100 %) når vi vet at 25 % av det er 1750 kr. Programmet skriver ut 7000.0.
 b) Endre programmet slik at det også skriver ut en forklarende tekst.
->> `print("Før rabatten kostet varen", round(salgspris / (1 - rabatt / 100), 2), "kr")`
+>> For eksempel `print(prosent, "% av", pris, "kr er", kroner, "kr")`, som skriver ut «25 % av 7000.0 kr er 1750 kr».
 
 ## 1.217 @1.2
 Markedsandelen til bedriften «Jojo» gikk ned fra 16,2 % i 2019 til 14,9 % i 2021. Hvilke påstander stemmer?
@@ -206,9 +209,9 @@ En vare koster det samme i to butikker. I butikk A settes prisen opp 20 %. I but
 
 ## 1.225 @1.3
 Lise har laget et diagram over hvor mange orienteringsposter hun har funnet. Diagrammet er tilsølt, så søylen for 2018 kan ikke leses.
-::diagram soyle yl="Poster" verdier h=220 mw=380
-kat: 2019 | 2020
-Poster: 120 | 108
+::diagram soyle yl="Antall poster" xl="År" verdier h=240 mw=380 ymax=200 ys=25
+kat: 2018 | 2019 | 2020
+Poster: - | 120 | 108
 ::
 a) Hvor mange prosent færre poster fant Lise i 2020 enn i 2019?
 > 10 %
@@ -278,17 +281,21 @@ e) Kjøttdeigen er satt ned 45 %. Hva er normalprisen per kg?
 
 ## 1.233 @1.4
 ```python
-belop = 10000
-rente = 2.5
-for ar in range(1, 11):
-    belop = belop * (1 + rente / 100)
+belop = 15000
+rente = 1.5
+vekstfaktor = 1 + rente/100
+aar = 0
+
+while aar < 10:
+  belop = belop*vekstfaktor
+  aar = aar + 1
 ```
 a) Hva regner programmet ut?
->> Hvor mye 10 000 kr vokser til med 2,5 % rente per år i 10 år.
+>> Hvor mye 15 000 kr vokser til med 1,5 % rente per år i 10 år.
 b) Forklar hva som skjer i hver linje.
->> Linje 1–2 lagrer startbeløpet og renta. Løkka går 10 ganger, én gang for hvert år, og ganger beløpet med vekstfaktoren $1{,}025$.
+>> Linje 1–3 lagrer startbeløpet, renta og vekstfaktoren $1{,}015$. Linje 4 setter antall år til 0. Løkka går så lenge `aar` er mindre enn 10, altså 10 ganger. Hver gang ganges beløpet med vekstfaktoren, og antall år øker med 1.
 c) Programmet mangler utskrift. Lag en linje til slutt som skriver ut svaret.
->> `print("Etter 10 år er beløpet", round(belop, 2), "kr")` gir 12 800,85 kr.
+>> `print("Etter 10 år er beløpet", round(belop, 2), "kr")` gir 17 408,11 kr.
 
 ## 1.234 @1.3
 Eiendom Norge skrev i august 2020: «I august ble det solgt 9964 boliger, 10,2 prosent flere enn i august 2019. Så langt i år er det solgt 66 213 boliger, 3,5 prosent flere enn på samme tid i 2019. I august ble det lagt ut 11 667 boliger for salg, 8,2 prosent færre enn i august 2019. Så langt i år er det lagt ut 70 771 boliger, 2,9 prosent færre enn på samme tid i fjor.»

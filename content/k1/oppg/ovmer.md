@@ -8,139 +8,37 @@ b) Regn ut med hjelpemiddel: 30 % av 120, 13 % av 600, 40 % av 800 og 8 % av 175
 ?? 10 %: del på 10. 20 %: det dobbelte av 10 %. 50 %: del på 2.
 
 ## 1.111 @1.1
-Hver figur har 20 sirkler. Hvilken figur passer til prosenten?
-::svg w=300 h=230 mw=320 cap="Seks figurer med 20 sirkler hver. Noen av sirklene er fylt."
-<text x="42" y="16" text-anchor="middle">A</text>
-<circle class="c1" cx="18" cy="32" r="6"/>
-<circle class="c1" cx="34" cy="32" r="6"/>
-<circle class="c1" cx="50" cy="32" r="6"/>
-<circle class="c1" cx="66" cy="32" r="6"/>
-<circle class="c1" cx="18" cy="48" r="6"/>
-<circle class="ln2" cx="34" cy="48" r="6"/>
-<circle class="ln2" cx="50" cy="48" r="6"/>
-<circle class="ln2" cx="66" cy="48" r="6"/>
-<circle class="ln2" cx="18" cy="64" r="6"/>
-<circle class="ln2" cx="34" cy="64" r="6"/>
-<circle class="ln2" cx="50" cy="64" r="6"/>
-<circle class="ln2" cx="66" cy="64" r="6"/>
-<circle class="ln2" cx="18" cy="80" r="6"/>
-<circle class="ln2" cx="34" cy="80" r="6"/>
-<circle class="ln2" cx="50" cy="80" r="6"/>
-<circle class="ln2" cx="66" cy="80" r="6"/>
-<circle class="ln2" cx="18" cy="96" r="6"/>
-<circle class="ln2" cx="34" cy="96" r="6"/>
-<circle class="ln2" cx="50" cy="96" r="6"/>
-<circle class="ln2" cx="66" cy="96" r="6"/>
-<text x="142" y="16" text-anchor="middle">B</text>
-<circle class="c1" cx="118" cy="32" r="6"/>
-<circle class="c1" cx="134" cy="32" r="6"/>
-<circle class="c1" cx="150" cy="32" r="6"/>
-<circle class="c1" cx="166" cy="32" r="6"/>
-<circle class="c1" cx="118" cy="48" r="6"/>
-<circle class="c1" cx="134" cy="48" r="6"/>
-<circle class="c1" cx="150" cy="48" r="6"/>
-<circle class="ln2" cx="166" cy="48" r="6"/>
-<circle class="ln2" cx="118" cy="64" r="6"/>
-<circle class="ln2" cx="134" cy="64" r="6"/>
-<circle class="ln2" cx="150" cy="64" r="6"/>
-<circle class="ln2" cx="166" cy="64" r="6"/>
-<circle class="ln2" cx="118" cy="80" r="6"/>
-<circle class="ln2" cx="134" cy="80" r="6"/>
-<circle class="ln2" cx="150" cy="80" r="6"/>
-<circle class="ln2" cx="166" cy="80" r="6"/>
-<circle class="ln2" cx="118" cy="96" r="6"/>
-<circle class="ln2" cx="134" cy="96" r="6"/>
-<circle class="ln2" cx="150" cy="96" r="6"/>
-<circle class="ln2" cx="166" cy="96" r="6"/>
-<text x="242" y="16" text-anchor="middle">C</text>
-<circle class="c1" cx="218" cy="32" r="6"/>
-<circle class="c1" cx="234" cy="32" r="6"/>
-<circle class="c1" cx="250" cy="32" r="6"/>
-<circle class="c1" cx="266" cy="32" r="6"/>
-<circle class="c1" cx="218" cy="48" r="6"/>
-<circle class="c1" cx="234" cy="48" r="6"/>
-<circle class="c1" cx="250" cy="48" r="6"/>
-<circle class="c1" cx="266" cy="48" r="6"/>
-<circle class="c1" cx="218" cy="64" r="6"/>
-<circle class="c1" cx="234" cy="64" r="6"/>
-<circle class="c1" cx="250" cy="64" r="6"/>
-<circle class="ln2" cx="266" cy="64" r="6"/>
-<circle class="ln2" cx="218" cy="80" r="6"/>
-<circle class="ln2" cx="234" cy="80" r="6"/>
-<circle class="ln2" cx="250" cy="80" r="6"/>
-<circle class="ln2" cx="266" cy="80" r="6"/>
-<circle class="ln2" cx="218" cy="96" r="6"/>
-<circle class="ln2" cx="234" cy="96" r="6"/>
-<circle class="ln2" cx="250" cy="96" r="6"/>
-<circle class="ln2" cx="266" cy="96" r="6"/>
-<text x="42" y="134" text-anchor="middle">D</text>
-<circle class="c1" cx="18" cy="150" r="6"/>
-<circle class="c1" cx="34" cy="150" r="6"/>
-<circle class="c1" cx="50" cy="150" r="6"/>
-<circle class="c1" cx="66" cy="150" r="6"/>
-<circle class="c1" cx="18" cy="166" r="6"/>
-<circle class="c1" cx="34" cy="166" r="6"/>
-<circle class="c1" cx="50" cy="166" r="6"/>
-<circle class="c1" cx="66" cy="166" r="6"/>
-<circle class="c1" cx="18" cy="182" r="6"/>
-<circle class="c1" cx="34" cy="182" r="6"/>
-<circle class="c1" cx="50" cy="182" r="6"/>
-<circle class="c1" cx="66" cy="182" r="6"/>
-<circle class="c1" cx="18" cy="198" r="6"/>
-<circle class="ln2" cx="34" cy="198" r="6"/>
-<circle class="ln2" cx="50" cy="198" r="6"/>
-<circle class="ln2" cx="66" cy="198" r="6"/>
-<circle class="ln2" cx="18" cy="214" r="6"/>
-<circle class="ln2" cx="34" cy="214" r="6"/>
-<circle class="ln2" cx="50" cy="214" r="6"/>
-<circle class="ln2" cx="66" cy="214" r="6"/>
-<text x="142" y="134" text-anchor="middle">E</text>
-<circle class="c1" cx="118" cy="150" r="6"/>
-<circle class="c1" cx="134" cy="150" r="6"/>
-<circle class="c1" cx="150" cy="150" r="6"/>
-<circle class="ln2" cx="166" cy="150" r="6"/>
-<circle class="ln2" cx="118" cy="166" r="6"/>
-<circle class="ln2" cx="134" cy="166" r="6"/>
-<circle class="ln2" cx="150" cy="166" r="6"/>
-<circle class="ln2" cx="166" cy="166" r="6"/>
-<circle class="ln2" cx="118" cy="182" r="6"/>
-<circle class="ln2" cx="134" cy="182" r="6"/>
-<circle class="ln2" cx="150" cy="182" r="6"/>
-<circle class="ln2" cx="166" cy="182" r="6"/>
-<circle class="ln2" cx="118" cy="198" r="6"/>
-<circle class="ln2" cx="134" cy="198" r="6"/>
-<circle class="ln2" cx="150" cy="198" r="6"/>
-<circle class="ln2" cx="166" cy="198" r="6"/>
-<circle class="ln2" cx="118" cy="214" r="6"/>
-<circle class="ln2" cx="134" cy="214" r="6"/>
-<circle class="ln2" cx="150" cy="214" r="6"/>
-<circle class="ln2" cx="166" cy="214" r="6"/>
-<text x="242" y="134" text-anchor="middle">F</text>
-<circle class="c1" cx="218" cy="150" r="6"/>
-<circle class="c1" cx="234" cy="150" r="6"/>
-<circle class="c1" cx="250" cy="150" r="6"/>
-<circle class="c1" cx="266" cy="150" r="6"/>
-<circle class="c1" cx="218" cy="166" r="6"/>
-<circle class="c1" cx="234" cy="166" r="6"/>
-<circle class="c1" cx="250" cy="166" r="6"/>
-<circle class="c1" cx="266" cy="166" r="6"/>
-<circle class="c1" cx="218" cy="182" r="6"/>
-<circle class="c1" cx="234" cy="182" r="6"/>
-<circle class="c1" cx="250" cy="182" r="6"/>
-<circle class="c1" cx="266" cy="182" r="6"/>
-<circle class="c1" cx="218" cy="198" r="6"/>
-<circle class="c1" cx="234" cy="198" r="6"/>
-<circle class="c1" cx="250" cy="198" r="6"/>
-<circle class="c1" cx="266" cy="198" r="6"/>
-<circle class="ln2" cx="218" cy="214" r="6"/>
-<circle class="ln2" cx="234" cy="214" r="6"/>
-<circle class="ln2" cx="250" cy="214" r="6"/>
-<circle class="ln2" cx="266" cy="214" r="6"/>
+Hvilken figur passer til prosenten?
+::svg w=330 h=225 mw=330 cap="Seks sirkler der en del er fargelagt."
+<text x="55" y="14" text-anchor="middle" style="font-weight:600">A</text>
+<circle cx="55" cy="62" r="40" style="fill:var(--plot-bg)"/>
+<path class="c1" d="M55,62 L55,22 A40,40 0 0 1 95.0,62.0 Z"/>
+<circle class="ln2" cx="55" cy="62" r="40"/>
+<text x="165" y="14" text-anchor="middle" style="font-weight:600">B</text>
+<circle cx="165" cy="62" r="40" style="fill:var(--plot-bg)"/>
+<path class="c1" d="M165,62 L165,22 A40,40 0 1 1 152.6,100.0 Z"/>
+<circle class="ln2" cx="165" cy="62" r="40"/>
+<text x="275" y="14" text-anchor="middle" style="font-weight:600">C</text>
+<circle cx="275" cy="62" r="40" style="fill:var(--plot-bg)"/>
+<path class="c1" d="M275,62 L275,22 A40,40 0 0 1 275.0,102.0 Z"/>
+<circle class="ln2" cx="275" cy="62" r="40"/>
+<text x="55" y="134" text-anchor="middle" style="font-weight:600">D</text>
+<circle cx="55" cy="182" r="40" style="fill:var(--plot-bg)"/>
+<path class="c1" d="M55,182 L55,142 A40,40 0 1 1 29.5,151.2 Z"/>
+<circle class="ln2" cx="55" cy="182" r="40"/>
+<text x="165" y="134" text-anchor="middle" style="font-weight:600">E</text>
+<circle cx="165" cy="182" r="40" style="fill:var(--plot-bg)"/>
+<path class="c1" d="M165,182 L165,142 A40,40 0 0 1 197.4,158.5 Z"/>
+<circle class="ln2" cx="165" cy="182" r="40"/>
+<text x="275" y="134" text-anchor="middle" style="font-weight:600">F</text>
+<circle cx="275" cy="182" r="40" style="fill:var(--plot-bg)"/>
+<path class="c1" d="M275,182 L275,142 A40,40 0 1 1 237.0,169.6 Z"/>
+<circle class="ln2" cx="275" cy="182" r="40"/>
 ::
 a) 80 %
 > Figur F
 b) 55 %
-> Figur C
+> Figur B
 c) 25 %
 > Figur A
 d) 15 %
@@ -194,14 +92,18 @@ d) Fredrik fikk kjøpe klokka for 2000 kr. Hvor mange prosent avslag fikk han i 
 
 ## 1.118 @1.1
 ```python
-tall = float(input("Skriv et tall: "))
-for prosent in range(1, 101):
-    print(prosent, "% av", tall, "er", prosent / 100 * tall)
+tall = 250
+prosent = 1
+
+while prosent <= 100:
+    utregning = tall*prosent/100
+    print(prosent, "% av", tall, "er", round(utregning, 2))
+    prosent = prosent + 1
 ```
 a) Hva gjør programmet? Forklar hva som skjer i hver linje.
->> Programmet leser inn et tall. Løkka går gjennom prosentene 1, 2, 3, …, 100, og for hver prosent skrives $\frac{p}{100}\cdot$ tallet ut. Resultatet er en tabell over 1 %–100 % av tallet.
+>> Linje 1 og 2 lagrer tallet 250 og startprosenten 1. Løkka kjører så lenge prosenten er 100 eller mindre. I løkka regner programmet ut prosenten av tallet, skriver ut svaret avrundet til to desimaler og øker prosenten med 1. Resultatet er en tabell over 1 %, 2 %, …, 100 % av 250.
 b) Endre programmet slik at det bare skriver ut 10 %, 20 %, …, 100 %.
->> Bytt ut `range(1, 101)` med `range(10, 101, 10)`. Det tredje tallet er steglengden.
+>> Start med `prosent = 10`, og øk med 10 i hver runde: `prosent = prosent + 10`.
 
 ## 1.120 @1.2
 a) Oppslutningen om Venstre gikk ned fra 6,0 % til 5,1 %. Hvor mange prosentpoeng sank oppslutningen med?
@@ -436,17 +338,19 @@ p: 5.017,149185 | label=(5{,}0,\ 149\,185)
 ## 1.149 @1.4
 En elev som hadde regnet oppgave 1.148, lagde dette programmet:
 ```python
-f = 100000
-g = 223000
-ar = 0
-while f < g:
-    f = f * 1.083
-    g = g * 0.923
-    ar = ar + 1
-print(ar)
+x = 0
+frimerker = 100000
+båt = 223000
+
+while frimerker < båt:
+  frimerker = 100000*1.083**x
+  båt = 223000*0.923**x
+  print("Frimerker:", frimerker)
+  print("Fritidsbåt:", båt)
+  x = x + 1
 ```
 a) Hva regner programmet ut?
->> Det finner det første hele antallet år da samlingen er verdt minst like mye som båten. Programmet skriver ut 6, fordi grafene krysser litt etter 5 år.
+>> Programmet regner ut verdien av frimerkesamlingen og fritidsbåten år for år, med $x = 0, 1, 2, \ldots$ Det skriver ut begge verdiene hvert år og stopper når frimerkene er verdt minst like mye som båten. Det skjer etter 6 år, fordi verdiene er like litt etter 5 år.
 b) Gjør endringer som du mener forbedrer programmet.
 >> For eksempel: skriv ut en forklarende tekst og verdiene, `print("Etter", ar, "år er samlingen verdt", round(f), "kr og båten", round(g), "kr")`, og regn med mindre steg (for eksempel 0,01 år) for å få et mer nøyaktig tidspunkt.
 

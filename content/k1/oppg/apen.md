@@ -44,34 +44,60 @@ hy: 20 | dash
 ::
 
 ## 1.302 @1.1
-Aftenposten skrev 8. august 2019 om uhell med elsparkesykler. Tallene nedenfor er laget for denne siden, i samme stil som illustrasjonen i boka.
+Aftenposten hadde 8. august 2019 en sak om uhell med elsparkesykler. Illustrasjonen i boka er basert på denne. Her er tallene fra illustrasjonen:
 
-| Legevakt i Oslo, juni–juli | Antall |
-|---|---|
-| Skader med elsparkesykkel | 380 |
-| … av dem med hodeskade | 95 |
-| … av dem påvirket av alkohol | 152 |
-| Skader med elsparkesykkel samme periode året før | 40 |
-| Alle skader på legevakta i perioden | 9500 |
+**Uhell med el-sparkesykler.** I juli ble 149 personer i Oslo skadd etter uhell under bruk av elsparkesykkel. Oslo legevakt har hatt 337 legevaktbesøk etter uhell med slike sykler i perioden april til juli.
 
-Ta utgangspunkt i tabellen og vis kompetansen din i prosentregning. Lag problemstillinger og vis utregninger.
->> Eksempler: Hodeskader: $\frac{95}{380} = 25\,\%$. Påvirket av alkohol: $\frac{152}{380} = 40\,\%$. Økning fra året før: $\frac{380 - 40}{40} = 850\,\%$ (vekstfaktor 9,5). Elsparkesykkelskader utgjør $\frac{380}{9500} = 4\,\%$ av alle skadene. Hvis de 4 % stiger til 6 % neste år, er det en økning på 2 prosentpoeng, men 50 %.
+::cols
+::diagram soyle tittel="Antall skader, april–juli" yl="Antall" verdier h=200 mw=300
+kat: april | mai | juni | juli
+Skader: 34 | 46 | 107 | 149
+::
+||
+::diagram soyle liggende tittel="Skadegrad" verdier h=140 mw=300
+kat: Lettere skader | Moderate skader | Alvorlige skader
+Skader: 245 | 71 | 21
+::
+::
+
+- 22 413 skader av alle typer ble registrert på Oslo legevakt i perioden. 337 av dem (1,5 %) skyldtes uhell med elsparkesykkel.
+- Flest menn: 61 % menn og 49 % kvinner (slik står det i illustrasjonen).
+
+(Kilde: Oslo universitetssykehus)
+
+Ta utgangspunkt i illustrasjonen og vis kompetansen din i prosentregning. Lag problemstillinger og vis utregninger.
+>> Eksempler: Andelen skader i juli: $\frac{149}{337} \approx 44\,\%$. Økning fra april til juli: $\frac{149 - 34}{34} \approx 338\,\%$. Andel lettere skader: $\frac{245}{337} \approx 73\,\%$, og alvorlige: $\frac{21}{337} \approx 6{,}2\,\%$. Andel av alle skader: $\frac{337}{22\,413} \approx 1{,}5\,\%$. Merk at 61 % menn og 49 % kvinner blir 110 %. Det må være en feil i illustrasjonen, for eksempel skal det trolig stå 39 % kvinner.
 
 ## 1.303 @1.2
-Ungdata er en stor spørreundersøkelse blant ungdom. Diagrammene nedenfor er tegnet på nytt med omtrentlige verdier fra rapporten.
+Ungdata er en stor spørreundersøkelse blant ungdom. Diagrammene nedenfor er tegnet på nytt med tallene fra boka.
 
-::diagram soyle tittel="Andel som har skulket skolen siste år" yl="Prosent" verdier h=260 ys=10 ymax=60
+::cols
+::diagram soyle tittel="Gutter" yl="Prosent" verdier h=220 ymax=60 ys=10 mw=320
 kat: 8. trinn | 9. trinn | 10. trinn | Vg1 | Vg2 | Vg3
-Gutter: 18 | 23 | 29 | 37 | 44 | 52
-Jenter: 16 | 21 | 27 | 35 | 42 | 48
+Gutter: 19 | 26 | 30 | 36 | 42 | 53
 ::
+||
+::diagram soyle tittel="Jenter" yl="Prosent" verdier h=220 ymax=60 ys=10 mw=320
+kat: 8. trinn | 9. trinn | 10. trinn | Vg1 | Vg2 | Vg3
+Jenter: 16 | 26 | 30 | 34 | 42 | 48
+::
+::
+Prosentandel som har skulket skolen siste år, etter kjønn og klassetrinn.
 
-::diagram linje tittel="Andel som har skulket, 2010–2019" yl="Prosent" h=260 ys=10 ymin=0 ymax=50
-kat: 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019
-Ungdomsskole: 22 | 22 | 21 | 21 | 20 | 20 | 21 | 23 | 25 | 25
-Vgs, gutter: 46 | 46 | 45 | 45 | 45 | 46 | 43 | 41 | 42 | 43
-Vgs, jenter: 45 | 45 | 44 | 44 | 44 | 45 | 42 | 39 | 40 | 41
+::cols
+::diagram linje tittel="Ungdomsskolen" yl="Prosent" verdier h=240 ymin=15 ymax=30 ys=5 mw=320
+kat: 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018
+Jenter: 23 | 22 | 22 | 21 | 20 | 21 | 22 | 24
+Gutter: 22 | 20 | 20 | 20 | 20 | 21 | 23 | 25
 ::
+||
+::diagram linje tittel="Videregående" yl="Prosent" verdier h=240 ymin=35 ymax=50 ys=5 mw=320
+kat: 2015 | 2016 | 2017 | 2018
+Jenter: 46 | 40 | 40 | 41
+Gutter: 43 | 40 | 41 | 42
+::
+::
+Prosentandel som har skulket skolen siste år, etter kjønn, skoleslag og tidspunkt.
 
 *«Generelt er det et mindretall av ungdom som skulker skolen. Mens under to av ti har skulket skolen det siste året på 8. trinn, gjelder det om lag halvparten av elevene på Vg3. De fleste som skulker, gjør det fra én til fem ganger. Andelen som har skulket mer enn det, er fire prosent på ungdomstrinnet og ni prosent på videregående. […] Andelen som skulker på ungdomsskolen, har økt en god del – fra rundt 20 prosent i 2015 til rundt 25 prosent i 2018.»*
 
