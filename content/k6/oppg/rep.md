@@ -93,8 +93,8 @@ c) På et annet kart er 3,0 cm lik 4,5 km. Hvilken målestokk har kartet?
 > $1 : 150\,000$
 
 ## 6
-I eska er det nøyaktig plass til 6 julekuler med diameter 5,0 cm.
-::svg w=307 h=237 mw=300 cap="Eska sett ovenfra: 3 · 2 kuler med diameter 5,0 cm i ett lag."
+I denne eska er det nøyaktig plass til 6 julekuler. Eska er 15 cm lang.
+::svg w=307 h=237 mw=300 cap="Eska sett ovenfra: 3 · 2 kuler i ett lag."
 <polygon class="ln f4" points="33.6,193.6 273.6,193.6 273.6,33.6 33.6,33.6"/>
 <circle class="ln f1" cx="73.6" cy="153.6" r="40"/>
 <circle class="ln f1" cx="73.6" cy="73.6" r="40"/>
@@ -102,12 +102,12 @@ I eska er det nøyaktig plass til 6 julekuler med diameter 5,0 cm.
 <circle class="ln f1" cx="153.6" cy="73.6" r="40"/>
 <circle class="ln f1" cx="233.6" cy="153.6" r="40"/>
 <circle class="ln f1" cx="233.6" cy="73.6" r="40"/>
-<line class="mut" x1="33.6" y1="203.2" x2="113.6" y2="203.2"/>
-<text class="sm" x="73.6" y="214.6" text-anchor="middle">5,0 cm</text>
+<line class="mut" x1="33.6" y1="203.2" x2="273.6" y2="203.2"/>
+<text class="sm" x="153.6" y="218" text-anchor="middle">15 cm</text>
 ::
 Regn ut volumet av eska.
 > $750\ \text{cm}^3$
-!! Eska er $3 \cdot 5 = 15$ cm lang, $2 \cdot 5 = 10$ cm bred og 5 cm høy: $15 \cdot 10 \cdot 5 = 750\ \text{cm}^3$.
+!! Tre kuler ligger etter hverandre på 15 cm, så diameteren er $\frac{15}{3} = 5$ cm. Eska er 15 cm lang, $2 \cdot 5 = 10$ cm bred og 5 cm høy: $15 \cdot 10 \cdot 5 = 750\ \text{cm}^3$.
 
 ## 7
 Volumet av ei kjegle er $V = \frac{1}{3} G h$, der $G$ er arealet av grunnflaten (en sirkel) og $h$ er høyden.
