@@ -113,10 +113,10 @@ export function Grid({
           <line x1={X0} x2={X0} y1={v.H} y2={2} />
           <path d={`M${v.W - 1},${Y0} l-9,-4.5 v9 z`} className="plot-axis-head" />
           <path d={`M${X0},1 l-4.5,9 h9 z`} className="plot-axis-head" />
-          <text x={v.W - 8} y={Y0 - 8} textAnchor="end" className="plot-axis-label" style={{ fontStyle: axisItalic(xLabel) }}>
+          <text x={v.W - 8} y={Y0 - 8} textAnchor="end" className={axisClass(xLabel)}>
             {axisText(xLabel)}
           </text>
-          <text x={X0 + 9} y={13} className="plot-axis-label" style={{ fontStyle: axisItalic(yLabel) }}>
+          <text x={X0 + 9} y={13} className={axisClass(yLabel)}>
             {axisText(yLabel)}
           </text>
           {showNumbers && x0 === 0 && y0 === 0 && (
@@ -320,8 +320,11 @@ function axisText(s: string) {
     .replace(/\\,/g, " ")
     .trim();
 }
-function axisItalic(s: string) {
-  return /^[a-zA-Z]$/.test(axisText(s)) ? "italic" : "normal";
+/** Én bokstav (x, y, t) skrives som matematikk, ord og enheter skrives rett med en lys kant rundt. */
+function axisClass(s: string) {
+  const t = axisText(s);
+  if (/^[a-zA-Z]$/.test(t)) return "plot-axis-label";
+  return "plot-axis-label plot-axis-word";
 }
 /** 12000 → 12 000 (tynt mellomrom) for store tall på aksene. */
 function groupNum(s: string) {

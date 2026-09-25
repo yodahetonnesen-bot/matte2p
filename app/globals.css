@@ -617,6 +617,16 @@
   font-family: "KaTeX_Math", serif;
   font-size: 16px;
 }
+.plot-axis-word {
+  font-style: normal;
+  font-family: var(--font-geist-sans), sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  paint-order: stroke;
+  stroke: var(--plot-bg);
+  stroke-width: 5px;
+  stroke-linejoin: round;
+}
 .plot-num {
   fill: var(--plot-muted);
   font-size: 12px;
