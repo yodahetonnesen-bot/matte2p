@@ -32,11 +32,16 @@ function niceStep(range: number, target: number) {
   return n * p;
 }
 
+/** Tall fra hodet til diagrammet – tåler desimalkomma (13,6). */
+function num(v: string | undefined) {
+  return Number(String(v ?? "").replace(",", "."));
+}
+
 type Axis = { lo: number; hi: number; step: number };
 function axis(lo: number, hi: number, o: Record<string, string>, target = 5): Axis {
-  const a = o.ymin !== undefined ? Number(o.ymin) : Math.min(0, lo);
-  let b = o.ymax !== undefined ? Number(o.ymax) : hi;
-  const step = o.ys ? Number(o.ys) : niceStep(b - a || 1, target);
+  const a = o.ymin !== undefined ? num(o.ymin) : Math.min(0, lo);
+  let b = o.ymax !== undefined ? num(o.ymax) : hi;
+  const step = o.ys ? num(o.ys) : niceStep(b - a || 1, target);
   if (o.ymax === undefined) b = Math.ceil((b - 1e-9) / step) * step;
   if (b <= a) b = a + step;
   return { lo: a, hi: b, step };
@@ -254,8 +259,8 @@ function Lines({ spec }: { spec: DiagramSpec }) {
   const n = spec.cats.length;
   const numeric = !!spec.xs;
   const xs = spec.xs ?? [];
-  const xlo = o.xmin !== undefined ? Number(o.xmin) : numeric ? Math.min(...xs) : 0;
-  const xhi = o.xmax !== undefined ? Number(o.xmax) : numeric ? Math.max(...xs) : 0;
+  const xlo = o.xmin !== undefined ? num(o.xmin) : numeric ? Math.min(...xs) : 0;
+  const xhi = o.xmax !== undefined ? num(o.xmax) : numeric ? Math.max(...xs) : 0;
   const xp = (i: number) => (numeric ? ((xs[i] - xlo) / (xhi - xlo || 1)) * 100 : ((i + 0.5) / n) * 100);
   const all = spec.series.flatMap((s) => s.values.filter((v): v is number => v !== null));
   const ax = axis(Math.min(...all), Math.max(...all) * 1.02, o);
@@ -291,7 +296,7 @@ function Lines({ spec }: { spec: DiagramSpec }) {
   const yColWidth = `${Math.max(1.4, Math.max(...ticks.map((t) => fmtNo(t, tickDec).length)) * 0.46 + 0.3)}rem`;
   let xRow: ReactNode;
   if (numeric) {
-    const step = o.xs ? Number(o.xs) : null;
+    const step = o.xs ? num(o.xs) : null;
     const xt = step ? tickValues({ lo: xlo, hi: xhi, step }) : xs;
     xRow = (
       <div className="dia-xticks dia-xticks-num">
@@ -315,7 +320,7 @@ function Lines({ spec }: { spec: DiagramSpec }) {
       svg={
         <>
           {gridLines(ticks, yp)}
-          {numeric && o.xs && tickValues({ lo: xlo, hi: xhi, step: Number(o.xs) }).map((t) => (
+          {numeric && o.xs && tickValues({ lo: xlo, hi: xhi, step: num(o.xs) }).map((t) => (
             <line key={"vx" + t} x1={((t - xlo) / (xhi - xlo)) * 1000} x2={((t - xlo) / (xhi - xlo)) * 1000} y1={0} y2={1000} className="dia-gridline" vectorEffect="non-scaling-stroke" />
           ))}
           <line x1={0} x2={1000} y1={1000} y2={1000} className="dia-axis" vectorEffect="non-scaling-stroke" />
@@ -341,8 +346,8 @@ function Grouped({ spec }: { spec: DiagramSpec }) {
   const b = spec.bounds;
   const f = spec.freq;
   const N = f.reduce((a, x) => a + x, 0);
-  const xlo = o.xmin !== undefined ? Number(o.xmin) : b[0];
-  const xhi = o.xmax !== undefined ? Number(o.xmax) : b[b.length - 1];
+  const xlo = o.xmin !== undefined ? num(o.xmin) : b[0];
+  const xhi = o.xmax !== undefined ? num(o.xmax) : b[b.length - 1];
   const xp = (x: number) => ((x - xlo) / (xhi - xlo)) * 100;
   const dec = Number(o.des ?? 2);
   const xRow = (
@@ -502,7 +507,7 @@ function Pie({ spec }: { spec: DiagramSpec }) {
     const inside = frac > 0.07;
     const rr = inside ? R * 0.64 : R * 1.16;
     const t =
-      vis === "verdi" ? fmtNo(s.value, dec) : vis === "grader" ? fmtNo(frac * 360, dec) + "°" : vis === "ingen" ? "" : fmtNo(frac * 100, dec) + " %";
+      vis === "verdi" ? fmtNo(s.value, dec) + (o.enhet ? " " + o.enhet : "") : vis === "grader" ? fmtNo(frac * 360, dec) + "°" : vis === "ingen" ? "" : fmtNo(frac * 100, dec) + " %";
     if (t && frac > 0.004)
       labels.push(
         <text key={"t" + i} x={rr * Math.cos(mid)} y={rr * Math.sin(mid)} textAnchor="middle" dominantBaseline="central" className={inside ? "dia-pie-in" : "dia-pie-out"}>

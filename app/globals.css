@@ -930,6 +930,9 @@
 .geo-svg .c3 {
   fill: var(--plot-3);
 }
+.geo-svg .c4 {
+  fill: var(--plot-4);
+}
 .geo-svg .ink {
   fill: var(--plot-ink);
 }
