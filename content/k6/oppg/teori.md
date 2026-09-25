@@ -2,23 +2,23 @@
 
 ## 6.10 @6.1
 Vinkelsummen i en firkant er alltid $360^\circ$. $\square ABCD$ og $\square EFGH$ er formlike.
-::svg w=448 h=186 mw=448 cap="□ABCD og □EFGH er formlike."
-<polygon class="ln f1" points="51.2,135.3 204.2,135.3 231.5,51.2 77.3,84"/>
-<polyline class="ln2" points="68.2,135.3 68.2,134 68,132.8 67.8,131.6 67.5,130.4 67.1,129.2 66.6,128 66,126.9 65.4,125.9 64.6,124.9 63.8,123.9 63,123 62,122.2 61,121.4 60,120.7 58.9,120.1"/>
-<text class="sm" x="81.1" y="121.9" text-anchor="middle">63°</text>
-<text class="m" x="36.9" y="145.7" text-anchor="middle">A</text>
-<text class="m" x="217.7" y="147.5" text-anchor="middle">B</text>
-<text class="m" x="244.9" y="48.8" text-anchor="middle">C</text>
-<text class="m" x="62.6" y="84.9" text-anchor="middle">D</text>
-<polygon class="ln f2" points="262,135.3 376.8,135.3 397.2,72.2 281.6,96.8"/>
-<polyline class="ln2" points="382,119.1 380.9,118.8 379.7,118.5 378.5,118.4 377.3,118.3 376.2,118.3 375,118.4 373.8,118.5 372.6,118.8 371.5,119.1 370.4,119.5 369.3,120 368.2,120.6 367.2,121.2 366.3,121.9 365.4,122.6 364.5,123.5 363.7,124.3 363,125.3 362.3,126.3 361.7,127.3 361.2,128.4 360.8,129.5 360.4,130.6 360.1,131.7 359.9,132.9 359.8,134.1 359.8,135.3"/>
-<text class="sm" x="354.2" y="109.3" text-anchor="middle">108°</text>
-<polyline class="ln2" points="273.9,111.9 275,112.4 276.1,112.9 277.2,113.2 278.4,113.5 279.6,113.7 280.8,113.8 282,113.8 283.2,113.7 284.3,113.6 285.5,113.3 286.7,113 287.8,112.6 288.9,112.2 290,111.6 291,111 292,110.3 292.9,109.5 293.7,108.7 294.5,107.8 295.3,106.9 296,105.9 296.6,104.9 297.1,103.8 297.6,102.7 297.9,101.5 298.2,100.4 298.4,99.2 298.6,98 298.6,96.8 298.6,95.6 298.4,94.4 298.2,93.3"/>
-<text class="sm" x="304.9" y="132.2" text-anchor="middle">129°</text>
-<text class="m" x="247.7" y="145.7" text-anchor="middle">E</text>
-<text class="m" x="390.2" y="147.5" text-anchor="middle">F</text>
-<text class="m" x="410.6" y="69.8" text-anchor="middle">G</text>
-<text class="m" x="266.8" y="97.8" text-anchor="middle">H</text>
+::svg w=620 h=263 mw=620 cap="□ABCD og □EFGH er formlike."
+<polygon class="ln f1" points="34,237.7 160.1,237.7 192.6,135 73,159.7"/>
+<polygon class="ln f2" points="270.6,237.7 520.2,237.7 586.5,31 347.3,79.1"/>
+<polyline class="ln2" points="41.2,223.4 42.1,223.9 43.1,224.5 44,225.2 44.8,225.9 45.6,226.7 46.3,227.5 47,228.4 47.6,229.3 48.2,230.2 48.6,231.2 49.1,232.3 49.4,233.3 49.7,234.4 49.8,235.5 50,236.6 50,237.7"/>
+<text class="sm" x="59.5" y="225.9" text-anchor="middle">63°</text>
+<polyline class="ln2" points="361,76.3 361.3,78.3 361.3,80.2 361,82.1 360.4,84 359.6,85.8 358.6,87.4 357.3,88.9 355.9,90.2 354.3,91.2 352.5,92.1 350.7,92.7 348.8,93 346.8,93.1 344.9,92.9 343,92.4 341.2,91.7"/>
+<text class="sm" x="366.9" y="108.4" text-anchor="middle">129°</text>
+<polyline class="ln2" points="502.2,237.7 502.3,235.6 502.7,233.5 503.3,231.5 504.2,229.5 505.2,227.7 506.5,226 508,224.5 509.6,223.2 511.4,222 513.3,221.1 515.3,220.4 517.3,219.9 519.4,219.7 521.6,219.8 523.6,220 525.7,220.6"/>
+<text class="sm" x="499" y="212.6" text-anchor="middle">108°</text>
+<text class="m" x="22" y="248.7" text-anchor="middle">A</text>
+<text class="m" x="172.1" y="250.7" text-anchor="middle">B</text>
+<text class="m" x="204.6" y="134" text-anchor="middle">C</text>
+<text class="m" x="63" y="156.7" text-anchor="middle">D</text>
+<text class="m" x="258.6" y="248.7" text-anchor="middle">E</text>
+<text class="m" x="532.2" y="250.7" text-anchor="middle">F</text>
+<text class="m" x="598.5" y="32" text-anchor="middle">G</text>
+<text class="m" x="335.3" y="78.1" text-anchor="middle">H</text>
 ::
 Finn de ukjente vinklene i de to firkantene.
 > $\angle D = 129^\circ$, $\angle B = 108^\circ$, $\angle C = 60^\circ$, $\angle E = 63^\circ$ og $\angle G = 60^\circ$
@@ -27,21 +27,19 @@ Finn de ukjente vinklene i de to firkantene.
 
 ## 6.11 @6.1
 $\triangle ABC$ og $\triangle DEF$ er formlike.
-::svg w=437 h=199 mw=436 cap="△ABC og △DEF er formlike."
-<polygon class="ln f1" points="52.8,146.4 204,146.4 160.5,71"/>
-<polyline class="ln2" points="70.8,146.4 70.7,145 70.6,143.7 70.3,142.3 70,141 69.5,139.7 68.9,138.4 68.3,137.2 67.5,136.1"/>
-<text class="sm" x="87.7" y="140.4" text-anchor="middle">35°</text>
-<text class="m" x="37.2" y="155.9" text-anchor="middle">A</text>
-<text class="m" x="219.1" y="157.2" text-anchor="middle">B</text>
-<text class="m" x="166.8" y="61.1" text-anchor="middle">C</text>
-<polygon class="ln f1" points="276,146.4 384,146.4 352.9,92.5"/>
-<polyline class="ln2" points="294,146.4 293.9,145 293.8,143.7 293.5,142.3 293.2,141 292.7,139.7 292.1,138.4 291.5,137.2 290.7,136.1"/>
-<text class="sm" x="310.9" y="140.4" text-anchor="middle">35°</text>
-<polyline class="ln2" points="375,130.8 373.9,131.5 372.9,132.2 372,133 371.1,133.9 370.2,134.8 369.4,135.8 368.7,136.9 368.1,137.9 367.6,139.1 367.1,140.2 366.7,141.4 366.4,142.7 366.2,143.9 366,145.1 366,146.4"/>
-<text class="sm" x="352.3" y="133.1" text-anchor="middle">60°</text>
-<text class="m" x="260.4" y="155.9" text-anchor="middle">D</text>
-<text class="m" x="399.1" y="157.2" text-anchor="middle">E</text>
-<text class="m" x="359.3" y="82.6" text-anchor="middle">F</text>
+::svg w=617 h=223 mw=617 cap="△ABC og △DEF er formlike."
+<polygon class="ln f1" points="30,187.8 334.2,187.8 247.1,37"/>
+<polygon class="ln f1" points="386.2,187.8 589,187.8 530.5,86.4"/>
+<polyline class="ln2" points="48.1,175.2 48.5,175.9 49,176.7 49.4,177.4 49.8,178.1 50.1,178.9 50.4,179.7 50.7,180.4 51,181.2 51.2,182 51.4,182.8 51.6,183.7 51.7,184.5 51.9,185.3 51.9,186.1 52,187 52,187.8"/>
+<text class="sm" x="68.2" y="179.8" text-anchor="middle">35°</text>
+<polyline class="ln2" points="573,187.8 573,186.8 573.1,185.7 573.3,184.7 573.5,183.7 573.8,182.7 574.2,181.7 574.7,180.7 575.1,179.8 575.7,178.9 576.3,178.1 577,177.2 577.7,176.5 578.5,175.8 579.3,175.1 580.1,174.5 581,173.9"/>
+<text class="sm" x="561.3" y="175.8" text-anchor="middle">60°</text>
+<text class="m" x="22" y="208.8" text-anchor="middle">A</text>
+<text class="m" x="338.2" y="210.8" text-anchor="middle">B</text>
+<text class="m" x="251.1" y="32" text-anchor="middle">C</text>
+<text class="m" x="382.2" y="210.8" text-anchor="middle">D</text>
+<text class="m" x="595" y="210.8" text-anchor="middle">E</text>
+<text class="m" x="532.5" y="81.4" text-anchor="middle">F</text>
 ::
 Hvor store er $\angle B$ og $\angle C$?
 > $\angle B = 60^\circ$ og $\angle C = 85^\circ$
@@ -107,63 +105,63 @@ Forklar hvorfor $\triangle DEC$ er formlik med $\triangle ABC$.
 
 ## 6.20 @6.2
 $\triangle ABC$ og $\triangle DEF$ er formlike.
-::svg w=444 h=299 mw=444 cap="△ABC og △DEF er formlike."
-<polygon class="ln f1" points="51,247.7 231,247.7 208.5,51"/>
-<text class="sm" x="141" y="269.7" text-anchor="middle">6,0 cm</text>
-<text class="sm" x="253.4" y="149.5" text-anchor="middle">6,6 cm</text>
-<text class="sm" x="105.2" y="133.7" text-anchor="middle">8,4 cm</text>
-<text class="m" x="36.7" y="261" text-anchor="middle">A</text>
-<text class="m" x="242.8" y="264.2" text-anchor="middle">B</text>
-<text class="m" x="213.9" y="40.4" text-anchor="middle">C</text>
-<polygon class="ln f2" points="303,247.7 393,247.7 381.8,149.4"/>
-<text class="sm" x="348" y="269.7" text-anchor="middle">3,0 cm</text>
-<text class="m" x="288.7" y="261" text-anchor="middle">D</text>
-<text class="m" x="404.8" y="264.2" text-anchor="middle">E</text>
-<text class="m" x="387.1" y="138.8" text-anchor="middle">F</text>
+::svg w=639 h=178 mw=639 cap="△ABC og △DEF er formlike."
+<polygon class="ln f1" points="32,138.4 305,138.4 193.2,37"/>
+<polygon class="ln f2" points="402.5,138.4 609.2,138.4 526,63"/>
+<text class="sm" x="105.1" y="79.8" text-anchor="middle">5,6 cm</text>
+<text class="sm" x="258.5" y="81.3" text-anchor="middle">4,4 cm</text>
+<text class="sm" x="168.5" y="156.4" text-anchor="middle">8,0 cm</text>
+<text class="sm" x="505.9" y="156.4" text-anchor="middle">6,0 cm</text>
+<text class="m" x="22" y="147.4" text-anchor="middle">A</text>
+<text class="m" x="313" y="151.4" text-anchor="middle">B</text>
+<text class="m" x="193.2" y="32" text-anchor="middle">C</text>
+<text class="m" x="392.5" y="151.4" text-anchor="middle">D</text>
+<text class="m" x="617.2" y="151.4" text-anchor="middle">E</text>
+<text class="m" x="526" y="58" text-anchor="middle">F</text>
 ::
 Finn lengden av sidene $DF$ og $EF$.
 > $DF = 4{,}2$ cm og $EF = 3{,}3$ cm
 
 ## 6.21 @6.2
 Undersøk om $\triangle ABC$ og $\triangle DEF$ er formlike.
-::svg w=404 h=271 mw=404 cap="Er trekantene formlike?"
-<polygon class="ln f1" points="45.6,224.9 141.6,224.9 126.6,105.9"/>
-<text class="sm" x="93.6" y="243.9" text-anchor="middle">4,0 cm</text>
-<text class="sm" x="164.7" y="165.5" text-anchor="middle">5,0 cm</text>
-<text class="sm" x="62.1" y="153.1" text-anchor="middle">6,0 cm</text>
-<text class="m" x="34.6" y="237.3" text-anchor="middle">A</text>
-<text class="m" x="150.6" y="239.6" text-anchor="middle">B</text>
-<text class="m" x="130.1" y="98.2" text-anchor="middle">C</text>
-<polygon class="ln f2" points="199.2,224.9 343.2,224.9 358.7,45.6"/>
-<text class="sm" x="271.2" y="243.9" text-anchor="middle">6,0 cm</text>
-<text class="sm" x="381.6" y="141.9" text-anchor="middle">7,5 cm</text>
-<text class="sm" x="256.4" y="119.2" text-anchor="middle">10,0 cm</text>
-<text class="m" x="187.8" y="236.6" text-anchor="middle">D</text>
-<text class="m" x="350.9" y="240.7" text-anchor="middle">E</text>
-<text class="m" x="364.5" y="38.7" text-anchor="middle">F</text>
+::svg w=589 h=257 mw=589 cap="Er trekantene formlike?"
+<polygon class="ln f1" points="32,217.3 175.3,217.3 87.6,133.3"/>
+<polygon class="ln f2" points="254.3,217.3 556.9,217.3 371.6,37"/>
+<text class="sm" x="48.1" y="171.6" text-anchor="middle">5 cm</text>
+<text class="sm" x="141.1" y="169.2" text-anchor="middle">6 cm</text>
+<text class="sm" x="103.6" y="235.3" text-anchor="middle">7 cm</text>
+<text class="sm" x="301.2" y="123.5" text-anchor="middle">10 cm</text>
+<text class="sm" x="474" y="121.1" text-anchor="middle">12 cm</text>
+<text class="sm" x="405.6" y="235.3" text-anchor="middle">15 cm</text>
+<text class="m" x="22" y="226.3" text-anchor="middle">A</text>
+<text class="m" x="185.3" y="228.3" text-anchor="middle">B</text>
+<text class="m" x="87.6" y="128.3" text-anchor="middle">C</text>
+<text class="m" x="244.3" y="228.3" text-anchor="middle">D</text>
+<text class="m" x="566.9" y="228.3" text-anchor="middle">E</text>
+<text class="m" x="371.6" y="32" text-anchor="middle">F</text>
 ::
 > Nei, de er ikke formlike.
-!! $\frac{6{,}0}{4{,}0} = 1{,}5$, $\frac{7{,}5}{5{,}0} = 1{,}5$, men $\frac{10{,}0}{6{,}0} \approx 1{,}67$. Forholdet er ikke det samme for alle sidene.
+!! $\frac{10}{5} = 2$, $\frac{12}{6} = 2$, men $\frac{15}{7} \approx 2{,}14$. Forholdet er ikke det samme for alle sidene.
 
 ## 6.22 @6.2
 $\triangle ABC$ og $\triangle DEF$ er formlike.
-::svg w=485 h=195 mw=484 cap="△ABC og △DEF er formlike."
-<polygon class="ln f1" points="47.4,147.6 164.4,147.6 109.2,91.9"/>
-<polyline class="ln2" points="63,147.6 63,146.5 62.8,145.3 62.6,144.2 62.3,143.1 62,142 61.5,141 61,140 60.4,139 59.7,138 59,137.2"/>
-<text class="sm" x="77" y="141.2" text-anchor="middle">42°</text>
-<text class="sm" x="105.9" y="167.6" text-anchor="middle">4,5 cm</text>
-<text class="sm" x="59.8" y="103.2" text-anchor="middle">3,2 cm</text>
-<text class="m" x="33.7" y="156.9" text-anchor="middle">A</text>
-<text class="m" x="178" y="157" text-anchor="middle">B</text>
-<text class="m" x="110.1" y="82.7" text-anchor="middle">C</text>
-<polygon class="ln f2" points="226.8,147.6 437.4,147.6 338.1,47.4"/>
-<polyline class="ln2" points="426.4,136.5 425.7,137.3 424.9,138.2 424.3,139.1 423.7,140.1 423.2,141.1 422.8,142.1 422.4,143.2 422.2,144.3 422,145.4 421.8,146.5 421.8,147.6"/>
-<text class="sm" x="402.2" y="137.9" text-anchor="middle">45,5°</text>
-<text class="sm" x="332.1" y="167.6" text-anchor="middle">8,1 cm</text>
-<text class="sm" x="407.9" y="81.6" text-anchor="middle">5,4 cm</text>
-<text class="m" x="213.1" y="156.9" text-anchor="middle">D</text>
-<text class="m" x="451" y="157" text-anchor="middle">E</text>
-<text class="m" x="338.9" y="38.1" text-anchor="middle">F</text>
+::svg w=627 h=226 mw=627 cap="△ABC og △DEF er formlike."
+<polygon class="ln f1" points="30,186.5 208.1,186.5 124.9,104.6"/>
+<polygon class="ln f2" points="277,186.5 596.8,186.5 448.6,37"/>
+<polyline class="ln2" points="42.1,176 42.6,176.6 43,177.2 43.4,177.8 43.8,178.4 44.1,179 44.4,179.6 44.7,180.3 45,180.9 45.2,181.6 45.4,182.3 45.6,183 45.7,183.7 45.9,184.4 45.9,185.1 46,185.8 46,186.5"/>
+<text class="sm" x="58.1" y="180" text-anchor="middle">42°</text>
+<polyline class="ln2" points="580.8,186.5 580.8,185.7 580.9,184.9 581,184.1 581.1,183.4 581.3,182.6 581.5,181.8 581.7,181.1 582,180.3 582.4,179.6 582.7,178.9 583.1,178.2 583.5,177.6 584,176.9 584.5,176.3 585,175.7 585.5,175.1"/>
+<text class="sm" x="563.6" y="176.7" text-anchor="middle">45,5°</text>
+<text class="sm" x="68.3" y="139" text-anchor="middle">3,2 cm</text>
+<text class="sm" x="119" y="204.5" text-anchor="middle">4,5 cm</text>
+<text class="sm" x="436.9" y="204.5" text-anchor="middle">8,1 cm</text>
+<text class="sm" x="532.6" y="105.9" text-anchor="middle">5,4 cm</text>
+<text class="m" x="22" y="199.5" text-anchor="middle">A</text>
+<text class="m" x="216.1" y="199.5" text-anchor="middle">B</text>
+<text class="m" x="124.9" y="99.6" text-anchor="middle">C</text>
+<text class="m" x="269" y="199.5" text-anchor="middle">D</text>
+<text class="m" x="604.8" y="199.5" text-anchor="middle">E</text>
+<text class="m" x="448.6" y="32" text-anchor="middle">F</text>
 ::
 a) Finn lengden av sidene $BC$ og $DF$.
 > $BC = 3{,}0$ cm og $DF = 5{,}8$ cm
@@ -173,39 +171,35 @@ b) Finn $\angle B$, $\angle C$, $\angle D$ og $\angle F$.
 
 ## 6.23 @6.2
 Firkantene $ABCD$ og $EFGH$ er formlike.
-::svg w=479 h=244 mw=479 cap="□ABCD og □EFGH er formlike."
-<polygon class="ln f1" points="48,195.5 228,195.5 246.9,101.4 75,48"/>
-<text class="sm" x="138" y="214.5" text-anchor="middle">6,0 cm</text>
-<text class="sm" x="267.7" y="158.5" text-anchor="middle">3,2 cm</text>
-<text class="sm" x="167" y="59.2" text-anchor="middle">6,0 cm</text>
-<text class="sm" x="31.2" y="120.2" text-anchor="middle">5,0 cm</text>
-<text class="m" x="36.4" y="207.4" text-anchor="middle">A</text>
-<text class="m" x="238.7" y="208.8" text-anchor="middle">B</text>
-<text class="m" x="259.6" y="102" text-anchor="middle">C</text>
-<text class="m" x="66.2" y="42.7" text-anchor="middle">D</text>
-<polygon class="ln f2" points="282,195.5 417,195.5 431.2,124.9 302.2,84.9"/>
-<text class="sm" x="349.5" y="214.5" text-anchor="middle">4,5 cm</text>
-<text class="m" x="270.4" y="207.4" text-anchor="middle">E</text>
-<text class="m" x="427.7" y="208.8" text-anchor="middle">F</text>
-<text class="m" x="443.9" y="125.5" text-anchor="middle">G</text>
-<text class="m" x="293.5" y="79.6" text-anchor="middle">H</text>
+::svg w=568 h=232 mw=568 cap="□ABCD og □EFGH er formlike."
+<polygon class="ln f1" points="32,193.6 249.1,188.4 217.9,92.2 33.3,35"/>
+<polygon class="ln f2" points="373.9,193.6 537.7,189.7 511.7,116.9 375.2,74"/>
+<text class="sm" x="46.6" y="118.4" text-anchor="middle">5,0 cm</text>
+<text class="sm" x="121.5" y="81" text-anchor="middle">6,0 cm</text>
+<text class="sm" x="220.2" y="148.6" text-anchor="middle">3,2 cm</text>
+<text class="sm" x="140.9" y="209" text-anchor="middle">6,8 cm</text>
+<text class="sm" x="456.1" y="209.6" text-anchor="middle">5,1 cm</text>
+<text class="m" x="22" y="202.6" text-anchor="middle">A</text>
+<text class="m" x="257.1" y="201.4" text-anchor="middle">B</text>
+<text class="m" x="227.9" y="93.2" text-anchor="middle">C</text>
+<text class="m" x="25.3" y="32" text-anchor="middle">D</text>
+<text class="m" x="363.9" y="202.6" text-anchor="middle">E</text>
+<text class="m" x="545.7" y="202.7" text-anchor="middle">F</text>
+<text class="m" x="521.7" y="117.9" text-anchor="middle">G</text>
+<text class="m" x="367.2" y="71" text-anchor="middle">H</text>
 ::
 Finn lengden av de ukjente sidene i $EFGH$.
 > $EH = 3{,}8$ cm, $GH = 4{,}5$ cm og $FG = 2{,}4$ cm
-!! Forholdet er $\frac{4{,}5}{6{,}0} = 0{,}75$. $EH = 0{,}75 \cdot 5{,}0 \approx 3{,}8$, $GH = 0{,}75 \cdot 6{,}0 = 4{,}5$ og $FG = 0{,}75 \cdot 3{,}2 = 2{,}4$.
+!! Forholdet er $\frac{EF}{AB} = \frac{5{,}1}{6{,}8} = 0{,}75$. $EH = 0{,}75 \cdot 5{,}0 \approx 3{,}8$, $GH = 0{,}75 \cdot 6{,}0 = 4{,}5$ og $FG = 0{,}75 \cdot 3{,}2 = 2{,}4$.
 
 ## 6.24 @6.2
 Bjarne Beck vil lage en ballbinge som er 9,00 m lang. Han lager en modell som er 30 cm lang og 18 cm bred. Det er 78 cm rundt hele modellen. Ballbingen skal være formlik med modellen.
-::svg w=311 h=209 mw=300 cap="Modell av ballbingen (sett ovenfra). Hjørnene er avrundet."
-<rect class="ln f1" x="37" y="39.6" width="202.8" height="121.7" rx="31.2"/>
-<line class="mut" x1="37" y1="33.1" x2="239.8" y2="33.1"/>
-<line class="mut" x1="37" y1="36.2" x2="37" y2="30"/>
-<line class="mut" x1="239.8" y1="36.2" x2="239.8" y2="30"/>
-<text class="sm" x="138.4" y="28" text-anchor="middle">30 cm</text>
-<line class="mut" x1="246.3" y1="39.6" x2="246.3" y2="161.3"/>
-<line class="mut" x1="243.2" y1="39.6" x2="249.4" y2="39.6"/>
-<line class="mut" x1="243.2" y1="161.3" x2="249.4" y2="161.3"/>
-<text class="sm" x="268.3" y="104.4" text-anchor="middle">18 cm</text>
+::svg w=463 h=296 mw=320 cap="Modell av ballbingen sett ovenfra."
+<ellipse class="ln f1" cx="231.7" cy="148" rx="209.7" ry="126"/>
+<line class="ln" x1="22" y1="148" x2="441.4" y2="148"/>
+<line class="ln" x1="231.7" y1="22" x2="231.7" y2="274"/>
+<text class="sm" x="186.7" y="100.3" text-anchor="middle">18 cm</text>
+<text class="sm" x="308.2" y="138.1" text-anchor="middle">30 cm</text>
 ::
 a) Finn bredden av ballbingen.
 > 5,4 m
@@ -214,16 +208,19 @@ b) Langs kanten vil han bruke sponplater med bredde 60 cm. Hvor mange plater tre
 !! Forholdet er $\frac{900\ \text{cm}}{30\ \text{cm}} = 30$. Omkretsen blir $78 \cdot 30 = 2340$ cm, og $\frac{2340}{60} = 39$.
 
 ## 6.25 @6.2
-::svg w=416 h=216 mw=416 cap="BC og DE står vinkelrett på AD."
-<polygon class="ln f1" points="48,168 368,168 368,40"/>
-<line class="ln" x1="168" y1="168" x2="168" y2="120"/>
-<polyline class="ln2" points="156.8,168 156.8,156.8 168,156.8"/>
-<polyline class="ln2" points="356.8,168 356.8,156.8 368,156.8"/>
-<text class="m" x="30" y="173" text-anchor="middle">A</text>
-<text class="m" x="168" y="191" text-anchor="middle">B</text>
-<text class="m" x="164.9" y="107.3" text-anchor="middle">C</text>
-<text class="m" x="368" y="191" text-anchor="middle">D</text>
-<text class="m" x="380.7" y="32.3" text-anchor="middle">E</text>
+::svg w=486 h=345 mw=486
+<polygon class="ln f1" points="34,303 450,303 450,33"/>
+<line class="ln" x1="174" y1="303" x2="174" y2="213"/>
+<polyline class="ln2" points="160,303 160,289 174,289"/>
+<polyline class="ln2" points="436,303 436,289 450,289"/>
+<text class="m" x="108" y="291" text-anchor="middle">4</text>
+<text class="m" x="196" y="260" text-anchor="middle">3</text>
+<text class="m" x="222" y="333" text-anchor="middle">16</text>
+<text class="m" x="22" y="320" text-anchor="middle">A</text>
+<text class="m" x="188" y="302" text-anchor="middle">B</text>
+<text class="m" x="174" y="206" text-anchor="middle">C</text>
+<text class="m" x="464" y="322" text-anchor="middle">D</text>
+<text class="m" x="464" y="32" text-anchor="middle">E</text>
 ::
 Vi kjenner $AB = 4$ cm, $AD = 16$ cm og $BC = 3$ cm.
 a) Forklar at $\triangle ABC$ og $\triangle ADE$ er formlike.
