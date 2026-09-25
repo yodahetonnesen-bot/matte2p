@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#04050c">
+<title>Logg inn — Matematikk 2P</title>
+<style>
+*{box-sizing:border-box;}
+html,body{margin:0; min-height:100%;}
+body{min-height:100vh; display:grid; place-items:center; padding:16px; color:#e8ecf8;
+  font-family:Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background:radial-gradient(1200px 700px at 70% -10%, rgba(96,165,250,.28), transparent 60%),
+             radial-gradient(900px 600px at 0% 110%, rgba(94,231,255,.16), transparent 60%), #04050c;}
+form{width:min(400px, 100%); display:flex; flex-direction:column; gap:14px; padding:30px 26px 26px;
+  border:1px solid rgba(160,180,255,.18); border-radius:22px; background:rgba(14,18,38,.72);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px); box-shadow:0 30px 80px -30px rgba(0,0,0,.8);}
+.logo{display:flex; align-items:center; gap:12px; margin-bottom:4px;}
+.logo svg{width:38px; height:38px; border-radius:12px; flex:none; background:linear-gradient(135deg, #3f56d6, #1f9cc4); box-shadow:0 0 22px rgba(96,165,250,.45);}
+.logo b{display:block; font-family:Georgia, serif; font-size:1.25rem; color:#fff; text-shadow:0 0 18px rgba(167,139,250,.55);}
+.logo small{display:block; font-family:ui-monospace, SFMono-Regular, monospace; font-size:.62rem; letter-spacing:.12em; text-transform:uppercase; color:#9fd7ff;}
+h1{font-family:Georgia, serif; font-size:1.5rem; font-weight:600; margin:6px 0 0; color:#fff;}
+p{margin:0; font-size:.92rem; line-height:1.5; color:#aeb7cf;}
+label{display:flex; flex-direction:column; gap:6px; font-size:.8rem; font-weight:600; color:#c9d1e6;}
+input[type=text], input[type=password]{font:inherit; font-size:1rem; font-weight:400; color:#fff; width:100%;
+  padding:12px 14px; min-height:46px; border-radius:12px; border:1px solid rgba(160,180,255,.25); background:rgba(4,6,16,.6);}
+input:focus-visible{outline:2px solid #5ee7ff; outline-offset:1px; border-color:transparent;}
+.husk{flex-direction:row; align-items:center; gap:10px; font-weight:500; cursor:pointer; min-height:32px;}
+.husk input{width:18px; height:18px; accent-color:#3b82f6;}
+button{font:inherit; font-weight:700; font-size:1rem; min-height:48px; border:0; border-radius:14px; cursor:pointer; color:#fff;
+  background:linear-gradient(135deg, #3b82f6, #818cf8); box-shadow:0 10px 30px -10px rgba(96,165,250,.8);
+  transition:transform .15s ease, box-shadow .2s ease;}
+button:hover{transform:translateY(-1px); box-shadow:0 14px 34px -10px rgba(96,165,250,.95);}
+button:focus-visible{outline:2px solid #5ee7ff; outline-offset:2px;}
+button:disabled{opacity:.6; cursor:progress; transform:none;}
+.melding{min-height:1.3em; font-size:.88rem; font-weight:600; color:#fda4af;}
+.melding.ok{color:#86efac;}
+.merk{font-size:.78rem; color:#7f89a6;}
+form.rist{animation:rist .4s ease;}
+@keyframes rist{20%,60%{transform:translateX(-8px);} 40%,80%{transform:translateX(8px);}}
+@media (prefers-reduced-motion: reduce){ form.rist{animation:none;} button{transition:none;} }
+</style>
+</head>
+<body>
+<main>
+  <form id="skjema" method="post" action="/api/logg-inn" aria-labelledby="tittel">
+    <div class="logo" aria-hidden="true"><svg viewBox="0 0 40 40"><rect x="8" y="23" width="5" height="9" rx="1.2" fill="#fff" opacity=".55"/><rect x="15" y="18" width="5" height="14" rx="1.2" fill="#fff" opacity=".7"/><rect x="22" y="13" width="5" height="19" rx="1.2" fill="#fff" opacity=".85"/><path d="M7.5 22 L16 17 L24 11.5 L32.5 7.5" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="30.3" cy="21.3" r="1.9" fill="none" stroke="#fff" stroke-width="1.6"/><circle cx="34.2" cy="30.2" r="1.9" fill="none" stroke="#fff" stroke-width="1.6"/><path d="M35.2 19.8 L29.4 31.8" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg><span><b>Matematikk 2P</b><small>Prosent · økonomi · statistikk · geometri</small></span></div>
+    <h1 id="tittel">Logg inn</h1>
+    <p>Skriv inn brukernavnet og passordet du har fått.</p>
+    <label>Brukernavn<input type="text" name="bruker" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="40" required autofocus></label>
+    <label>Passord<input type="password" name="passord" autocomplete="current-password" maxlength="200" required></label>
+    <label class="husk"><input type="checkbox" name="husk" checked> Forbli pålogget på denne enheten</label>
+    <input type="hidden" name="til" value="/">
+    <button type="submit">Logg inn</button>
+    <div class="melding" id="melding" role="alert" aria-live="assertive"></div>
+    <p class="merk">Det går ikke an å lage egen konto, og hver konto kan bare være innlogget på én enhet om gangen. Mangler du brukernavn, spør den som driver sida.</p>
+    <p class="merk">Innlogging og sidebruk logges (brukernavn, tidspunkt, enhet/nettleser og IP-adresse) og slettes etter 30 dager.</p>
+  </form>
+</main>
+<script>
+(function(){
+  var f = document.getElementById('skjema'), m = document.getElementById('melding'), k = f.querySelector('button');
+  var q = new URLSearchParams(location.search);
+  var til = q.get('til') || '/';
+  if(!/^\/(?![\/\\])[A-Za-z0-9._~\-\/#?=&%]*$/.test(til)) til = '/';
+  f.til.value = til;
+  if(q.get('feil') === '1') m.textContent = 'Feil brukernavn eller passord.';
+  if(q.get('feil') === 'vent') m.textContent = 'For mange feil forsøk. Vent litt og prøv igjen.';
+  if(q.get('feil') === 'stengt') m.textContent = 'Kontoen er stengt. Snakk med den som driver sida.';
+  if(q.get('ut') === '1'){ m.textContent = 'Du er logget ut.'; m.className = 'melding ok'; }
+  if(q.get('ut') === 'admin') m.textContent = 'Du ble logget ut av den som driver sida.';
+  if(q.get('ut') === 'annen') m.textContent = 'Du ble logget ut fordi noen logget inn med dette brukernavnet på en annen enhet. Hver konto kan bare være innlogget ett sted om gangen.';
+
+  f.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    if(!f.bruker.value.trim() || !f.passord.value){ m.className = 'melding'; m.textContent = 'Fyll inn både brukernavn og passord.'; return; }
+    k.disabled = true; k.textContent = 'Sjekker …'; m.className = 'melding'; m.textContent = '';
+    fetch('/api/logg-inn', {
+      method:'POST', credentials:'same-origin', headers:{'content-type':'application/json'},
+      body:JSON.stringify({bruker:f.bruker.value, passord:f.passord.value, husk:f.husk.checked, til:til})
+    }).then(function(r){ return r.json().catch(function(){ return {}; }).then(function(d){ return [r, d]; }); })
+      .then(function(x){
+        var r = x[0], d = x[1];
+        if(r.ok){ location.replace(d.til || '/'); return; }
+        m.textContent = d.feil || 'Noe gikk galt. Prøv igjen.';
+        f.passord.value = ''; f.passord.focus();
+        f.classList.remove('rist'); void f.offsetWidth; f.classList.add('rist');
+      })
+      .catch(function(){ m.textContent = 'Fikk ikke kontakt med serveren. Prøv igjen.'; })
+      .then(function(){ if(k.textContent !== 'Logg inn'){ k.disabled = false; k.textContent = 'Logg inn'; } });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+# Netlify bygger siden fra kildekoden (når prosjektet er koblet til Git).
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Innloggingen (samme som på de andre fagsidene): netlify/edge-functions/vakt.mjs står
+# foran alle sidene, og netlify/functions/ har /api/logg-inn og /api/logg-ut.
+# De trenger miljøvariabelen MATTE2P_HEMMELIGHET (minst 32 tilfeldige tegn), satt i
+# Netlify under Site configuration → Environment variables. Uten den slipper ingen inn.
+# Admin-sida (eget repo, yodahetonnesen-bot/Admin): fagsida (fagkode matte2p) sender hendelser
+# (innlogging, feil forsøk, utkasting, sidevisninger) til ADMIN_URL/api/hendelse,
+# og tar imot kommandoer fra admin-sida på /api/admin. Begge veier er signert med
+# ADMIN_DELT_HEMMELIGHET (samme verdi på alle seks sidene). Uten disse to
+# variablene virker innloggingen som før, bare uten admin-sida.
+# netlify/functions/rydd.mjs sletter utløpte tellere (med IP-adresser) hver natt.
+[functions]
+  directory = "netlify/functions"
+
+# Sidene er personlige bak innloggingen, så de skal ikke mellomlagres av andre.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "private, no-store"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    X-Frame-Options = "DENY"
+    Strict-Transport-Security = "max-age=31536000"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/logg-inn.html"
+  [headers.values]
+    Content-Security-Policy = "default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'"

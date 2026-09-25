@@ -1,0 +1,1187 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-display);
+  --font-display: var(--font-display);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-chap: var(--chap);
+  --color-chap-soft: var(--chap-soft);
+  --color-chap-ink: var(--chap-ink);
+  --color-success: var(--success);
+  --color-warn: var(--warn);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --ch-h: 275;
+  --background: oklch(0.985 0.005 85);
+  --foreground: oklch(0.23 0.025 268);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.23 0.025 268);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.23 0.025 268);
+  --primary: oklch(0.5 0.2 275);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.955 0.01 275);
+  --secondary-foreground: oklch(0.3 0.05 275);
+  --muted: oklch(0.958 0.007 85);
+  --muted-foreground: oklch(0.5 0.022 268);
+  --accent: oklch(0.955 0.012 275);
+  --accent-foreground: oklch(0.3 0.06 275);
+  --destructive: oklch(0.577 0.215 27);
+  --success: oklch(0.6 0.15 155);
+  --warn: oklch(0.72 0.15 70);
+  --border: oklch(0.905 0.01 85);
+  --input: oklch(0.9 0.01 85);
+  --ring: oklch(0.6 0.15 275);
+  --chap: oklch(0.55 0.19 var(--ch-h));
+  --chap-soft: oklch(0.955 0.03 var(--ch-h));
+  --chap-ink: oklch(0.38 0.14 var(--ch-h));
+  --chart-1: oklch(0.55 0.2 275);
+  --chart-2: oklch(0.6 0.19 25);
+  --chart-3: oklch(0.6 0.15 155);
+  --chart-4: oklch(0.7 0.15 70);
+  --chart-5: oklch(0.55 0.15 220);
+  --radius: 0.75rem;
+  --sidebar: oklch(0.975 0.006 85);
+  --sidebar-foreground: oklch(0.23 0.025 268);
+  --sidebar-primary: oklch(0.5 0.2 275);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.95 0.01 275);
+  --sidebar-accent-foreground: oklch(0.3 0.06 275);
+  --sidebar-border: oklch(0.905 0.01 85);
+  --sidebar-ring: oklch(0.6 0.15 275);
+
+  --plot-bg: oklch(1 0 0);
+  --plot-grid: oklch(0.93 0.008 85);
+  --plot-axis: oklch(0.35 0.02 268);
+  --plot-ink: oklch(0.25 0.03 268);
+  --plot-muted: oklch(0.55 0.02 268);
+  --plot-1: oklch(0.52 0.2 262);
+  --plot-2: oklch(0.58 0.21 25);
+  --plot-3: oklch(0.56 0.15 150);
+  --plot-4: oklch(0.66 0.16 62);
+  --plot-5: oklch(0.53 0.2 315);
+  --plot-6: oklch(0.58 0.11 205);
+  --dot: oklch(0.88 0.01 85);
+}
+
+.dark {
+  --background: oklch(0.165 0.018 268);
+  --foreground: oklch(0.935 0.012 268);
+  --card: oklch(0.205 0.022 268);
+  --card-foreground: oklch(0.935 0.012 268);
+  --popover: oklch(0.215 0.022 268);
+  --popover-foreground: oklch(0.935 0.012 268);
+  --primary: oklch(0.72 0.16 278);
+  --primary-foreground: oklch(0.18 0.03 275);
+  --secondary: oklch(0.26 0.03 275);
+  --secondary-foreground: oklch(0.92 0.02 275);
+  --muted: oklch(0.235 0.02 268);
+  --muted-foreground: oklch(0.7 0.02 268);
+  --accent: oklch(0.27 0.035 275);
+  --accent-foreground: oklch(0.93 0.02 275);
+  --destructive: oklch(0.7 0.19 22);
+  --success: oklch(0.74 0.15 155);
+  --warn: oklch(0.8 0.14 75);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 14%);
+  --ring: oklch(0.65 0.15 278);
+  --chap: oklch(0.74 0.15 var(--ch-h));
+  --chap-soft: oklch(0.27 0.05 var(--ch-h));
+  --chap-ink: oklch(0.85 0.1 var(--ch-h));
+  --sidebar: oklch(0.19 0.02 268);
+  --sidebar-foreground: oklch(0.935 0.012 268);
+  --sidebar-primary: oklch(0.72 0.16 278);
+  --sidebar-primary-foreground: oklch(0.18 0.03 275);
+  --sidebar-accent: oklch(0.27 0.035 275);
+  --sidebar-accent-foreground: oklch(0.93 0.02 275);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.65 0.15 278);
+
+  --plot-bg: oklch(0.2 0.02 268);
+  --plot-grid: oklch(0.28 0.02 268);
+  --plot-axis: oklch(0.82 0.02 268);
+  --plot-ink: oklch(0.92 0.015 268);
+  --plot-muted: oklch(0.68 0.02 268);
+  --plot-1: oklch(0.74 0.15 262);
+  --plot-2: oklch(0.72 0.17 25);
+  --plot-3: oklch(0.76 0.15 150);
+  --plot-4: oklch(0.8 0.14 70);
+  --plot-5: oklch(0.74 0.16 315);
+  --plot-6: oklch(0.77 0.1 205);
+  --dot: oklch(0.3 0.02 268);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "cv11";
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  ::selection {
+    background: color-mix(in oklch, var(--primary) 25%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ---------- bakgrunner ---------- */
+.bg-dots {
+  background-image: radial-gradient(var(--dot) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+.bg-grid-paper {
+  background-image:
+    linear-gradient(to right, color-mix(in oklch, var(--border) 70%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklch, var(--border) 70%, transparent) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+.text-balance {
+  text-wrap: balance;
+}
+
+/* ---------- KaTeX ---------- */
+.katex {
+  font-size: 1.08em;
+}
+.math-block {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+  margin: 0.6rem 0;
+}
+.math-block .katex-display {
+  margin: 0.25em 0;
+}
+.math-display {
+  display: block;
+  overflow-x: auto;
+}
+
+/* ---------- Innhold (markup) ---------- */
+.markup {
+  line-height: 1.72;
+  font-size: 1.02rem;
+}
+.markup > * + * {
+  margin-top: 0.85rem;
+}
+.markup-compact > * + * {
+  margin-top: 0.6rem;
+}
+.markup p {
+  text-wrap: pretty;
+}
+.markup a {
+  color: var(--chap-ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in oklch, var(--chap) 45%, transparent);
+}
+.markup code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background: var(--muted);
+  padding: 0.1em 0.35em;
+  border-radius: 0.35em;
+}
+.md-h2 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 2.4rem !important;
+  padding-top: 0.25rem;
+}
+.md-h3 {
+  font-size: 1.15rem;
+  font-weight: 650;
+  margin-top: 1.6rem !important;
+}
+.md-ul,
+.md-ol {
+  padding-left: 1.4rem;
+}
+.md-ul {
+  list-style: disc;
+}
+.md-ol {
+  list-style: decimal;
+}
+.md-ul li + li,
+.md-ol li + li {
+  margin-top: 0.3rem;
+}
+.md-ul li::marker {
+  color: var(--chap);
+}
+.md-code {
+  overflow-x: auto;
+  padding: 0.9rem 1.1rem;
+  border-radius: 0.9rem;
+  border: 1px solid var(--border);
+  background: var(--muted);
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  tab-size: 4;
+}
+.markup .md-code code {
+  background: none;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+}
+.md-quote {
+  margin: 0.25rem 0;
+  padding: 0.9rem 1.2rem;
+  border-left: 4px solid var(--chap);
+  border-radius: 0 1rem 1rem 0;
+  background: var(--chap-soft);
+  font-family: var(--font-display), serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--chap-ink);
+}
+.md-steps {
+  display: grid;
+  gap: 0.55rem;
+}
+.md-steps li {
+  display: flex;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+.md-step-n {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 999px;
+  background: var(--chap-soft);
+  color: var(--chap-ink);
+  font-weight: 700;
+  font-size: 0.82rem;
+  transform: translateY(-1px);
+}
+.md-table-wrap {
+  overflow-x: auto;
+}
+.md-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  background: var(--card);
+}
+.md-table th,
+.md-table td {
+  padding: 0.45rem 0.8rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  white-space: nowrap;
+}
+.md-table tr:last-child > * {
+  border-bottom: 0;
+}
+.md-table tr > *:last-child {
+  border-right: 0;
+}
+.md-table th {
+  background: var(--muted);
+  font-weight: 600;
+}
+.md-table .md-thead th {
+  background: var(--chap-soft);
+  color: var(--chap-ink);
+}
+.md-cols {
+  display: grid;
+  gap: 1rem 1.5rem;
+}
+@media (max-width: 640px) {
+  .md-cols {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* regel- og merknadsbokser */
+.md-box {
+  border-radius: 0.9rem;
+  padding: 0.9rem 1.1rem 1rem;
+  border: 1px solid var(--border);
+  background: var(--card);
+  position: relative;
+}
+.md-box-head {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-weight: 650;
+  font-size: 0.83rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+.box-regel {
+  border-color: color-mix(in oklch, var(--chap) 35%, var(--border));
+  background: linear-gradient(135deg, var(--chap-soft), var(--card) 70%);
+  box-shadow: inset 4px 0 0 var(--chap);
+}
+.box-regel .md-box-head {
+  color: var(--chap-ink);
+}
+.box-def {
+  box-shadow: inset 4px 0 0 var(--plot-1);
+}
+.box-def .md-box-head {
+  color: var(--plot-1);
+}
+.box-tips {
+  background: color-mix(in oklch, var(--plot-3) 8%, var(--card));
+  border-color: color-mix(in oklch, var(--plot-3) 30%, var(--border));
+}
+.box-tips .md-box-head {
+  color: var(--plot-3);
+}
+.box-obs {
+  background: color-mix(in oklch, var(--plot-2) 7%, var(--card));
+  border-color: color-mix(in oklch, var(--plot-2) 30%, var(--border));
+}
+.box-obs .md-box-head {
+  color: var(--plot-2);
+}
+.box-merk .md-box-head,
+.box-husk .md-box-head {
+  color: var(--plot-5);
+}
+.box-merk,
+.box-husk {
+  background: color-mix(in oklch, var(--plot-5) 6%, var(--card));
+}
+
+.box-rettet {
+  background: color-mix(in oklch, var(--plot-4) 9%, var(--card));
+  border-color: color-mix(in oklch, var(--plot-4) 40%, var(--border));
+}
+.box-rettet .md-box-head {
+  color: color-mix(in oklch, var(--plot-4) 75%, var(--foreground));
+}
+/* matematiske tegn som markører i bokser, utbrett og knapper */
+.md-glyph {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.35em;
+  height: 1.35em;
+  padding-inline: 0.15em;
+  border-radius: 0.35em;
+  font-family: "KaTeX_Main", "Times New Roman", serif;
+  font-size: 1.05em;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: 0;
+  background: color-mix(in oklch, currentColor 12%, transparent);
+}
+
+.glyph-icon {
+  display: inline-grid;
+  place-items: center;
+  font-family: "KaTeX_Main", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 1.05em;
+  line-height: 1;
+  width: 1.25em;
+  height: 1.25em;
+}
+.glyph-icon.size-3\.5,
+.glyph-icon.size-4 {
+  font-size: 0.95rem;
+}
+.glyph-icon.size-5 {
+  font-size: 1.2rem;
+}
+
+/* eksempler */
+.md-eks {
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--card);
+  overflow: hidden;
+  box-shadow: 0 1px 2px oklch(0 0 0 / 4%);
+}
+.md-eks-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1.1rem;
+  border-bottom: 1px dashed var(--border);
+  background: var(--muted);
+}
+.md-eks-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--chap-ink);
+  background: var(--chap-soft);
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+}
+.md-eks-title {
+  font-weight: 600;
+}
+.md-eks-problem {
+  padding: 0.9rem 1.1rem 0.4rem;
+}
+.md-eks-solution {
+  padding: 0.6rem 1.1rem 1rem;
+  margin: 0.4rem 0.6rem 0.6rem;
+  border-radius: 0.75rem;
+  background: color-mix(in oklch, var(--chap-soft) 55%, var(--card));
+}
+.md-eks-sol-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+  margin-bottom: 0.2rem;
+}
+
+/* sammenleggbare */
+.md-fold {
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  background: var(--card);
+}
+.md-fold > summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+  user-select: none;
+}
+.md-fold > summary::-webkit-details-marker {
+  display: none;
+}
+.md-fold > summary::after {
+  content: "";
+  margin-left: auto;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.25s;
+  opacity: 0.5;
+}
+.md-fold[open] > summary::after {
+  transform: rotate(-135deg);
+}
+.md-fold-kind {
+  color: var(--chap-ink);
+}
+.md-fold-title {
+  font-weight: 500;
+  color: var(--muted-foreground);
+}
+.md-fold-body {
+  padding: 0 1rem 1rem;
+  animation: fold-in 0.3s ease;
+}
+.md-fold-answer {
+  margin-top: 0.8rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.7rem;
+  background: var(--muted);
+}
+.md-fold-answer-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted-foreground);
+  margin-bottom: 0.25rem;
+}
+@keyframes fold-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- grafer ---------- */
+.plot-figure {
+  margin-inline: auto;
+  width: 100%;
+}
+.plot-box {
+  position: relative;
+  border-radius: 0.9rem;
+  border: 1px solid var(--border);
+  background: var(--plot-bg);
+  overflow: hidden;
+}
+.plot-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  touch-action: none;
+}
+.plot-grid {
+  stroke: var(--plot-grid);
+  stroke-width: 1;
+}
+.plot-axis line {
+  stroke: var(--plot-axis);
+  stroke-width: 1.4;
+}
+.plot-axis-head {
+  fill: var(--plot-axis);
+}
+.plot-axis-label {
+  fill: var(--plot-axis);
+  font-style: italic;
+  font-family: "KaTeX_Math", serif;
+  font-size: 16px;
+}
+.plot-num {
+  fill: var(--plot-muted);
+  font-size: 12px;
+  font-family: var(--font-geist-sans), sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+.plot-label {
+  position: absolute;
+  white-space: nowrap;
+  pointer-events: none;
+  font-size: 0.95rem;
+  line-height: 1.1;
+  color: var(--plot-ink);
+  text-shadow:
+    0 0 3px var(--plot-bg),
+    0 0 3px var(--plot-bg),
+    0 0 4px var(--plot-bg);
+}
+.plot-label-sm {
+  font-size: 0.8rem;
+}
+.plot-caption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted-foreground);
+  margin-top: 0.45rem;
+}
+/* ---------- statistiske diagrammer (::diagram) ---------- */
+.dia {
+  margin-inline: auto;
+  width: 100%;
+}
+.dia-box {
+  border-radius: 0.9rem;
+  border: 1px solid var(--border);
+  background: var(--plot-bg);
+  padding: 0.85rem 1rem 0.7rem 0.35rem;
+}
+.dia-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.92rem;
+  margin: 0 0 0.35rem 0.6rem;
+  line-height: 1.3;
+}
+.dia-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem 0.9rem;
+  font-size: 0.78rem;
+  margin: 0 0 0.55rem 0.6rem;
+  color: var(--plot-ink);
+}
+.dia-leg {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.dia-sw {
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: 0.2rem;
+  display: inline-block;
+  flex: none;
+}
+.dia-grid {
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr);
+  grid-template-rows: var(--dia-h, 15rem) auto auto;
+}
+.dia-ytitle {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+  font-size: 0.74rem;
+  color: var(--muted-foreground);
+  padding-left: 0.2rem;
+  line-height: 1.15;
+}
+.dia-yticks {
+  position: relative;
+  margin-right: 0.4rem;
+}
+.dia-yticks span {
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 0.72rem;
+  color: var(--plot-muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.dia-ycats {
+  display: flex;
+  flex-direction: column;
+  max-width: 11rem;
+  margin-right: 0.45rem;
+}
+.dia-ycats span {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  font-size: 0.74rem;
+  line-height: 1.15;
+  color: var(--plot-ink);
+}
+.dia-plot {
+  position: relative;
+  min-width: 0;
+}
+.dia-plot svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.dia-gridline {
+  stroke: var(--plot-grid);
+  stroke-width: 1;
+}
+.dia-axis {
+  stroke: var(--plot-axis);
+  stroke-width: 1.3;
+}
+.dia-xcats {
+  display: flex;
+  padding-top: 0.3rem;
+}
+.dia-xcats span {
+  flex: 1 1 0;
+  min-width: 0;
+  text-align: center;
+  font-size: 0.72rem;
+  line-height: 1.15;
+  color: var(--plot-ink);
+  overflow-wrap: anywhere;
+  padding-inline: 1px;
+}
+.dia-xticks-num {
+  position: relative;
+  min-height: 1.45rem;
+}
+.dia-xticks-num span {
+  position: absolute;
+  top: 0.3rem;
+  transform: translateX(-50%);
+  font-size: 0.72rem;
+  color: var(--plot-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.dia-xtitle {
+  text-align: center;
+  font-size: 0.74rem;
+  color: var(--muted-foreground);
+  margin-top: 0.2rem;
+}
+.dia-val {
+  position: absolute;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--plot-ink);
+  white-space: nowrap;
+  pointer-events: none;
+  font-variant-numeric: tabular-nums;
+}
+.dia-med {
+  color: var(--plot-2);
+}
+.dia-dot {
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 2px var(--plot-bg);
+}
+.dia-src {
+  margin: 0.45rem 0 0 0.6rem;
+  font-size: 0.7rem;
+  color: var(--muted-foreground);
+}
+.dia-pie {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 1.4rem;
+  padding-left: 0.6rem;
+}
+.dia-pie-svg {
+  width: min(15.5rem, 70vw);
+  height: auto;
+  overflow: visible;
+}
+.dia-pie-in {
+  fill: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: var(--font-geist-sans), sans-serif;
+  paint-order: stroke;
+  stroke: oklch(0 0 0 / 0.25);
+  stroke-width: 2px;
+}
+.dia-pie-out {
+  fill: var(--plot-ink);
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-geist-sans), sans-serif;
+}
+.dia-pie-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--plot-ink);
+}
+.dia-pie-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+.dia-leg-v {
+  margin-left: auto;
+  padding-left: 0.8rem;
+  color: var(--muted-foreground);
+  font-variant-numeric: tabular-nums;
+}
+/* ---------- geometrifigurer (::svg) ---------- */
+.geo-svg {
+  touch-action: auto;
+}
+.geo-svg text {
+  fill: var(--plot-ink);
+  font-family: var(--font-geist-sans), sans-serif;
+  font-size: 14px;
+}
+.geo-svg text.m {
+  font-family: "KaTeX_Math", serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.geo-svg text.sm {
+  font-size: 12px;
+}
+.geo-svg .ln {
+  stroke: var(--plot-ink);
+  stroke-width: 2;
+  fill: none;
+  stroke-linejoin: round;
+}
+.geo-svg .ln2 {
+  stroke: var(--plot-ink);
+  stroke-width: 1.4;
+  fill: none;
+}
+.geo-svg .hid {
+  stroke: var(--plot-muted);
+  stroke-width: 1.4;
+  stroke-dasharray: 5 4;
+  fill: none;
+}
+.geo-svg .mut {
+  stroke: var(--plot-muted);
+  stroke-width: 1.4;
+  fill: none;
+}
+.geo-svg .f1 {
+  fill: color-mix(in oklch, var(--plot-1) 16%, transparent);
+}
+.geo-svg .f2 {
+  fill: color-mix(in oklch, var(--plot-2) 16%, transparent);
+}
+.geo-svg .f3 {
+  fill: color-mix(in oklch, var(--plot-3) 18%, transparent);
+}
+.geo-svg .f4 {
+  fill: color-mix(in oklch, var(--plot-4) 20%, transparent);
+}
+.geo-svg .s1 {
+  stroke: var(--plot-1);
+}
+.geo-svg .s2 {
+  stroke: var(--plot-2);
+}
+.geo-svg .s3 {
+  stroke: var(--plot-3);
+}
+.geo-svg .c1 {
+  fill: var(--plot-1);
+}
+.geo-svg .c2 {
+  fill: var(--plot-2);
+}
+.geo-svg .c3 {
+  fill: var(--plot-3);
+}
+.geo-svg .ink {
+  fill: var(--plot-ink);
+}
+.geo-svg .bg {
+  fill: var(--plot-bg);
+}
+
+.sign-guide {
+  stroke: var(--plot-grid);
+  stroke-width: 1.2;
+}
+.sign-sep {
+  stroke: var(--plot-grid);
+}
+.sign-pos {
+  stroke: var(--plot-ink);
+  stroke-width: 2.4;
+}
+.sign-neg {
+  stroke: var(--plot-ink);
+  stroke-width: 2.4;
+  stroke-dasharray: 7 6;
+}
+.sign-zero {
+  fill: var(--plot-ink);
+  font-weight: 700;
+  font-size: 17px;
+  font-family: "KaTeX_Main", serif;
+}
+.sign-undef {
+  fill: var(--plot-2);
+  font-weight: 700;
+  font-size: 20px;
+}
+.sign-arrow {
+  stroke: var(--chap);
+  stroke-width: 2.4;
+  fill: none;
+  stroke-linecap: round;
+}
+.sign-arrow-head {
+  fill: var(--chap);
+}
+.sign-row-label {
+  font-size: 0.95rem;
+}
+
+/* ---------- oppgaver ---------- */
+.ex-answer {
+  border-radius: 0.7rem;
+  background: color-mix(in oklch, var(--success) 9%, var(--card));
+  border: 1px solid color-mix(in oklch, var(--success) 28%, var(--border));
+  padding: 0.55rem 0.8rem;
+}
+.ex-answer .markup {
+  font-size: 0.97rem;
+}
+
+/* ---------- animasjoner ---------- */
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes float-y {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.animate-float {
+  animation: float-y 6s ease-in-out infinite;
+}
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+.text-shimmer {
+  background-image: linear-gradient(90deg, var(--primary), oklch(0.65 0.2 330), oklch(0.7 0.15 60), var(--primary));
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  padding-right: 0.08em;
+  animation: shimmer 8s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .text-shimmer {
+    animation: none;
+  }
+}
+
+.hero-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw 2.4s cubic-bezier(0.45, 0.05, 0.25, 1) 0.2s forwards;
+}
+.hero-fade {
+  opacity: 0;
+  animation: fade-to 1.2s ease 2s forwards;
+}
+@keyframes fade-to {
+  to {
+    opacity: 0.6;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-draw {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+  .hero-fade {
+    animation: none;
+    opacity: 0.6;
+  }
+}
+
+/* ViewTransition-kryssfade mellom sider */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.22s;
+}
+
+.page-enter {
+  animation: page-in 0.4s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-enter {
+    animation: none;
+  }
+}
+
+/* ---------- forside: mikrointeraksjoner ---------- */
+.tilt-spot {
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), color-mix(in oklch, var(--chap, var(--primary)) 16%, transparent), transparent 60%);
+}
+.tilt-card[data-hover] .tilt-spot {
+  opacity: 1;
+}
+.dark .tilt-spot {
+  background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), oklch(1 0 0 / 0.07), transparent 60%);
+}
+
+.btn-primary,
+.btn-ghost {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  overflow: hidden;
+  border-radius: 9999px;
+  padding: 0.8rem 1.5rem;
+  font-weight: 500;
+  transition:
+    transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 0.25s ease,
+    background-color 0.25s ease,
+    border-color 0.25s ease;
+}
+.btn-primary {
+  background: var(--primary);
+  color: var(--primary-foreground);
+  box-shadow:
+    0 1px 0 oklch(1 0 0 / 0.25) inset,
+    0 10px 30px -10px color-mix(in oklch, var(--primary) 70%, transparent);
+}
+.btn-primary::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(110deg, transparent 30%, oklch(1 0 0 / 0.28) 50%, transparent 70%);
+  transform: translateX(-120%);
+  transition: transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.btn-primary:hover {
+  box-shadow:
+    0 1px 0 oklch(1 0 0 / 0.25) inset,
+    0 16px 40px -12px color-mix(in oklch, var(--primary) 80%, transparent);
+}
+.btn-primary:hover::after {
+  transform: translateX(120%);
+}
+.btn-ghost {
+  border: 1px solid var(--border);
+  background: color-mix(in oklch, var(--card) 80%, transparent);
+  backdrop-filter: blur(8px);
+}
+.btn-ghost:hover {
+  border-color: color-mix(in oklch, var(--primary) 45%, var(--border));
+  background: var(--card);
+}
+.btn-primary:active,
+.btn-ghost:active {
+  transform: scale(0.97);
+}
+.btn-primary:focus-visible,
+.btn-ghost:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+.btn-primary svg,
+.btn-ghost svg {
+  transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.btn-primary:hover svg:last-child {
+  transform: translateX(3px);
+}
+
+.lift-card {
+  transition:
+    transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+.lift-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in oklch, var(--chap, var(--primary)) 40%, var(--border));
+  box-shadow: 0 24px 50px -24px color-mix(in oklch, var(--chap, var(--primary)) 35%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-primary,
+  .btn-ghost,
+  .lift-card,
+  .btn-primary svg,
+  .btn-ghost svg {
+    transition-duration: 0.01ms !important;
+  }
+  .btn-primary::after {
+    display: none;
+  }
+  .lift-card:hover,
+  .btn-primary:active,
+  .btn-ghost:active,
+  .btn-primary:hover svg:last-child {
+    transform: none;
+  }
+  .animate-bounce,
+  .animate-float {
+    animation: none !important;
+  }
+}
