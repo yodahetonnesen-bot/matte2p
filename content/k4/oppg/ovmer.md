@@ -1,54 +1,52 @@
 # ovmer
 
 ## 4.110 @4.1
-Linjediagrammet viser nedbøren i Oslo et år (tegnet på nytt med omtrentlige verdier).
-::diagram linje yl="mm" h=240 ymin=0 ymax=180 ys=20
-kat: jan | feb | mar | apr | mai | jun | jul | aug | sep | okt | nov | des
-Nedbør: 75 | 55 | 60 | 55 | 75 | 30 | 165 | 120 | 95 | 78 | 78 | 70
+Linjediagrammet viser nedbøren i Oslo et år (verdiene er lest av diagrammet i boka).
+::diagram linje tittel="Nedbør i Oslo" yl="millimeter" h=240 ymin=0 ymax=180 ys=20
+kat: jan | feb | mars | april | mai | juni | juli | aug | sept | okt | nov | des
+Nedbør: 58 | 69 | 57 | 54 | 76 | 30 | 164 | 149 | 32 | 55 | 127 | 68
 ::
 a) I hvilken måned kom det minst og mest nedbør? Anslå mengdene.
-> Minst i juni: ca. 30 mm. Mest i juli: ca. 165 mm
+> Minst i juni: ca. 30 mm. Mest i juli: ca. 164 mm
 b) I hvor mange måneder var nedbøren over 80 mm?
 > 3
 c) Omtrent hvor mye nedbør kom det dette året?
 > Mellom 950 mm og 960 mm
 
 ## 4.111 @4.1
-Diagrammet viser andelen dagligrøykere blant unge 16–24 år (omtrentlige verdier, SSB). Hvilken informasjon kan du hente ut?
-::diagram linje yl="Prosent" h=220 ymin=0 ymax=16 ys=2
-x: 2010 | 2012 | 2014 | 2016 | 2018 | 2020
-Kvinner: 14 | 8 | 4 | 2 | 2 | 1
-Menn: 10 | 6 | 6 | 5 | 5 | 2
+Diagrammet viser andelen dagligrøykere blant unge 16–24 år (kilde: ssb.no). Hvilken informasjon kan du hente ut?
+::diagram linje tittel="Dagligrøykere (%) etter kjønn, 16–24 år" yl="Prosent" h=240 ymin=0 ymax=9 ys=1
+kat: 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020
+Menn: 6 | 8 | 6 | 5 | 5 | 5 | 5 | 2 | 2
+Kvinner: 8 | 6 | 4 | 3 | 2 | 1 | 2 | 1 | 1
 ::
->> Andelen unge dagligrøykere har falt kraftig for begge kjønn. I 2010 røykte flere unge kvinner enn menn, men fra 2014 har menn ligget høyest. I 2020 røyker bare 1–2 % av de unge daglig.
+>> Andelen unge dagligrøykere har falt for begge kjønn, fra 6–8 % i 2012–2013 til 1–2 % i 2020. I 2012 røykte flere unge kvinner enn menn, men fra 2013 har menn ligget høyest. Blant menn var andelen stabil på 5 % fra 2015 til 2018, før den falt til 2 %.
 
 ## 4.112 @4.1
-Diagrammet viser andelen dagligrøykere i hele befolkningen 16–74 år (omtrentlige verdier). Hvilken informasjon kan du hente ut? Sammenlikn med 4.111.
-::diagram linje yl="Prosent" h=220 ymin=0 ymax=20 ys=2
-x: 2010 | 2012 | 2014 | 2016 | 2018 | 2020
-Kvinner: 18 | 15 | 13 | 11 | 11 | 9
-Menn: 20 | 17 | 14 | 12 | 12 | 9
+Diagrammet viser andelen dagligrøykere i hele befolkningen 16–74 år (kilde: ssb.no). Hvilken informasjon kan du hente ut? Sammenlikn med 4.111.
+::diagram linje tittel="Dagligrøykere (%) etter kjønn, i alt 16–74 år" yl="Prosent" h=240 ymin=0 ymax=18 ys=2
+kat: 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020
+Menn: 16 | 15 | 14 | 13 | 13 | 12 | 12 | 9 | 9
+Kvinner: 16 | 14 | 13 | 13 | 11 | 10 | 11 | 9 | 9
 ::
->> Også i hele befolkningen går røykingen ned, men nivået er mye høyere enn blant de unge. Nedgangen er sterkest blant de unge, så de fleste dagligrøykerne i dag er eldre.
+>> Også i hele befolkningen går røykingen ned, fra 16 % i 2012 til 9 % i 2020, og menn og kvinner ligger nesten likt. Nivået er mye høyere enn blant de unge (1–2 % i 2020). Nedgangen er sterkest blant de unge, så de fleste dagligrøykerne i dag er eldre.
 
 ## 4.113 @4.1
-Diagrammet viser CO₂-utslipp fra personbiler per innbygger over 18 år i noen byer (tall laget for denne siden, i samme stil som i Dagsavisen 3. mai 2019). Hvilken informasjon kan du hente ut?
-::diagram soyle liggende xl="Tonn CO₂ per innbygger" verdier des=2 h=260
-kat: Oslo | Bergen | Trondheim | Stavanger | Kristiansand | Tromsø
-Utslipp: 0,79 | 1,02 | 1,05 | 1,21 | 1,28 | 1,09
+En illustrasjon lik den nedenfor ble brukt i Dagsavisen 3. mai 2019. Den viser antall tonn CO₂-utslipp fra personbiler per innbygger over 18 år i de største byene i Norge (kilde: BFK, verdiene er lest av diagrammet i boka). Hvilken informasjon kan du hente ut av diagrammet?
+::diagram soyle tittel="CO₂-utslipp fra personbiler per innbygger over 18 år" yl="Tonn CO₂" verdier des=2 h=260 ymax=1,2 ys=0,2
+kat: Drammen | Bergen | Stavanger | Tromsø | Oslo | Trondheim | Kristiansand
+Utslipp: 1,10 | 0,96 | 0,82 | 0,62 | 0,59 | 0,46 | 0,39
 ::
->> Innbyggerne i Oslo slipper ut minst per person, trolig fordi kollektivtilbudet er best og mange har elbil. Kristiansand og Stavanger har høyest utslipp per innbygger.
+>> Drammen har klart størst utslipp per innbygger, ca. 1,1 tonn, fulgt av Bergen og Stavanger. Kristiansand og Trondheim har minst, ca. 0,4–0,5 tonn. Utslippet i Drammen er nesten tre ganger så stort som i Kristiansand. Diagrammet sier ikke noe om hvorfor, for eksempel om kollektivtilbud, avstander eller andel elbiler.
 
 ## 4.114 @4.1
-Diagrammet viser når 292 ungdommer avbrøt videregående opplæring (tall laget for denne siden ut fra hovedtrekkene i studien).
-::diagram soyle yl="Antall elever" verdier h=240
-kat: Under Vg1 | Overgang 1 | Under Vg2 | Overgang 2 | Under Vg3/lære
-Gutter: 32 | 30 | 24 | 48 | 20
-Jenter: 28 | 26 | 22 | 44 | 18
-::
-::diagram sektor vis=verdi des=0 mw=320
-Yrkesfag: 180
-Studiespesialiserende: 112
+Diagrammet viser når 292 ungdommer avbrøt videregående opplæring (kilde: Skolelederen 8. oktober 2020). YF betyr yrkesfag og STF studiespesialiserende.
+::diagram linje yl="Antall elever" verdier h=280 ymin=0 ymax=45 ys=5
+kat: Første året | Overgang 1 | Andre året | Overgang 2 | Høsten år 3 | Våren år 3
+Gutter YF: 7 | 4 | 21 | 45 | 37 | 43
+Jenter YF: 5 | 3 | 18 | 24 | 17 | 20
+Jenter STF: 3 | 2 | 5 | 5 | 7 | 6
+Gutter STF: 4 | 1 | 1 | 3 | 5 | 6
 ::
 a) Sluttet flest gutter eller jenter?
 > Gutter
@@ -58,12 +56,13 @@ c) Når sluttet flest?
 > Ved overgang 2 (fra Vg2 til Vg3 eller læreplass)
 
 ## 4.115 @4.1
-Diagrammet viser antall skader med elsparkesykkel som ble behandlet på legevakta i Oslo i 2019 (tall laget for denne siden). Hvilken informasjon kan du hente ut?
-::diagram soyle yl="Skader" verdier h=240
-kat: apr | mai | jun | jul | aug | sep | okt
-Skader: 40 | 110 | 180 | 260 | 230 | 150 | 60
+Diagrammet viser antall skader med elsparkesykkel som ble behandlet ved Oslo skadelegevakt (kilde: Aftenposten). Hvilken informasjon kan du hente ut av diagrammet?
+::diagram soyle tittel="Skader med elsparkesykkel behandlet ved Oslo skadelegevakt" yl="Skader" verdier h=260 ymax=250 ys=50
+kat: April | Mai | Juni | Juli | August
+2019: 34 | 46 | 107 | 155 | 122
+2020: 38 | 83 | 179 | 194 | 235
 ::
->> Skadene følger sesongen: de øker kraftig fra april til juli, da det er flest brukere, og faller igjen om høsten.
+>> Antallet skader øker kraftig fra april til sommeren begge år. I 2020 var det flere skader enn i 2019 i alle månedene. I august 2020 var det 235 skader, nesten dobbelt så mange som i august 2019 (122). Fra april til august 2020 økte antallet fra 38 til 235, altså over seks ganger så mange.
 
 ## 4.120 @4.2
 Fravær i en vg2-klasse ei uke:
@@ -353,57 +352,117 @@ Snusing, kvinner: 8 | 14 | 12 | 17 | 16 | 14
 
 ## 4.150 @4.5
 Søylediagrammet viser antall arbeidsledige i et distrikt i 2020.
-::diagram soyle yl="Arbeidsledige" verdier h=220 ymin=950 ymax=1110 ys=20
-kat: jan | mar | mai | jul | sep | nov
-Ledige: 1100 | 1080 | 1050 | 1020 | 1000 | 980
+::diagram soyle yl="Arbeidsledige" verdier h=240 ymin=4000 ymax=4700 ys=100
+kat: Jan. | Mai | Sep. | Des.
+Ledige: 4600 | 4500 | 4400 | 4100
 ::
 a) Kan framstillingen gi et feilaktig bilde?
-> Ja. Andreaksen starter på 950, så det ser ut som ledigheten er mer enn halvert, selv om nedgangen er liten.
+> Ja. Andreaksen starter ikke på 0. Da ser det ut som ledigheten er blitt mye mindre, selv om nedgangen er liten.
 b) Med hvor mange prosent gikk tallet ned?
 > 10,9 %
 
 ## 4.151 @4.5
-«Pedalen» har laget et diagram over sykkelsalget hos de tre butikkene.
-::diagram soyle yl="Solgte sykler" verdier h=220 ymin=400 ymax=540 ys=20
+Sykkelbutikkene «Pedalen», «Trøen» og «Bremsen» konkurrerer om å selge flest sykler. «Pedalen» har laget et diagram som viser hvor mange sykler hver av butikkene solgte det siste året.
+::diagram soyle yl="Sykler" verdier h=240 ymin=130 ymax=150 ys=2
 kat: Pedalen | Trøen | Bremsen
-Solgt: 520 | 480 | 450
+Solgt: 148 | 138 | 140
 ::
 a) Hvorfor gir ikke søylehøydene et riktig bilde?
-> Andreaksen starter på 400, ikke 0. Pedalen ser ut til å ha solgt nesten dobbelt så mye som Bremsen, men forskjellen er bare 16 %.
+> Andreaksen starter på 130, ikke på 0. Da ser det ut som Pedalen har solgt dobbelt så mye som Bremsen, men forskjellen er bare 8 sykler, altså ca. 6 %.
 b) Tegn et bedre søylediagram.
 >> Se diagrammet.
-::diagram soyle yl="Solgte sykler" verdier h=220
+::diagram soyle yl="Sykler" verdier h=240 ymin=0 ymax=160 ys=20
 kat: Pedalen | Trøen | Bremsen
-Solgt: 520 | 480 | 450
+Solgt: 148 | 138 | 140
 ::
 
 ## 4.152 @4.5
-To partier la ut hver sin framstilling av klimautslippene fra 2013 til 2018 (tegnet på nytt).
-::cols
-::diagram soyle tittel="Parti 1" yl="Tusen tonn CO₂-ekv." verdier h=220 ymin=51 ymax=54,5 ys=0,5
-kat: 2013 | 2018
-Utslipp: 53,9 | 51,9
+Venstre la ut dette bildet på partiets Facebookside i 2019.
+::svg w=450 h=290 mw=460 cap="Venstre: «Klimautslippene går ned med Venstre i regjering». Totale utslipp, kilde: SSB"
+<rect class="f2" x="60" y="20" width="87" height="240"/>
+<rect class="f1" x="147" y="20" width="293" height="240"/>
+<text class="sm" x="54" y="264.0" text-anchor="end">51 000</text>
+<text class="sm" x="54" y="236.5" text-anchor="end">51 500</text>
+<text class="sm" x="54" y="209.0" text-anchor="end">52 000</text>
+<text class="sm" x="54" y="181.5" text-anchor="end">52 500</text>
+<text class="sm" x="54" y="154.0" text-anchor="end">53 000</text>
+<text class="sm" x="54" y="126.5" text-anchor="end">53 500</text>
+<text class="sm" x="54" y="99.0" text-anchor="end">54 000</text>
+<text class="sm" x="54" y="71.5" text-anchor="end">54 500</text>
+<text class="sm" x="54" y="44.0" text-anchor="end">55 000</text>
+<path class="ln2" d="M60,20 V260 H440"/>
+<text class="sm" x="95" y="278" text-anchor="middle">2012</text>
+<text class="sm" x="147" y="278" text-anchor="middle">2013</text>
+<text class="sm" x="199" y="278" text-anchor="middle">2014</text>
+<text class="sm" x="251" y="278" text-anchor="middle">2015</text>
+<text class="sm" x="303" y="278" text-anchor="middle">2016</text>
+<text class="sm" x="355" y="278" text-anchor="middle">2017</text>
+<text class="sm" x="407" y="278" text-anchor="middle">2018</text>
+<polyline class="ln" points="95,62.0 147,100.5 199,100.5 251,78.5 303,133.5 355,183.0 407,205.0"/>
+<circle cx="95" cy="62.0" r="4.5" class="c1" stroke="var(--plot-bg)" stroke-width="1.5"/>
+<circle cx="147" cy="100.5" r="4.5" class="c1" stroke="var(--plot-bg)" stroke-width="1.5"/>
+<circle cx="199" cy="100.5" r="4.5" class="c1" stroke="var(--plot-bg)" stroke-width="1.5"/>
+<circle cx="251" cy="78.5" r="4.5" class="c1" stroke="var(--plot-bg)" stroke-width="1.5"/>
+<circle cx="303" cy="133.5" r="4.5" class="c1" stroke="var(--plot-bg)" stroke-width="1.5"/>
+<circle cx="355" cy="183.0" r="4.5" class="c1" stroke="var(--plot-bg)" stroke-width="1.5"/>
+<circle cx="407" cy="205.0" r="4.5" class="c1" stroke="var(--plot-bg)" stroke-width="1.5"/>
+<text class="sm" x="66" y="36">Rødgrønn</text><text class="sm" x="66" y="50">regjering</text>
+<text x="293.5" y="40" text-anchor="middle" font-weight="700">Blågrønn regjering</text>
 ::
-||
-::diagram soyle tittel="Parti 2" yl="Tusen tonn CO₂-ekv." verdier h=220 ymin=0 ymax=60 ys=10
-kat: 2013 | 2018
-Utslipp: 53,9 | 51,9
-::
-::
-a) Hvor mange prosent har utslippene gått ned?
+a) Hvor mange prosent har klimautslippene gått ned fra 2013 til 2018?
 > 3,7 % (fra ca. 54 000 til 52 000)
-b) Sammenlikn framstillingene.
->> Tallene er de samme. Parti 1 lar aksen starte på 51, så nedgangen ser dramatisk ut. Parti 2 starter på 0, så nedgangen ser liten ut.
-c) Lag en bedre framstilling.
+Høyre la ut dette bildet på partiets Facebookside i 2019.
+::svg w=380 h=262 mw=400 cap="Høyre: «Utslippene går ned». Kilde: SSB, utslipp til luft, CO₂-ekvivalenter"
+<path class="f2" d="M10,55.5 L115,62.5 L115,251 L10,251 Z"/>
+<path class="f1" d="M115,62.5 L220,136 L367,172 L367,251 L115,251 Z"/>
+<polyline class="ln" points="10,55.5 115,62.5 220,136 367,172"/>
+<path class="ln2" d="M10,251 H367"/>
+<text class="sm" x="10" y="45.5" text-anchor="start">2012</text>
+<text x="14" y="75.5" text-anchor="start" font-weight="700">54 121</text>
+<text class="sm" x="115" y="52.5" text-anchor="middle">2013</text>
+<text x="115" y="82.5" text-anchor="middle" font-weight="700">53 961</text>
+<text class="sm" x="220" y="126" text-anchor="middle">2017</text>
+<text x="220" y="156" text-anchor="middle" font-weight="700">52 492</text>
+<text class="sm" x="367" y="162" text-anchor="end">2018</text>
+<text x="363" y="192" text-anchor="end" font-weight="700">52 041</text>
+<text x="190" y="24" text-anchor="middle" font-weight="700" font-size="20">UTSLIPPENE GÅR NED</text>
+::
+b) Sammenlikn bildet til Høyre og Venstre. Hva er likt i framstillingene, og hva er ulikt?
+>> Likt: Begge bygger på SSB-tallene, begge viser at utslippene har gått ned, og begge farger perioden med rødgrønn regjering (2012–2013) annerledes enn perioden etterpå. Ulikt: Venstre viser alle årene med en loddrett akse som starter på 51 000, så nedgangen ser stor ut. Høyre viser bare fire år uten akse, men med tallene skrevet på, og avstanden mellom 2013 og 2017 er like stor som mellom 2012 og 2013 – fire år ser ut som ett. Arealet under kurven starter heller ikke på null.
+c) Lag en bedre framstilling av dataene som presenteres.
 >> For eksempel et linjediagram for alle årene 2013–2018 med aksen tydelig merket, og med nedgangen i prosent skrevet ved siden av.
 
 ## 4.153 @4.5
-En avis viste antall pasienter per fastlege som bilder av leger, der både høyden og bredden på bildet økte med antall pasienter (tall laget for denne siden: 2010: 1150, 2020: 1100). Hvilken informasjon kan du lese, og hvorfor er framstillingen uheldig? Lag et bedre diagram.
->> Tallet på pasienter per lege har gått ned med ca. 4 %. Når bildet skaleres i to retninger, blir arealet skalert med kvadratet av forholdet, og forskjellen ser mye større ut. Et vanlig søylediagram med aksen fra 0 viser forholdet riktig.
-::diagram soyle yl="Pasienter per lege" verdier h=200
-kat: 2010 | 2020
-Pasienter: 1150 | 1100
+I 2020 publiserte Aftenpostens A-magasin saken «Pasienten har alltid rett» om norske fastlegers arbeidshverdag. Saken inneholdt blant annet grafiske framstillinger som dette (tegnet på nytt):
+::cols
+::diagram linje tittel="Andel uføretrygdede av befolkningen" yl="Prosent" verdier h=220 ymin=9,7 ymax=10,1 ys=0,1
+x: 2015 | 2016 | 2017 | 2018
+Andel (%): 9,7 | 9,7 | 9,8 | 10,1
 ::
+||
+::diagram linje tittel="Antall sykemeldinger" h=220 ymin=3560000 ymax=3740000 ys=20000
+x: 2016 | 2017 | 2018 | 2019
+Sykemeldinger: 3577000 | 3611000 | 3674000 | 3742567
+::
+::
+::cols
+::diagram linje tittel="Antallet pasienter hos avtalespesialister" h=220 ymin=990000 ymax=1030000 ys=10000
+x: 2016 | 2017 | 2018
+Pasienter: 993000 | 1001000 | 1030667
+::
+||
+::diagram linje tittel="Antall konsultasjoner hos fastlegene" h=220 ymin=12950000 ymax=13000000 ys=10000
+x: 2017 | 2018
+Konsultasjoner: 12957000 | 13000280
+::
+::
+Tekst under diagrammene: Ved utgangen av 2018 var det over 350 000 uføretrygdede i Norge (gjelder personer mellom 18 og 67 år). Sykemeldingene økte med 4,6 % fra 2015 til 2019, mens befolkningen økte med 3,5 %. Pasienter hos avtalespesialister økte med 3,8 % fra 2016 til 2018, mens befolkningen økte med 1,6 %.
+a) Hvilken informasjon kan du lese av de grafiske framstillingene?
+>> Alle fire størrelsene har økt: andelen uføretrygdede fra 9,7 % til 10,1 %, sykemeldingene fra ca. 3,58 millioner til 3,74 millioner, pasientene hos avtalespesialister fra ca. 993 000 til 1 030 667 og konsultasjonene hos fastlegene fra ca. 12,96 millioner til 13,0 millioner.
+b) På nettsidene til boka kan du lese en kommentar til framstillingene fra redaktør Trine Eilertsen. Hvorfor beklager hun bruken av de grafiske framstillingene ovenfor?
+>> Den loddrette aksen starter ikke på null, men rett under den minste verdien. Da ser små økninger (for konsultasjonene bare ca. 0,3 %) ut som en kraftig stigning. Framstillingene gir derfor et misvisende bilde.
+c) Velg to av framstillingene og lag diagrammer som gir et bedre bilde av situasjonen.
+>> For eksempel søylediagrammer der aksen starter på 0, eller diagrammer som viser prosentvis endring sammen med befolkningsveksten.
 
 ## 4.160 @4.6
 Timefravær i første termin:
@@ -488,8 +547,10 @@ hoyder: 0,3 | 1,2 | 1,0 | 0,3
 
 ## 4.167 @4.6
 Histogrammet viser hvor mange matematikknøtter elevene til Otto løste i løpet av skoleåret. Hvor mange elever er det i klassen?
-::diagram histogram xl="Løste nøtter" yl="Elever per nøtt" hoyder h=220
-grenser: 0 | 5 | 10 | 20 | 30 | 40
-hoyder: 0,6 | 1,2 | 0,9 | 0,6 | 0,3
+::diagram histogram xl="Antall nøtter elevene har løst" yl="Frekvens / klassebredde" hoyder h=240
+grenser: 0 | 5 | 10 | 20 | 40
+hoyder: 1,6 | 2,0 | 0,5 | 0,2
 ::
 > 27 elever
+!! Antall elever i hvert intervall er søylehøyde · klassebredde: $1{,}6\cdot 5 + 2{,}0\cdot 5 + 0{,}5\cdot 10 + 0{,}2\cdot 20 = 8 + 10 + 5 + 4 = 27$.
+

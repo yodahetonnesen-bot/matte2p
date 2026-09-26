@@ -1,12 +1,16 @@
 # blandet
 
 ## 4.200 @4.1
-Aftenposten hadde i januar 2018 overskriften «Over halvparten stryker på teoriprøven». Diagrammet viser andelen som strøk (tall laget for denne siden ut fra oppgave 4.144). Skriv et innlegg der du kommenterer overskriften.
-::diagram linje yl="Strøk (%)" h=220 ymin=0 ymax=60 ys=10
-x: 2014 | 2015 | 2016 | 2017 | 2018
-Strøk på teoriprøven: 36 | 38 | 42 | 47 | 51
+I januar 2018 hadde Aftenposten et oppslag med denne overskriften:
+
+«Over halvparten stryker på teoriprøven»
+
+Skriv et innlegg der du kommenterer overskriften. Bruk illustrasjonen nedenfor når du kommenterer.
+::diagram soyle tittel="Antall i prosent som stryker på bilteorien" verdier h=240 ymin=0 ymax=60 ys=10
+kat: 2018 | 2017 | 2016 | 2015 | 2014 | 2013 | 2012 | 2011 | 2010 | 2009 | 2008
+Strøk (%): 51 | 47 | 42 | 38 | 41 | 42 | 42 | 51 | 48 | 54 | 56
 ::
->> Overskriften stemmer for 2018, da 51 % strøk. Den sier likevel ingenting om hvor mange som til slutt består (de fleste tar prøven på nytt), og den underslår at stryket har økt jevnt siden 2014 – blant annet fordi prøven ble vanskeligere. En mer presis overskrift kunne vært «Stadig flere stryker på teoriprøven».
+>> Overskriften stemmer for 2018, da 51 % strøk. Men diagrammet viser at strykprosenten var enda høyere i 2008 (56 %) og 2009 (54 %), og at den sank til 38 % i 2015 før den steg igjen. «Over halvparten» er altså ikke noe nytt. Legg også merke til at årene i diagrammet går baklengs, fra 2018 til 2008, så det er lett å lese utviklingen feil. Overskriften sier heller ingenting om hvor mange som til slutt består når de tar prøven på nytt.
 
 ## 4.201 @4.2
 Karakterer på en heldagsprøve: 1: 40, 2: 53, 3: 45, 4: 27, 5: 13, 6: 2.
@@ -47,41 +51,37 @@ d) Han vil redusere forbruket i 2021 med 10 % i forhold til 2020. Regn ut målet
 > 1161 kWh, 1901 kWh, 2185 kWh og 2848 kWh
 
 ## 4.203 @4.2
-Nordmenn bruker i gjennomsnitt 160 L vann per døgn. Diagrammene viser hva vannet går til, og forbruket i noen land (tall tilpasset svarene i boka).
-::cols
-::diagram sektor tittel="Norge, 160 L per døgn" vis=verdi enhet=L des=0 mw=340
-Personlig hygiene: 60
-Toalett: 35
-Klesvask: 30
-Oppvask: 20
-Mat og drikke: 10
-Annet: 5
+Figuren nedenfor viser hvor mye vann vi i gjennomsnitt bruker per døgn. Ut fra figuren bruker nordmenn i gjennomsnitt 160 L per døgn.
+::diagram soyle stablet tittel="Vannforbruk i liter per dag" xl="Land" yl="Liter" h=280 ymin=0 ymax=180 ys=20
+kat: NO | SE | DK | FI | UK | DE | NL
+Mat og drikke: 10 | 9 | 5 | 8 | 5 | 4 | 3
+Toalettspyling: 36 | 30 | 24 | 20 | 44 | 34 | 34
+Personlig hygiene: 50 | 60 | 40 | 69 | 50 | 44 | 56
+Oppvask: 24 | 29 | 13 | 19 | 11 | 7 | 16
+Klesvask: 30 | 21 | 21 | 20 | 19 | 14 | 6
+Øvrig: 10 | 9 | 4 | 4 | 18 | 17 | 5
 ::
-||
-::diagram soyle liggende tittel="Liter per person per døgn" verdier h=200
-kat: Norge | Finland | Sverige | Danmark
-Liter: 160 | 140 | 140 | 110
-::
-::
-a) Hvor mange prosent går til klesvask?
+Husholdningsforbruk fordelt på ulike delposter. Utendørsforbruk er inkludert i kategori «øvrig». Kilde: vannforeningen.no
+a) Hvor mange prosent av vannforbruket går med til klesvask i Norge?
 > ca. 19 % (30 L)
-b) Hvor mange prosent større er forbruket i Norge enn i Finland?
+b) Hvor mye større er vannforbruket i prosent i Norge enn i Finland?
 > ca. 14 %
-c) Hvor mange prosent mindre er forbruket i Finland enn i Norge?
+c) Hvor mye mindre er vannforbruket i prosent i Finland enn i Norge?
 > 12,5 %
 
 ## 4.204 @4.3
-Elevene fikk én frukt hver dag. Søylediagrammet viser hvor mange dager de fikk hver frukt (tall laget for denne siden). Lag et sektordiagram.
-::diagram soyle yl="Dager" verdier h=200
-kat: Eple | Banan | Pære | Appelsin
-Dager: 60 | 45 | 30 | 45
+På en skole fikk elevene én frukt hver dag. Diagrammet viser hvor mange dager elevene fikk de forskjellige fruktene.
+::diagram soyle tittel="Fordeling av frukt" yl="Dager" verdier h=220 ymin=0 ymax=70 ys=10
+kat: Appelsin | Eple | Banan | Pære
+Dager: 45 | 60 | 50 | 25
 ::
->> Se diagrammet. Totalt 180 dager, så én dag er 2°.
+Bruk informasjonen til å lage et sektordiagram.
+>> Se diagrammet. Totalt er det 180 dager, så én dag svarer til $360° : 180 = 2°$. Appelsin $90°$, eple $120°$, banan $100°$ og pære $50°$.
 ::diagram sektor vis=grader des=0 mw=340
-Eple: 60
-Banan: 45
-Pære: 30
 Appelsin: 45
+Eple: 60
+Banan: 50
+Pære: 25
 ::
 
 ## 4.205 @4.3
@@ -100,25 +100,25 @@ Utbygd: 1,4
 ::
 
 ## 4.206 @4.3
-Sektordiagrammet viser karakterfordelingen på en heldagsprøve i 2P. Ingen fikk 6, og 18 elever fikk 1.
+Sektordiagrammet viser karakterfordelingen for noen elever som har hatt heldagsprøve i 2P. Ingen av elevene fikk karakteren 6, men det var 18 elever som fikk karakteren 1.
 ::diagram sektor vis=ingen mw=360
-Karakter 1: 15
-Karakter 2: 20
-Karakter 3: 30
+Karakter 1 (15 %): 15
+Karakter 2 (20 %): 20
+Karakter 3 (25 %): 25
 Karakter 4: 25
-Karakter 5: 10
+Karakter 5 (15 %): 15
 ::
-a) Hvor mange prosent fikk karakteren 4?
+a) Hvor mange prosent av elevene fikk karakteren 4?
 > 25 %
-b) Hvor mange elever deltok?
+b) Hvor mange elever deltok på heldagsprøven?
 > 120 elever
-c) Tegn et søylediagram.
+c) Tegn et søylediagram over fordelingen.
 >> Se diagrammet.
 ::diagram soyle xl="Karakter" yl="Elever" verdier h=200
 kat: 1 | 2 | 3 | 4 | 5 | 6
-Elever: 18 | 24 | 36 | 30 | 12 | 0
+Elever: 18 | 24 | 30 | 30 | 18 | 0
 ::
-?? Sektoren for karakter 1 er 15 % (54°).
+?? 18 elever er 15 %. Da er 1 % lik $18 : 15 = 1{,}2$ elever.
 
 ## 4.207 @4.2
 Tre 2P-grupper med 22 elever hver:
@@ -244,59 +244,74 @@ Yrkesfag: 35,6 | 36,3 | 36,6
 ::
 
 ## 4.212 @4.3
-Elevene stemte over ny logo: alternativ 1: 180, alternativ 2: 360, alternativ 3: 60, alternativ 4: 120. Elevrådet har laget fire diagrammer. Hvilke kan vise riktig resultat?
+En skole skal lage en ny logo, og det er utarbeidet fire alternativer. Elevene skal stemme på det alternativet de liker best. Tabellen nedenfor viser fordelingen av svarene. Elevrådet har utarbeidet fire ulike diagrammer som viser hva elevene har svart.
+
+| Logo | Frekvens |
+|---|---|
+| Alternativ 1 | 180 |
+| Alternativ 2 | 360 |
+| Alternativ 3 | 60 |
+| Alternativ 4 | 120 |
+
+Hvilket eller hvilke diagram kan vise riktig resultat ut fra tabellen?
 ::cols
-::diagram sektor tittel="Sektordiagram" vis=ingen mw=300
-Alt. 1: 180
-Alt. 2: 360
-Alt. 3: 60
-Alt. 4: 120
+::diagram sektor tittel="Diagram 1: Logo – fordeling av svar" vis=ingen mw=300
+Alternativ 1: 180
+Alternativ 2: 360
+Alternativ 3: 60
+Alternativ 4: 120
 ::
 ||
-::diagram soyle tittel="Stolpediagram" h=200
-kat: Alt. 1 | Alt. 2 | Alt. 3 | Alt. 4
+::svg w=320 h=190 mw=320 cap="Diagram 2: Logo – fordeling av svar"
+<rect class="c2" x="10.0" y="10.0" width="150.0" height="170.0" stroke="var(--plot-bg)" stroke-width="2"/>
+<text class="sm" x="15.0" y="173.0" fill="#fff" style="fill:#fff">Alternativ 2</text>
+<rect class="c1" x="160.0" y="10.0" width="91.2" height="132.6" stroke="var(--plot-bg)" stroke-width="2"/>
+<text class="sm" x="165.0" y="135.6" fill="#fff" style="fill:#fff">Alternativ 1</text>
+<rect class="c4" x="251.2" y="10.0" width="58.8" height="132.6" stroke="var(--plot-bg)" stroke-width="2"/>
+<text class="sm" x="256.2" y="135.6" fill="#fff" style="fill:#fff">Alt. 4</text>
+<rect class="c3" x="160.0" y="142.6" width="150.0" height="37.4" stroke="var(--plot-bg)" stroke-width="2"/>
+<text class="sm" x="165.0" y="173.0" fill="#fff" style="fill:#fff">Alternativ 3</text>
+::
+::
+::cols
+::svg w=320 h=200 mw=320 cap="Diagram 3: Logo – fordeling av svar"
+<path class="c1" d="M100.0,15.0 A85,85 0 0 1 185.0,100.0 L148.0,100.0 A48,48 0 0 0 100.0,52.0 Z" stroke="var(--plot-bg)" stroke-width="2"/>
+<path class="c2" d="M185.0,100.0 A85,85 0 0 1 15.0,100.0 L52.0,100.0 A48,48 0 0 0 148.0,100.0 Z" stroke="var(--plot-bg)" stroke-width="2"/>
+<path class="c3" d="M15.0,100.0 A85,85 0 0 1 26.4,57.5 L58.4,76.0 A48,48 0 0 0 52.0,100.0 Z" stroke="var(--plot-bg)" stroke-width="2"/>
+<path class="c4" d="M26.4,57.5 A85,85 0 0 1 100.0,15.0 L100.0,52.0 A48,48 0 0 0 58.4,76.0 Z" stroke="var(--plot-bg)" stroke-width="2"/>
+<rect class="c1" x="205" y="52" width="13" height="13"/><text x="224" y="63">Alternativ 1</text>
+<rect class="c2" x="205" y="78" width="13" height="13"/><text x="224" y="89">Alternativ 2</text>
+<rect class="c3" x="205" y="104" width="13" height="13"/><text x="224" y="115">Alternativ 3</text>
+<rect class="c4" x="205" y="130" width="13" height="13"/><text x="224" y="141">Alternativ 4</text>
+::
+||
+::diagram soyle tittel="Diagram 4: Logo – fordeling av svar" h=220 ymin=0 ymax=400 ys=50
+kat: Alternativ 1 | Alternativ 2 | Alternativ 3 | Alternativ 4
 Stemmer: 180 | 360 | 60 | 120
 ::
 ::
-::cols
-::svg w=280 h=160 mw=300 cap="Trekartdiagram: arealene er proporsjonale med stemmene."
-<rect class="c2" x="0" y="0" width="140.0" height="160" stroke="var(--plot-bg)" stroke-width="2"/><text x="70.0" y="85.0" text-anchor="middle" style="fill:#fff">Alt. 2</text>
-<rect class="c1" x="140.0" y="0" width="140.0" height="80.0" stroke="var(--plot-bg)" stroke-width="2"/><text x="210.0" y="45.0" text-anchor="middle" style="fill:#fff">Alt. 1</text>
-<rect class="c4" x="140.0" y="80.0" width="93.3" height="80.0" stroke="var(--plot-bg)" stroke-width="2"/><text x="186.7" y="125.0" text-anchor="middle" style="fill:#fff">Alt. 4</text>
-<rect class="c3" x="233.3" y="80.0" width="46.7" height="80.0" stroke="var(--plot-bg)" stroke-width="2"/><text x="256.7" y="125.0" text-anchor="middle" style="fill:#fff;font-size:11px">Alt. 3</text>
-::
-||
-::svg w=300 h=180 mw=300 cap="Hjuldiagram: lengden på buene er proporsjonal med stemmene."
-<circle cx="90" cy="90" r="80" class="mut" style="stroke-width:10;opacity:.25"/>
-<path d="M90.0,10.0 A80,80 0 0 1 114.7,166.1" fill="none" style="stroke:var(--plot-1);stroke-width:10;stroke-linecap:round"/>
-<rect x="196" y="40" width="12" height="12" rx="2" style="fill:var(--plot-1)"/><text x="214" y="51">Alt. 1: 180</text>
-<circle cx="90" cy="90" r="64" class="mut" style="stroke-width:10;opacity:.25"/>
-<path d="M90.0,26.0 A64,64 0 1 1 52.4,38.2" fill="none" style="stroke:var(--plot-2);stroke-width:10;stroke-linecap:round"/>
-<rect x="196" y="68" width="12" height="12" rx="2" style="fill:var(--plot-2)"/><text x="214" y="79">Alt. 2: 360</text>
-<circle cx="90" cy="90" r="48" class="mut" style="stroke-width:10;opacity:.25"/>
-<path d="M90.0,42.0 A48,48 0 0 1 128.8,61.8" fill="none" style="stroke:var(--plot-3);stroke-width:10;stroke-linecap:round"/>
-<rect x="196" y="96" width="12" height="12" rx="2" style="fill:var(--plot-3)"/><text x="214" y="107">Alt. 3: 60</text>
-<circle cx="90" cy="90" r="32" class="mut" style="stroke-width:10;opacity:.25"/>
-<path d="M90.0,58.0 A32,32 0 0 1 120.4,99.9" fill="none" style="stroke:var(--plot-4);stroke-width:10;stroke-linecap:round"/>
-<rect x="196" y="124" width="12" height="12" rx="2" style="fill:var(--plot-4)"/><text x="214" y="135">Alt. 4: 120</text>
-::
-::
 > Alle diagrammene kan vise riktig resultat.
+>> Alternativ 2 har halvparten av stemmene (360 av 720), alternativ 1 en firedel (180), alternativ 4 en sjettedel (120) og alternativ 3 en tolvdel (60). Det stemmer med sektorene, arealene, ringstykkene og søylene i alle fire diagrammene.
 
 ## 4.213 @4.5
-«Snøswix» satte inn søylediagrammet under med overskriften *«Vi selger mer ski enn Skibua og Skibytte gjør til sammen!»* (tall laget for denne siden).
-::diagram soyle yl="Solgte par ski" verdier h=220 ymin=70 ymax=160 ys=10
-kat: Snøswix | Skibua | Skibytte
-Solgt: 150 | 90 | 80
+De tre skibutikkene «Skibua», «Snøswix» og «Skibytte» er harde konkurrenter. I ei lokalavis hadde «Snøswix» satt inn dette søylediagrammet med overskriften:
+
+*Vi selger mer ski enn Skibua og Skibytte gjør til sammen!*
+::diagram soyle yl="Frekvens" h=220 ymin=600 ymax=2000 ys=200
+kat: Skibua | Snøswix | Skibytte
+Solgte ski: 1000 | 1400 | 900
 ::
-a) Kommenter framstillingen. Har de dekning for påstanden?
->> Aksen starter på 70, så Snøswix ser ut til å selge mye mer. Skibua og Skibytte har til sammen solgt 170 par, mer enn Snøswix' 150. Påstanden stemmer ikke.
-b) Skibua og Skibytte svarte med dette diagrammet og overskriften *«Stadig flere kjøper ski hos oss! Vi er snart like store som Snøswix.»* Kommenter.
-::diagram linje yl="Solgte par ski" h=200 ymin=160 ymax=175 ys=5
-kat: 2019 | 2020 | 2021
-Skibua og Skibytte: 164 | 167 | 170
+a) Kommenter framstillingen. Har «Snøswix» dekning for påstanden sin?
+>> Den loddrette aksen starter på 600, så søylen til Snøswix ser mer enn dobbelt så høy ut som søylene til de andre. Skibua og Skibytte har til sammen solgt $1000 + 900 = 1900$ par, mens Snøswix har solgt 1400. Påstanden stemmer ikke.
+Neste gang lokalavisa kom ut, hadde «Skibua» og «Skibytte» satt inn dette søylediagrammet med overskriften:
+
+*Stadig flere kjøper ski hos oss! Vi er snart like store som Snøswix.*
+::diagram soyle yl="Frekvens" h=220 ymin=0 ymax=1400 ys=200
+kat: Skibua | Snøswix | Skibytte
+Solgte ski: 1000 | 1400 | 900
 ::
->> Økningen er bare 6 par (3,7 %) på to år, men aksen fra 160 får den til å se stor ut. Siden de allerede selger mer enn Snøswix til sammen, er «snart like store» misvisende – men hver for seg er de langt mindre.
+b) Kommenter framstillingen. Har de dekning for påstanden sin?
+>> Nå starter aksen på 0, så diagrammet gir et riktig bilde av salget. Men diagrammet viser bare salget i én periode, og vi kan ikke se om «stadig flere» kjøper ski hos dem. Hver for seg selger de fortsatt klart mindre enn Snøswix. De har ikke dekning for påstanden.
 
 ## 4.214 @4.5
 Registrerte fiskere: 1990: 20 475, 2000: 14 264, 2010: 10 325, 2013: 9559, 2019: 9438.
@@ -331,10 +346,11 @@ c) Hvorfor kan vi ikke avgjøre hvor mange prosent som var minst 2 km?
 ## 4.216 @4.6
 Histogrammet viser alderen til lærerne ved en skole. Hvor mange lærere er det?
 ::diagram histogram xl="Alder (år)" yl="Lærere per år" hoyder h=220
-grenser: 25 | 30 | 40 | 50 | 60 | 70
-hoyder: 1,2 | 2,0 | 2,8 | 3,0 | 1,8
+grenser: 25 | 30 | 40 | 60 | 70
+hoyder: 0,6 | 2,9 | 2,5 | 2,0
 ::
 > 102 lærere
+!! Antall lærere i hver klasse er høyde · klassebredde: $0{,}6 \cdot 5 + 2{,}9 \cdot 10 + 2{,}5 \cdot 20 + 2{,}0 \cdot 10 = 3 + 29 + 50 + 20 = 102$.
 
 ## 4.217 @4.6
 Trafikktelling kl. 08–16:
