@@ -137,19 +137,23 @@ Isak spilte 10 kamper. Typetallet ble 0, medianen 1,5 og gjennomsnittet 1,9. For
 >> For eksempel 0, 0, 0, 1, 1, 2, 2, 3, 4, 6. Sjekk: typetall 0, median $\frac{1 + 2}{2} = 1{,}5$, sum 19 gir gjennomsnitt 1,9.
 
 ## 5.128 @5.2
-Ann Heidi har laget dette programmet:
+Ann Heidi har lagd dette programmet i Python.
 ```python
 from statistics import mean, median, mode
-tider = [8.9, 9.1, 8.7, 9.0, 9.3]
-print("Gjennomsnitt:", mean(tider))
-print("Median:", median(tider))
-print("Typetall:", mode(tider))
+
+terningkast = [1, 1, 1, 2, 3, 4, 4, 4, 4, 5, 6]
+
+print("Gjennomsnittet er", round(mean(terningkast), 2))
+print("Medianen er", median(terningkast))
+print("Typetallet er", mode(terningkast))
 ```
-a) Forklar hva programmet regner ut.
->> Gjennomsnitt, median og typetall for tidene i lista.
-b) Endre programmet slik at det regner ut gjennomsnitt og median for 8,6, 9,2, 8,8, 9,4, 8,3, 8,9, 9,7 og 9,1 s.
-> Gjennomsnitt 9,0 s, median 9,0 s
-!! Bytt ut lista og fjern linja med typetall (alle tidene er ulike).
+a) Forklar hva dette programmet regner ut.
+>> Programmet regner ut gjennomsnittet (avrundet til to desimaler), medianen og typetallet for terningkastene i lista. Utskriften blir: Gjennomsnittet er 3.18, Medianen er 4 og Typetallet er 4.
+b) Gjør endringer i programmet slik at det regner ut gjennomsnittstiden og medianen for åtte jenter som løp 60 m på disse tidene i sekunder:
+
+8,6   9,2   8,8   9,4   8,3   8,9   9,7   9,1
+> Gjennomsnittstid: 9,0 s, median: 9,0 s
+!! Bytt ut lista med `tider = [8.6, 9.2, 8.8, 9.4, 8.3, 8.9, 9.7, 9.1]`, og fjern linja med typetall (alle tidene er ulike).
 
 ## 5.129 @5.2
 Løs oppgave 5.124 i Python.
@@ -350,11 +354,21 @@ Boka oppgir 18 personer. Intervallet er fra $56 - 23{,}2 = 32{,}8$ til $56 + 23{
 ::
 
 ## 5.150 @5.5
-Julegavebudsjett: Ina 1500, Kim 1000, Ane 2000, Sara 500, Ismail 1000 og Tony 8000 kr.
-a) Hvorfor gir ikke gjennomsnittet et godt bilde?
->> Gjennomsnittet er 2333 kr, men fem av seks skal bruke mindre. Tony trekker gjennomsnittet opp.
-b) Gir medianen eller typetallet best bilde?
->> Medianen (1250 kr) gir best bilde. Typetallet (1000 kr) bygger på bare to svar.
+Skoleavisa intervjuet seks elever og spurte dem hvor mye de planla å bruke på julegaver. Her er svarene de fikk.
+
+| Elev | Julegavebudsjett |
+|---|---|
+| Ina | 1500 kr |
+| Kim | 1000 kr |
+| Ane | 2000 kr |
+| Sara | 500 kr |
+| Ismail | 1000 kr |
+| Tony | 8000 kr |
+
+a) Forklar hvorfor gjennomsnittsverdien ikke gir et godt bilde av elevenes julegavebudsjett.
+>> Gjennomsnittet er 2333 kr, men fem av seks elever skal bruke mindre enn dette. Tony trekker gjennomsnittet kraftig opp.
+b) Mener du medianen eller typetallet gir det beste bildet av elevenes julegavebudsjett? Begrunn svaret.
+>> Medianen (1250 kr) gir best bilde, fordi den ligger midt i datamaterialet og ikke påvirkes av Tonys høye budsjett. Typetallet (1000 kr) bygger på bare to svar.
 
 ## 5.151 @5.5
 a) Hva kjennetegner datasett der medianen passer best?

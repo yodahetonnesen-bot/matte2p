@@ -9,14 +9,19 @@ b) På leirskole var antallet samtaler ulikt alle sju dagene. De fem første dag
 !! Summen skal være $7 \cdot 5 = 35$. De fem første dagene gir 28, så de to siste gir 7. Tallene må være ulike og ikke 1, 3, 6, 7 eller 11: $2 + 5 = 7$ (eller $0 + 7$, men 7 er brukt).
 
 ## 5.201
-Noen elever ble spurt hvor mange dager de trener hver uke (figuren er tegnet på nytt med egne tall):
-::diagram soyle xl="Treningsdager per uke" yl="Elever" verdier h=220
-kat: 0 | 1 | 2 | 3 | 4 | 5 | 6
-Elever: 2 | 3 | 5 | 6 | 4 | 3 | 2
+Noen elever ble spurt om hvor mange dager de trener hver uke. Resultatet står i søylediagrammet.
+::diagram soyle xl="Antall dager" yl="Frekvens" h=220 ymin=0 ymax=10 ys=1
+kat: 1 | 2 | 3 | 4 | 5
+Elever: 3 | 7 | 6 | 8 | 2
 ::
-Hvilket alternativ er riktig? Medianen er 3, 4, 5 eller 6.
-> Medianen er 3
-!! $N = 25$, så medianen er nr. 13. De 10 første har 0–2 dager, nr. 11–16 har 3 dager.
+Hvilket alternativ er riktig?
+
+- Medianen er 3.
+- Medianen er 4.
+- Medianen er 5.
+- Medianen er 6.
+> Medianen er 3.
+!! Det er $3 + 7 + 6 + 8 + 2 = 26$ elever, så medianen er gjennomsnittet av observasjon nr. 13 og nr. 14. De 10 første trener 1 eller 2 dager, og nr. 11–16 trener 3 dager.
 
 ## 5.202
 Trine kastet terning 20 ganger: 4, 1, 6, 3, 4, 1, 6, 4, 5, 3, 3, 5, 4, 6, 1, 4, 3, 6, 1, 4.
@@ -166,17 +171,33 @@ f) Finn variasjonsbredden og standardavviket.
 > 5,6 kg og 1,60 kg
 
 ## 5.215
-Tida (s) ei stålkule brukte fra 2 m høyde:
+I et naturfagforsøk skulle 10 elever slippe ei stålkule fra 2 m høyde og måle tiden det tok før kula traff golvet. Resultatene står i tabellen.
 
 | Elev | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Tid (s) | 0,64 | 0,69 | 0,59 | 0,66 | 0,68 | 0,69 | 0,66 | 0,69 | 0,70 | 0,70 |
 
-a) Lag et regneark og finn gjennomsnittet og standardavviket.
-> 0,67 s og 0,03 s
-!! Kolonne A: tidene. `=GJENNOMSNITT(A2:A11)` og `=STDAV.P(A2:A11)`.
-b) Fem nye elever fikk gjennomsnittet 0,73 s. Hva blir gjennomsnittet for alle 15?
+a) Lag et regneark som vist nedenfor. Legg inn verdier i cellene i kolonne B (frekvens) og formler i cellene merket med ?. Bruk regnearket til å bestemme gjennomsnittet og standardavviket for måleresultatene.
+
+| | A | B | C | D |
+|---|---|---|---|---|
+| **1** | **Tid, x** | **Frekvens, f** | **f · x** | **f · (x − g)²** |
+| **2** | 0,59 | | ? | ? |
+| **3** | 0,64 | | ? | ? |
+| **4** | 0,66 | | ? | ? |
+| **5** | 0,68 | | ? | ? |
+| **6** | 0,69 | | ? | ? |
+| **7** | 0,70 | | ? | ? |
+| **8** | **Sum** | ? | ? | ? |
+| **9** | | | | |
+| **10** | **Gjennomsnitt** | ? | | |
+| **11** | **Standardavvik** | ? | | |
+
+> Gjennomsnitt: 0,67 s, standardavvik: 0,03 s
+!! Frekvensene er 1, 1, 2, 1, 3 og 2. I C2 skriver du `=A2*B2`, i D2 `=B2*(A2-$B$10)^2`, og kopierer nedover. I B10: `=C8/B8`. I B11: `=ROT(D8/B8)`.
+b) Etterpå gjorde 5 nye elever det samme forsøket. Gjennomsnittstida for disse elevene ble 0,73 s. Hva blir gjennomsnittstida dersom vi ser alle 15 forsøkene under ett?
 > 0,69 s
+!! $\frac{10 \cdot 0{,}67 + 5 \cdot 0{,}73}{15} = \frac{10{,}35}{15} = 0{,}69$
 
 ## 5.216
 Navn i toppboka de siste 15 ukene: 6, 8, 5, 10, 11, 18, 6, 6, 4, 1, 3, 4, 6, 6, 9. Lag et program i Python som regner ut gjennomsnittet, medianen, typetallet og standardavviket.
@@ -237,10 +258,10 @@ c) Hver pose veier 1 g mer enn i tabellen. Hvilke størrelser endrer seg, og hvo
 > Typetallet, medianen og gjennomsnittet øker med 1 g. Variasjonsbredden og standardavviket er uendret.
 
 ## 5.222
-Histogrammet viser handlebeløpet til 520 kunder (figuren er tegnet på nytt med tall som passer bokas fasit):
-::diagram histogram xl="Handlebeløp (kr)" yl="Kunder per krone" h=240
-grenser: 0 | 100 | 150 | 200 | 300 | 500 | 800
-frekvens: 80 | 80 | 40 | 120 | 115 | 85
+En butikkeier noterte en dag hvor mange kroner hver enkelt kunde handlet for. I alt var det 520 kunder i butikken denne dagen. Resultatet er vist i histogrammet.
+::diagram histogram xl="Beløp (kr)" yl="Frekvens/klassebredde" h=240
+grenser: 0 | 100 | 150 | 200 | 250 | 300 | 350 | 400 | 450 | 500 | 700
+frekvens: 40 | 30 | 40 | 80 | 95 | 75 | 60 | 50 | 20 | 30
 ::
 a) Forklar hvordan du vet at 40 kunder handlet for mellom 150 og 200 kr.
 > Arealet av søylen er frekvensen: $50 \cdot 0{,}8 = 40$.
@@ -276,13 +297,13 @@ e) Variasjonsbredden blir dobbelt så stor.
 !! Alle avstander mellom tallene dobles, og rekkefølgen er den samme. Derfor dobles alle sentral- og spredningsmålene.
 
 ## 5.225
-Diagrammet viser aldersfordelingen i en boligblokk (egne tall). Finn medianen grafisk.
-::diagram kumulativ xl="Alder (år)" yl="Relativ kumulativ frekvens" h=240
-grenser: 0 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90
-frekvens: 12 | 14 | 14 | 20 | 12 | 10 | 8 | 6 | 4
+Diagrammet viser aldersfordelingen i en boligblokk. Finn medianen grafisk.
+::diagram kumulativ xl="Alder" yl="Relativ kumulativ frekvens" h=260
+grenser: 0 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80
+frekvens: 18 | 22 | 35 | 44 | 29 | 26 | 23 | 3
 ::
 > 35 år
-!! Vi går ut fra 0,5 (50 %) på andreaksen, bort til kurven og ned: 35 år.
+!! Vi går ut fra 0,5 på andreaksen, bort til kurven og ned til førsteaksen. Der leser vi av ca. 35 år.
 
 ## 5.226
 | Ord per minutt | $[0, 50\rangle$ | $[50, 100\rangle$ | $[100, 130\rangle$ | $[130, 160\rangle$ | $[160, 200\rangle$ | $[200, 300\rangle$ |
