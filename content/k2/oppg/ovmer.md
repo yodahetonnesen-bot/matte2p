@@ -46,44 +46,28 @@ Tenk på et tall. Legg til 5. Trekk fra 2. Trekk fra tallet du tenkte på. Gang 
 
 ## 2.117 @2.1
 Flytt én fyrstikk slik at regnestykket blir riktig.
-::svg w=326 h=106 mw=326 cap="Fyrstikkoppgave: 5 + 7 = 2"
-<line x1="16.8" y1="12.0" x2="47.2" y2="12.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="47.2" cy="12.0" r="4.2" class="c2"/>
-<line x1="12.0" y1="16.8" x2="12.0" y2="47.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="12.0" cy="47.2" r="4.2" class="c2"/>
-<line x1="16.8" y1="52.0" x2="47.2" y2="52.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="47.2" cy="52.0" r="4.2" class="c2"/>
-<line x1="52.0" y1="56.8" x2="52.0" y2="87.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="52.0" cy="87.2" r="4.2" class="c2"/>
-<line x1="16.8" y1="92.0" x2="47.2" y2="92.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="47.2" cy="92.0" r="4.2" class="c2"/>
-<line x1="78.0" y1="52.0" x2="110.0" y2="52.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="110.0" cy="52.0" r="4.2" class="c2"/>
-<line x1="94.0" y1="36.0" x2="94.0" y2="68.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="94.0" cy="68.0" r="4.2" class="c2"/>
-<line x1="140.8" y1="12.0" x2="171.2" y2="12.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="171.2" cy="12.0" r="4.2" class="c2"/>
-<line x1="176.0" y1="16.8" x2="176.0" y2="47.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="176.0" cy="47.2" r="4.2" class="c2"/>
-<line x1="176.0" y1="56.8" x2="176.0" y2="87.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="176.0" cy="87.2" r="4.2" class="c2"/>
-<line x1="202.0" y1="44.0" x2="234.0" y2="44.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="234.0" cy="44.0" r="4.2" class="c2"/>
-<line x1="202.0" y1="60.0" x2="234.0" y2="60.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="234.0" cy="60.0" r="4.2" class="c2"/>
-<line x1="264.8" y1="12.0" x2="295.2" y2="12.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="295.2" cy="12.0" r="4.2" class="c2"/>
-<line x1="300.0" y1="16.8" x2="300.0" y2="47.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="300.0" cy="47.2" r="4.2" class="c2"/>
-<line x1="264.8" y1="52.0" x2="295.2" y2="52.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="295.2" cy="52.0" r="4.2" class="c2"/>
-<line x1="260.0" y1="56.8" x2="260.0" y2="87.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="260.0" cy="87.2" r="4.2" class="c2"/>
-<line x1="264.8" y1="92.0" x2="295.2" y2="92.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="295.2" cy="92.0" r="4.2" class="c2"/>
+::svg w=266 h=104 mw=266 cap="I − III = II"
+<line x1="12" y1="88" x2="12" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="12" cy="16" r="4.2" class="c2"/>
+<line x1="38" y1="52" x2="72" y2="52" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="72" cy="52" r="4.2" class="c2"/>
+<line x1="86" y1="88" x2="86" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="86" cy="16" r="4.2" class="c2"/>
+<line x1="112" y1="88" x2="112" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="112" cy="16" r="4.2" class="c2"/>
+<line x1="138" y1="88" x2="138" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="138" cy="16" r="4.2" class="c2"/>
+<line x1="164" y1="44" x2="198" y2="44" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="198" cy="44" r="4.2" class="c2"/>
+<line x1="164" y1="60" x2="198" y2="60" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="198" cy="60" r="4.2" class="c2"/>
+<line x1="212" y1="88" x2="212" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="212" cy="16" r="4.2" class="c2"/>
+<line x1="238" y1="88" x2="238" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="238" cy="16" r="4.2" class="c2"/>
 ::
->> $9 - 7 = 2$. Flytt den loddrette fyrstikka i plusstegnet over til femtallet, så blir 5 til 9 og + til −.
-::svg w=326 h=106 mw=326 cap="Løsning: 9 − 7 = 2"
-<line x1="16.8" y1="12.0" x2="47.2" y2="12.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="47.2" cy="12.0" r="4.2" class="c2"/>
-<line x1="52.0" y1="16.8" x2="52.0" y2="47.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="52.0" cy="47.2" r="4.2" class="c2"/>
-<line x1="52.0" y1="56.8" x2="52.0" y2="87.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="52.0" cy="87.2" r="4.2" class="c2"/>
-<line x1="16.8" y1="92.0" x2="47.2" y2="92.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="47.2" cy="92.0" r="4.2" class="c2"/>
-<line x1="12.0" y1="16.8" x2="12.0" y2="47.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="12.0" cy="47.2" r="4.2" class="c2"/>
-<line x1="16.8" y1="52.0" x2="47.2" y2="52.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="47.2" cy="52.0" r="4.2" class="c2"/>
-<line x1="78.0" y1="52.0" x2="110.0" y2="52.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="110.0" cy="52.0" r="4.2" class="c2"/>
-<line x1="140.8" y1="12.0" x2="171.2" y2="12.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="171.2" cy="12.0" r="4.2" class="c2"/>
-<line x1="176.0" y1="16.8" x2="176.0" y2="47.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="176.0" cy="47.2" r="4.2" class="c2"/>
-<line x1="176.0" y1="56.8" x2="176.0" y2="87.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="176.0" cy="87.2" r="4.2" class="c2"/>
-<line x1="202.0" y1="44.0" x2="234.0" y2="44.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="234.0" cy="44.0" r="4.2" class="c2"/>
-<line x1="202.0" y1="60.0" x2="234.0" y2="60.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="234.0" cy="60.0" r="4.2" class="c2"/>
-<line x1="264.8" y1="12.0" x2="295.2" y2="12.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="295.2" cy="12.0" r="4.2" class="c2"/>
-<line x1="300.0" y1="16.8" x2="300.0" y2="47.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="300.0" cy="47.2" r="4.2" class="c2"/>
-<line x1="264.8" y1="52.0" x2="295.2" y2="52.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="295.2" cy="52.0" r="4.2" class="c2"/>
-<line x1="260.0" y1="56.8" x2="260.0" y2="87.2" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="260.0" cy="87.2" r="4.2" class="c2"/>
-<line x1="264.8" y1="92.0" x2="295.2" y2="92.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="295.2" cy="92.0" r="4.2" class="c2"/>
+>> $\text{I} = \text{III} - \text{II}$. Vi flytter den ene fyrstikka fra likhetstegnet og legger den over minustegnet. Da blir minustegnet til et likhetstegn, og likhetstegnet til et minustegn.
+::svg w=266 h=104 mw=266 cap="Løsning: I = III − II"
+<line x1="12" y1="88" x2="12" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="12" cy="16" r="4.2" class="c2"/>
+<line x1="38" y1="44" x2="72" y2="44" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="72" cy="44" r="4.2" class="c2"/>
+<line x1="38" y1="60" x2="72" y2="60" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="72" cy="60" r="4.2" class="c2"/>
+<line x1="86" y1="88" x2="86" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="86" cy="16" r="4.2" class="c2"/>
+<line x1="112" y1="88" x2="112" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="112" cy="16" r="4.2" class="c2"/>
+<line x1="138" y1="88" x2="138" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="138" cy="16" r="4.2" class="c2"/>
+<line x1="164" y1="52" x2="198" y2="52" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="198" cy="52" r="4.2" class="c2"/>
+<line x1="212" y1="88" x2="212" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="212" cy="16" r="4.2" class="c2"/>
+<line x1="238" y1="88" x2="238" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="238" cy="16" r="4.2" class="c2"/>
 ::
 
 ## 2.118 @2.1
@@ -92,13 +76,14 @@ Hans Kristian bruker programmet under til å undersøke om $5x + 11 = 2x + 23$ h
 x = 4
 vs = 5*x + 11
 hs = 2*x + 23
+
 if vs == hs:
-    print("x =", x, "er en løsning")
+    print("Du har riktig løsning på likningen.")
 else:
-    print("x =", x, "er ikke en løsning")
+    print("Løsningen stemmer ikke. Prøv på nytt.")
 ```
 a) Forklar hvordan programmet virker, og kjør det.
->> Programmet setter prøve: det regner ut venstre og høyre side for $x = 4$ og sjekker om de er like. Begge blir 31, så $x = 4$ er en løsning.
+>> Programmet setter prøve: det regner ut venstre side (`vs`) og høyre side (`hs`) for $x = 4$ og sjekker om de er like. Begge blir 31, så programmet skriver «Du har riktig løsning på likningen.»
 b) Lag tilsvarende program for å undersøke om $3x + 2 = x + 9$ har løsningen $x = 3$, om $6x + 7 = 3x + 22$ har løsningen $x = 4$, og om $10x + 4x + 7 = 70$ har løsningen $x = 4{,}5$.
 >> Bytt ut `x`, `vs` og `hs`. Resultat: $x = 3$ er ikke en løsning (11 og 12), $x = 4$ er ikke en løsning (31 og 34), $x = 4{,}5$ er en løsning (70 og 70).
 
@@ -199,12 +184,13 @@ a) Forklar at løsningen kan skrives $x = -\frac{b}{a}$.
 >> Trekk fra $b$: $ax = -b$. Del på $a$ (når $a \ne 0$): $x = -\frac{b}{a}$.
 b) Forklar hva programmet gjør.
 ```python
-a = float(input("a = "))
-b = float(input("b = "))
-x = -b / a
-print("Løsningen er x =", x)
+a = 3
+b = 9
+x = -b/a
+
+print("x =", x)
 ```
->> Programmet leser inn $a$ og $b$ og skriver ut løsningen $x = -\frac{b}{a}$.
+>> Programmet lagrer $a = 3$ og $b = 9$, regner ut $x = -\frac{b}{a}$ og skriver ut løsningen av $3x + 9 = 0$, altså «x = -3.0». For å løse andre likninger bytter vi ut tallene i linje 1 og 2.
 c) Bruk programmet til å løse $2x + 4 = 0$, $5x - 2 = 0$, $3x = 2$ og $6x + 2 = 2x - 9$. Ordne likningene på formen $ax + b = 0$ først.
 >> $x = -2$, $x = 0{,}4$, $x = \frac23 \approx 0{,}667$ ($3x - 2 = 0$) og $x = -\frac{11}{4} = -2{,}75$ ($4x + 11 = 0$).
 
@@ -497,15 +483,15 @@ Beholder 1 har 20 L og fylles med 8 L per minutt. Beholder 2 har 50 L og fylles 
 ## 2.168 @2.6
 Henriette har laget et program som løser ulikheten $3x - 5 < 0$.
 ```python
-a = 3
-b = -5
-grense = -b / a
-if a > 0:
-    print("x <", grense)
-else:
-    print("x >", grense)
+x = -10
+
+while 3*x - 5 < 0:
+    x = x + 0.001
+
+print("x <", round(x,2))
 ```
 a) Forklar hvordan programmet fungerer.
->> Ulikheten $ax + b < 0$ gir $ax < -b$. Programmet regner ut grensen $-\frac{b}{a}$. Er $a$ positiv, blir svaret $x < -\frac{b}{a}$. Er $a$ negativ, må tegnet snus, og svaret blir $x > -\frac{b}{a}$. Her skrives $x < 1{,}67$ ut.
-b) Endre programmet slik at det løser $6x + 2 < 2x - 1$.
->> Ordne ulikheten: $4x + 3 < 0$. Sett `a = 4` og `b = 3`. Programmet skriver ut $x < -0{,}75$.
+>> Programmet starter med $x = -10$, der $3x - 5 < 0$ er sann. Løkka øker $x$ med 0,001 så lenge ulikheten er sann. Når løkka stopper, er $x$ omtrent ved grensen der $3x - 5 = 0$. Programmet skriver ut «x < 1.67», altså $x < \frac53$.
+b) Gjør endringer i programmet for å løse ulikheten $6x + 2 < 2x - 1$.
+>> Bytt betingelsen til `while 6*x + 2 < 2*x - 1:`. Programmet skriver da ut «x < -0.75».
+

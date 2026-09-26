@@ -16,18 +16,62 @@ Er det noe mønster i hvordan de er bygd opp? Løs dem og sammenlikn svarene.
 
 ## 2.302 @2.3
 Figuren viser noen måter fire frimerker kan henge sammen på (hvert frimerke henger fast i minst ett annet langs en hel side). Finn ut hvor mange forskjellige måter fire frimerker kan henge sammen på.
-::svg w=420 h=60 mw=420 cap="Fem av måtene fire frimerker kan henge sammen på."
-<rect class="f1 s1" x="10" y="10" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="32" y="10" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="54" y="10" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="76" y="10" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="110" y="10" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="132" y="10" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="110" y="32" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="132" y="32" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="180" y="10" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="180" y="32" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="202" y="32" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="224" y="32" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="282" y="10" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="260" y="32" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="282" y="32" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="304" y="32" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="340" y="10" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="362" y="10" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="362" y="32" width="20" height="20" rx="2" style="stroke-width:1.5"/><rect class="f1 s1" x="384" y="32" width="20" height="20" rx="2" style="stroke-width:1.5"/>
+::svg w=230 h=200 mw=240 cap="Fire av måtene fire frimerker kan henge sammen på."
+<rect class="f1 s1" x="10" y="10" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="40" y="10" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="10" y="40" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="40" y="40" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="100" y="10" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="130" y="10" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="160" y="10" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="190" y="10" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="10" y="100" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="10" y="130" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="40" y="130" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="70" y="130" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="130" y="100" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="130" y="130" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="130" y="160" width="28" height="28" rx="2" style="stroke-width:1.5"/>
+<rect class="f1 s1" x="160" y="160" width="28" height="28" rx="2" style="stroke-width:1.5"/>
 ::
 > 19 måter
 
 ## 2.303 @2.5
-Pakkene A, B og C henger på to balansestenger. Over hver stang står det hvor mange kilogram det henger på hver side. Hvor mye veier hver pakke?
-::svg w=420 h=100 mw=420 cap="To balansestenger. Loddene merket 14 og 4 veier 14 kg og 4 kg."
-<line class="ln" x1="10" y1="40" x2="190" y2="40"/><line class="ln2" x1="100" y1="8" x2="100" y2="40"/><polygon class="ink" points="94,40 106,40 100,34"/><text x="40" y="30" text-anchor="middle">21 kg</text><text x="160" y="30" text-anchor="middle">21 kg</text><line class="ln2" x1="30" y1="40" x2="30" y2="60"/><rect class="f1 s1" x="14" y="60" width="32" height="28" rx="3" style="stroke-width:1.5"/><text x="30" y="79" text-anchor="middle">A</text><line class="ln2" x1="68" y1="40" x2="68" y2="60"/><rect class="f1 s1" x="52" y="60" width="32" height="28" rx="3" style="stroke-width:1.5"/><text x="68" y="79" text-anchor="middle">B</text><line class="ln2" x1="130" y1="40" x2="130" y2="60"/><rect class="f1 s1" x="114" y="60" width="32" height="28" rx="3" style="stroke-width:1.5"/><text x="130" y="79" text-anchor="middle">C</text><line class="ln2" x1="168" y1="40" x2="168" y2="60"/><rect class="f3 s3" x="152" y="60" width="32" height="28" rx="3" style="stroke-width:1.5"/><text x="168" y="79" text-anchor="middle">14</text><line class="ln" x1="230" y1="40" x2="410" y2="40"/><line class="ln2" x1="320" y1="8" x2="320" y2="40"/><polygon class="ink" points="314,40 326,40 320,34"/><text x="260" y="30" text-anchor="middle">16 kg</text><text x="380" y="30" text-anchor="middle">16 kg</text><line class="ln2" x1="250" y1="40" x2="250" y2="60"/><rect class="f1 s1" x="234" y="60" width="32" height="28" rx="3" style="stroke-width:1.5"/><text x="250" y="79" text-anchor="middle">A</text><line class="ln2" x1="288" y1="40" x2="288" y2="60"/><rect class="f1 s1" x="272" y="60" width="32" height="28" rx="3" style="stroke-width:1.5"/><text x="288" y="79" text-anchor="middle">C</text><line class="ln2" x1="350" y1="40" x2="350" y2="60"/><rect class="f1 s1" x="334" y="60" width="32" height="28" rx="3" style="stroke-width:1.5"/><text x="350" y="79" text-anchor="middle">B</text><line class="ln2" x1="388" y1="40" x2="388" y2="60"/><rect class="f3 s3" x="372" y="60" width="32" height="28" rx="3" style="stroke-width:1.5"/><text x="388" y="79" text-anchor="middle">4</text>
+Pakkene A, B og C henger på to balansestenger. Over hver stang står det hvor mange kilogram det henger på hver side av stanga. Hvor mye veier hver pakke?
+::svg w=340 h=230 mw=340 cap="To balansestenger med pakkene A, B og C."
+<circle cx="80" cy="22" r="14" style="fill:var(--plot-bg);stroke:var(--plot-ink);stroke-width:1.2"/><text x="80" y="27" text-anchor="middle" style="font-weight:600">58</text>
+<line class="ln" x1="15" y1="44" x2="145" y2="44"/>
+<line class="ln2" x1="80" y1="36" x2="80" y2="44"/>
+<line class="ln2" x1="28" y1="44" x2="28" y2="194"/>
+<rect x="12" y="52" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="12" y="52" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="28" y="67" text-anchor="middle">A</text>
+<rect x="12" y="76" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="12" y="76" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="28" y="91" text-anchor="middle">A</text>
+<rect x="12" y="100" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="12" y="100" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="28" y="115" text-anchor="middle">A</text>
+<rect x="12" y="124" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="12" y="124" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="28" y="139" text-anchor="middle">B</text>
+<rect x="12" y="148" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="12" y="148" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="28" y="163" text-anchor="middle">B</text>
+<rect x="12" y="172" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="12" y="172" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="28" y="187" text-anchor="middle">C</text>
+<line class="ln2" x1="132" y1="44" x2="132" y2="218"/>
+<rect x="116" y="52" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="116" y="52" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="132" y="67" text-anchor="middle">A</text>
+<rect x="116" y="76" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="116" y="76" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="132" y="91" text-anchor="middle">A</text>
+<rect x="116" y="100" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="116" y="100" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="132" y="115" text-anchor="middle">B</text>
+<rect x="116" y="124" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="116" y="124" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="132" y="139" text-anchor="middle">C</text>
+<rect x="116" y="148" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="116" y="148" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="132" y="163" text-anchor="middle">C</text>
+<rect x="116" y="172" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="116" y="172" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="132" y="187" text-anchor="middle">C</text>
+<rect x="116" y="196" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="116" y="196" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="132" y="211" text-anchor="middle">C</text>
+<circle cx="260" cy="22" r="14" style="fill:var(--plot-bg);stroke:var(--plot-ink);stroke-width:1.2"/><text x="260" y="27" text-anchor="middle" style="font-weight:600">28</text>
+<line class="ln" x1="195" y1="44" x2="325" y2="44"/>
+<line class="ln2" x1="260" y1="36" x2="260" y2="44"/>
+<line class="ln2" x1="208" y1="44" x2="208" y2="122"/>
+<rect x="192" y="52" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="192" y="52" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="208" y="67" text-anchor="middle">A</text>
+<rect x="192" y="76" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="192" y="76" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="208" y="91" text-anchor="middle">B</text>
+<rect x="192" y="100" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="192" y="100" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="208" y="115" text-anchor="middle">C</text>
+<line class="ln2" x1="312" y1="44" x2="312" y2="146"/>
+<rect x="296" y="52" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="296" y="52" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="312" y="67" text-anchor="middle">C</text>
+<rect x="296" y="76" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="296" y="76" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="312" y="91" text-anchor="middle">C</text>
+<rect x="296" y="100" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="296" y="100" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="312" y="115" text-anchor="middle">C</text>
+<rect x="296" y="124" width="32" height="20" rx="2" style="fill:var(--plot-bg)"/><rect class="f4" x="296" y="124" width="32" height="20" rx="2" style="stroke:var(--plot-ink);stroke-width:1"/><text x="312" y="139" text-anchor="middle">C</text>
 ::
 > A = 9 kg, B = 12 kg, C = 7 kg
-!! Stang 1: $C + 14 = 21$, så $C = 7$, og $A + B = 21$. Stang 2: $A + C = 16$, så $A = 9$ og $B = 12$. Kontroll: $B + 4 = 16$.
+!! Stang 2: $4C = 28$ gir $C = 7$, og $A + B + C = 28$ gir $A + B = 21$. Stang 1: $3A + 2B + C = 58$ gir $3A + 2B = 51$. Med $B = 21 - A$ får vi $3A + 42 - 2A = 51$, altså $A = 9$ og $B = 12$. Kontroll på høyre side av stang 1: $2\cdot 9 + 12 + 4\cdot 7 = 58$.
 
 ## 2.304 @2.2
 Tre elever har løst likningen $\frac14 x - \frac23 = \frac{1}{12}(x - 4)$.
@@ -53,10 +97,20 @@ Sofia bruker ett minutt på en strekning når rullebåndet står stille. Når b�
 !! Hun går strekningen $s$ med farten $\frac{s}{1}$ per minutt, og båndet har farten $\frac{s}{2}$ per minutt. Sammen: $\frac{3s}{2}$ per minutt, så tida blir $\frac{2}{3}$ min = 40 s.
 
 ## 2.307 @2.3
-Oppgaven i boka er et bilde som ikke kan gjengis her. Her er en oppgave i samme ånd:
+Fem ungdommer snakker sammen:
 
-*Tre søsken er til sammen 45 år. Den eldste er dobbelt så gammel som den yngste, og den mellomste er 3 år eldre enn den yngste. Hvor gamle er de? Hvor mange år går det før summen av alderen deres er 60?*
->> Yngste $x$: $x + (x + 3) + 2x = 45$ gir $x = 10{,}5$ – ikke et helt tall! Hvis den mellomste er 5 år eldre, får vi $4x + 5 = 45$ og $x = 10$: 10, 15 og 20 år. Summen øker med 3 hvert år, så det tar $\frac{60 - 45}{3} = 5$ år.
+- **Aleksander:** Jeg er yngst.
+- **Dorthea:** Jeg er eldst.
+- **Ayda:** Dorthea er 6 år eldre enn Aleksander.
+- **Maiken:** Ingen av oss fem er like gamle.
+- **Anders:** Til sammen er vi 87 år. Hvor gamle kan hver av oss være?
+
+>> Kall alderen til Aleksander $x$. Da er Dorthea $x + 6$. De tre andre er eldre enn $x$, yngre enn $x + 6$ og alle ulike, så de er $x + 1$ til $x + 5$. Summen blir mellom $5x + 6 + 6 = 5x + 12$ og $5x + 6 + 12 = 5x + 18$. Den skal være 87, så $5x + 12 \le 87 \le 5x + 18$, som gir $x = 14$ eller $x = 15$.
+>>
+>> - $x = 15$: Aleksander 15 og Dorthea 21. De tre andre har sum $87 - 36 = 51$ med ulike aldre fra 16 til 20. Det går bare med 16, 17 og 18.
+>> - $x = 14$: Aleksander 14 og Dorthea 20. De tre andre har sum $87 - 34 = 53$ med ulike aldre fra 15 til 19. Det går bare med 16, 18 og 19.
+>>
+>> Det er altså to løsninger: 14, 16, 18, 19 og 20 år, eller 15, 16, 17, 18 og 21 år. Vi vet ikke hvem av Ayda, Maiken og Anders som har hvilken alder.
 
 ## 2.308 @2.3
 En klasse på 20 elever får numrene 1–20 og skal deles i 6 grupper. Gruppene trenger ikke være like store, men summen av numrene skal være lik i alle gruppene. Hvilke numre kan være på samme gruppe? Er det flere løsninger?

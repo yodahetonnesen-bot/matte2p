@@ -1,31 +1,33 @@
 # blandet
 
 ## 2.200 @2.1
-Flytt én fyrstikk slik at regnestykket blir riktig. V er romertallet for 5.
-::svg w=304 h=106 mw=304 cap="Fyrstikkoppgave med romertall: VI + I = V"
-<line x1="12.0" y1="16.0" x2="30.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="30.0" cy="88.0" r="4.2" class="c2"/>
-<line x1="48.0" y1="16.0" x2="30.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="30.0" cy="88.0" r="4.2" class="c2"/>
-<line x1="74.0" y1="16.0" x2="74.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="74.0" cy="88.0" r="4.2" class="c2"/>
-<line x1="100.0" y1="52.0" x2="132.0" y2="52.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="132.0" cy="52.0" r="4.2" class="c2"/>
-<line x1="116.0" y1="36.0" x2="116.0" y2="68.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="116.0" cy="68.0" r="4.2" class="c2"/>
-<line x1="158.0" y1="16.0" x2="158.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="158.0" cy="88.0" r="4.2" class="c2"/>
-<line x1="184.0" y1="44.0" x2="216.0" y2="44.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="216.0" cy="44.0" r="4.2" class="c2"/>
-<line x1="184.0" y1="60.0" x2="216.0" y2="60.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="216.0" cy="60.0" r="4.2" class="c2"/>
-<line x1="242.0" y1="16.0" x2="260.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="260.0" cy="88.0" r="4.2" class="c2"/>
-<line x1="278.0" y1="16.0" x2="260.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="260.0" cy="88.0" r="4.2" class="c2"/>
+Flytt én fyrstikk slik at regnestykket blir riktig. V er romertall for 5.
+::svg w=316 h=104 mw=316 cap="III − II = VI"
+<line x1="12" y1="88" x2="12" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="12" cy="16" r="4.2" class="c2"/>
+<line x1="38" y1="88" x2="38" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="38" cy="16" r="4.2" class="c2"/>
+<line x1="64" y1="88" x2="64" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="64" cy="16" r="4.2" class="c2"/>
+<line x1="90" y1="52" x2="124" y2="52" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="124" cy="52" r="4.2" class="c2"/>
+<line x1="138" y1="88" x2="138" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="138" cy="16" r="4.2" class="c2"/>
+<line x1="164" y1="88" x2="164" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="164" cy="16" r="4.2" class="c2"/>
+<line x1="190" y1="44" x2="224" y2="44" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="224" cy="44" r="4.2" class="c2"/>
+<line x1="190" y1="60" x2="224" y2="60" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="224" cy="60" r="4.2" class="c2"/>
+<line x1="256" y1="88" x2="238" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="238" cy="16" r="4.2" class="c2"/>
+<line x1="256" y1="88" x2="274" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="274" cy="16" r="4.2" class="c2"/>
+<line x1="288" y1="88" x2="288" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="288" cy="16" r="4.2" class="c2"/>
 ::
->> $\text{V} + \text{I} = \text{VI}$. Flytt fyrstikka «I» fra VI på venstre side over til V på høyre side.
-::svg w=304 h=106 mw=304 cap="Løsning: V + I = VI"
-<line x1="12.0" y1="16.0" x2="30.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="30.0" cy="88.0" r="4.2" class="c2"/>
-<line x1="48.0" y1="16.0" x2="30.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="30.0" cy="88.0" r="4.2" class="c2"/>
-<line x1="74.0" y1="52.0" x2="106.0" y2="52.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="106.0" cy="52.0" r="4.2" class="c2"/>
-<line x1="90.0" y1="36.0" x2="90.0" y2="68.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="90.0" cy="68.0" r="4.2" class="c2"/>
-<line x1="132.0" y1="16.0" x2="132.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="132.0" cy="88.0" r="4.2" class="c2"/>
-<line x1="158.0" y1="44.0" x2="190.0" y2="44.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="190.0" cy="44.0" r="4.2" class="c2"/>
-<line x1="158.0" y1="60.0" x2="190.0" y2="60.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="190.0" cy="60.0" r="4.2" class="c2"/>
-<line x1="216.0" y1="16.0" x2="234.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="234.0" cy="88.0" r="4.2" class="c2"/>
-<line x1="252.0" y1="16.0" x2="234.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="234.0" cy="88.0" r="4.2" class="c2"/>
-<line x1="278.0" y1="16.0" x2="278.0" y2="88.0" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="278.0" cy="88.0" r="4.2" class="c2"/>
+>> $\text{III} + \text{II} = \text{V}$. Vi flytter fyrstikka «I» fra VI og legger den loddrett over minustegnet, så det blir et plusstegn.
+::svg w=290 h=104 mw=290 cap="Løsning: III + II = V"
+<line x1="12" y1="88" x2="12" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="12" cy="16" r="4.2" class="c2"/>
+<line x1="38" y1="88" x2="38" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="38" cy="16" r="4.2" class="c2"/>
+<line x1="64" y1="88" x2="64" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="64" cy="16" r="4.2" class="c2"/>
+<line x1="90" y1="52" x2="124" y2="52" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="124" cy="52" r="4.2" class="c2"/>
+<line x1="107" y1="72" x2="107" y2="32" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="107" cy="32" r="4.2" class="c2"/>
+<line x1="138" y1="88" x2="138" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="138" cy="16" r="4.2" class="c2"/>
+<line x1="164" y1="88" x2="164" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="164" cy="16" r="4.2" class="c2"/>
+<line x1="190" y1="44" x2="224" y2="44" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="224" cy="44" r="4.2" class="c2"/>
+<line x1="190" y1="60" x2="224" y2="60" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="224" cy="60" r="4.2" class="c2"/>
+<line x1="256" y1="88" x2="238" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="238" cy="16" r="4.2" class="c2"/>
+<line x1="256" y1="88" x2="274" y2="16" class="s3" style="stroke-width:6;stroke-linecap:round"/><circle cx="274" cy="16" r="4.2" class="c2"/>
 ::
 
 ## 2.201 @2.2
@@ -128,7 +130,7 @@ Slangetrommel med 25 m slange koster 1499 kr, og med 35 m slange 1999 kr. Sett o
 
 ## 2.217 @2.5
 Figuren viser antall sykkelpasseringer ved Eventyrbrua i Oslo 1. og 2. juli 2020. Tallene på søylene er borte.
-::diagram soyle yl="Passeringer" h=220 mw=360 ymax=5000 ys=1000
+::diagram soyle yl="Passeringer" h=220 mw=360 ymax=6000 ys=1000
 kat: 1. juli | 2. juli
 Passeringer: 4669 | 4570
 ::
@@ -204,14 +206,18 @@ b) Når er kakaoen varmere enn kaffen?
 ## 2.227 @2.6
 I en skog er det 15 ulver, og antallet øker med 5 % hvert år.
 ```python
-ulver = 15
-ar = 0
-while ar < 10:
-    ulver = ulver * 1.05
-    ar = ar + 1
-print(round(ulver))
+antall = 15
+k = 1.05
+år = 0
+
+while antall < 20:
+    år = år + 1
+    antall = antall * k
+
+print("Det tar", år, "år.")
 ```
 a) Forklar hva programmet gjør.
->> Det regner ut antall ulver år for år i 10 år og skriver ut svaret, ca. 24 ulver.
-b) Endre programmet slik at det finner hvor lang tid det tar før det er minst 50 ulver.
->> Bytt betingelsen til `while ulver < 50:` og skriv ut `ar`. Programmet gir 25 år.
+>> Programmet starter med 15 ulver og vekstfaktoren 1,05. Så lenge det er færre enn 20 ulver, legger det til ett år og ganger antallet med 1,05. Programmet finner altså hvor mange år det tar før det er minst 20 ulver, og skriver ut «Det tar 6 år.»
+b) Gjør nødvendige endringer i programmet for å finne ut hvor lang tid det tar før det er minst 50 ulver i skogen.
+>> Bytt ut 20 med 50 i linje 5: `while antall < 50:`. Programmet skriver da ut «Det tar 25 år.»
+
