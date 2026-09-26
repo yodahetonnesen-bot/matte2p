@@ -62,13 +62,13 @@ b) Hvor mange prosent har prisen steget?
 > 71,8 %
 
 ## 3.116 @3.1
-Figuren viser prisindeksen for blokkleiligheter i fire byer (omtrentlige verdier, 2015 = 100). I 2010 kjøpte Ole leilighet i Oslo, Silje i Stavanger, Beate i Bergen og Trond i Trondheim. Alle solgte i 2020.
+Figuren viser prisindeksen for blokkleiligheter i fire byer (verdiene er lest av diagrammet i boka, 2015 = 100). I 2010 kjøpte Ole leilighet i Oslo, Silje i Stavanger, Beate i Bergen og Trond i Trondheim. Alle solgte i 2020.
 ::diagram linje yl="Indeks" h=280 ymin=50 ymax=140 ys=10
 kat: 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020
-Oslo og Bærum: 60 | 66 | 72 | 77 | 82 | 100 | 112 | 121 | 118 | 122 | 126
-Stavanger: 86 | 94 | 101 | 106 | 104 | 100 | 94 | 92 | 92 | 93 | 97
-Bergen: 70 | 77 | 84 | 88 | 91 | 100 | 104 | 108 | 111 | 114 | 118
-Trondheim: 68 | 75 | 81 | 86 | 91 | 100 | 105 | 107 | 107 | 109 | 112
+Oslo med Bærum: 70 | 77 | 85 | 88 | 90 | 100 | 118 | 125 | 125 | 130 | 137
+Stavanger: 88 | 98 | 107 | 108 | 107 | 100 | 96 | 100 | 100 | 99 | 101
+Bergen: 73 | 79 | 85 | 91 | 94 | 100 | 101 | 104 | 104 | 106 | 110
+Trondheim: 73 | 81 | 89 | 94 | 96 | 100 | 106 | 110 | 109 | 110 | 113
 ::
 a) Hvem hadde størst fortjeneste i prosent?
 > Ole
@@ -77,14 +77,14 @@ b) Hvem hadde minst fortjeneste i prosent?
 c) Hvem hadde størst fortjeneste i kroner?
 > Umulig å svare på
 d) Sammenlikn prisutviklingen i byene fra 2010 til 2012.
-> Omtrent lik prisutvikling i de fire byene (ca. 18–20 % økning)
+> Omtrent lik prisutvikling i de fire byene (ca. 16–22 % økning)
 ?? Indeksen forteller ikke hva leilighetene kostet.
 
 ## 3.117 @3.1
 Figuren viser prisindeksen for brukte boliger (omtrentlige verdier).
-::diagram linje yl="Indeks" h=260 ymin=70 ymax=125 ys=5
+::diagram linje yl="Indeks" h=260 ymin=70 ymax=125 ys=10
 kat: 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020
-Brukte boliger: 78,6 | 84 | 89 | 93 | 95 | 100 | 107 | 112 | 113 | 116 | 118,7
+Brukte boliger: 78,6 | 84 | 89 | 92,5 | 95 | 100 | 105,5 | 110 | 112 | 115 | 118,7
 ::
 a) Hvilket år er basisåret?
 > 2015
@@ -153,14 +153,14 @@ c) Hva forteller resultatet om utgiftene nå sammenliknet med 2000?
 >> Klær og sko koster nesten halvparten av det de gjorde i 2000, selv om alt annet er blitt dyrere.
 
 ## 3.125 @3.2
-Figuren viser indeksen for tre varegrupper måned for måned i 2019 (omtrentlige verdier, 2015 = 100). Kommenter utviklingen.
-::diagram linje yl="Indeks" h=260 ymin=80 ymax=140 ys=10
-kat: jan | feb | mar | apr | mai | jun | jul | aug | sep | okt | nov | des
-Elektrisitet: 131 | 127 | 121 | 118 | 112 | 108 | 111 | 114 | 116 | 120 | 125 | 124
-Klær og sko: 96 | 99 | 104 | 105 | 104 | 101 | 94 | 97 | 104 | 105 | 103 | 99
-Frukt og grønt: 104 | 105 | 106 | 106 | 107 | 108 | 104 | 101 | 102 | 103 | 104 | 105
+Figuren viser indeksen for tre varegrupper måned for måned i 2019 (verdiene er lest av diagrammet i boka, 2015 = 100). Kommenter utviklingen.
+::diagram linje yl="Indeks" xl="Måned 2019" h=280 ymin=90 ymax=112 ys=2
+kat: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12
+Matvarer og alkoholfrie drikkevarer: 104,8 | 107,6 | 106,6 | 105,8 | 105,0 | 105,7 | 110,1 | 107,6 | 107,0 | 105,8 | 105,9 | 103,9
+Alkoholholdige drikkevarer og tobakk: 109,2 | 110,8 | 110,6 | 110,5 | 110,5 | 110,6 | 111,0 | 110,9 | 110,9 | 110,9 | 110,9 | 110,8
+Klær og skotøy: 93,4 | 97,4 | 103,0 | 102,6 | 104,3 | 103,0 | 97,2 | 97,9 | 104,8 | 106,1 | 106,5 | 106,0
 ::
->> Strømprisen varierer med årstida: den er høyest om vinteren og lavest om sommeren. Klær og sko er billigst i januar og juli (salg) og dyrest når nye kolleksjoner kommer vår og høst. Frukt og grønt er ganske stabilt, men er billigst på sensommeren når norske varer er i sesong.
+>> Klær og skotøy svinger mest. Indeksen er lavest i januar og i juli–august, når det er salg, og høyest om våren og høsten, når nye kolleksjoner kommer. Alkohol og tobakk er nesten helt stabil hele året (rundt 110–111). Matvarer svinger litt, med en topp i juli og en nedgang mot slutten av året.
 
 ## 3.130 @3.3
 a) Forklar hva vi legger i begrepet kroneverdi.
@@ -291,21 +291,31 @@ c) Hvor mye tjente hun?
 > 4832 kr
 
 ## 3.146 @3.4
-Lag et regneark som regner ut lønna for ordinært arbeid, overtid (50 % tillegg), bruttolønn, skattetrekk og nettolønn for tre ansatte i mars. Bruk tallene under.
+I regnearket nedenfor har vi lagt inn timelønn, skatteprosent og tallet på timer som Arne, Anna og Astrid arbeidet i mars.
 
-| | Timelønn | Skatt | Ordinære timer | Overtidstimer |
+| | A | B | C | D |
 |---|---|---|---|---|
-| Arne | 190 kr | 30 % | 150 | 10 |
-| Anna | 210 kr | 32 % | 160 | 6 |
-| Astrid | 175 kr | 28 % | 120 | 0 |
->> | | Ordinær lønn | Overtid | Brutto | Skatt | Netto |
->> |---|---|---|---|---|---|
->> | Arne | 28 500 | 2850 | 31 350 | 9405 | 21 945 |
->> | Anna | 33 600 | 1890 | 35 490 | 11 356 | 24 134 |
->> | Astrid | 21 000 | 0 | 21 000 | 5880 | 15 120 |
+| **1** | | Arne | Anna | Astrid |
+| **2** | Antall timer med ordinær lønn | 20 | 22 | 15 |
+| **3** | Antall timer med 25 % overtid | 3 | 5 | 4 |
+| **4** | Ordinær timelønn | 120,00 kr | 120,00 kr | 130,00 kr |
+| **5** | Lønn for ordinært arbeid | | | |
+| **6** | Lønn for overtidsarbeid | | | |
+| **7** | Bruttolønn | | | |
+| **8** | Skattetrekk av bruttolønn (prosent) | 12 % | 20 % | 10 % |
+| **9** | Skattetrekk (kroner) | | | |
+| **10** | Nettolønn mars | | | |
+
+Lag et tilsvarende regneark. Sett inn formler i radene 5–7 (blå celler) slik at du kan regne ut lønna for ordinært arbeid, lønna for overtidsarbeid og bruttolønna. Sett inn formler i radene 9–10 (grønne celler) slik at du kan regne ut skattetrekket og nettolønna for mars.
+>> | | Arne | Anna | Astrid |
+>> |---|---|---|---|
+>> | Lønn for ordinært arbeid | 2400,00 | 2640,00 | 1950,00 |
+>> | Lønn for overtidsarbeid | 450,00 | 750,00 | 650,00 |
+>> | Bruttolønn | 2850,00 | 3390,00 | 2600,00 |
+>> | Skattetrekk (kroner) | 342,00 | 678,00 | 260,00 |
+>> | Nettolønn mars | 2508,00 | 2712,00 | 2340,00 |
 >>
->> Formler (Arne i rad 2): `=B2*D2`, `=B2*1,5*E2`, `=F2+G2`, `=AVRUND.NED(H2*C2;0)`, `=H2-I2`.
-!! Tallene i tabellen er laget for denne siden, fordi regnearket i boka er et bilde.
+>> Formler for Arne (kolonne B): `B5 = B2*B4`, `B6 = B3*B4*1,25`, `B7 = B5+B6`, `B9 = B7*B8` og `B10 = B7-B9`. Kopier formlene bortover til C og D.
 
 ## 3.150 @3.5
 Yngve fikk 20 000 kr da han fylte 10 år og fikk 1,2 % rente. Hvor mye hadde han på 16-årsdagen?
@@ -418,10 +428,42 @@ d) Renter tredje år?
 > 1790 kr
 
 ## 3.163 @3.6
-Maida vurderer et lån på 100 000 kr over fem år med 3,7 % rente.
-a) Lag en nedbetalingsplan for et annuitetslån med terminbeløp 22 274 kr. Hvor mye betaler hun til sammen?
+Maida skal kjøpe ny bil og vurderer et lån på 100 000 kr over fem år med 3,7 % rente per år.
+Maida vurderer et annuitetslån på 100 000 kr over fem år med én termin i året. Terminbeløpet er 22 274 kr.
+
+| | A | B | C | D |
+|---|---|---|---|---|
+| **1** | Lånebeløp | | | |
+| **2** | Antall terminer | | | |
+| **3** | | | | |
+| **4** | Terminbeløp | | | |
+| **5** | Rente | | | |
+| **6** | | | | |
+| **7** | År | Restlån | Renter | Avdrag |
+| **8** | 1 | | | |
+| **9** | 2 | | | |
+| **10** | 3 | | | |
+| **11** | 4 | | | |
+| **12** | 5 | | | |
+
+a) Sett opp nedbetalingsplanen i et regneark. Legg inn tall i B1, B2, B4 og B5 (grønne celler) og formler i B8–D12 (blå celler). Hvor mye betaler Maida til sammen i renter og avdrag?
 > 111 370 kr
-b) Lag en nedbetalingsplan for et serielån. Hvor mye betaler hun til sammen?
+b) Maida vurderer også et serielån med samme rente over fem år. Sett opp nedbetalingsplanen nedenfor i et regneark. Hvor mye betaler hun til sammen?
+
+| | A | B | C | D |
+|---|---|---|---|---|
+| **1** | Lånebeløp | | | |
+| **2** | Antall terminer | | | |
+| **3** | | | | |
+| **4** | Avdrag | | | |
+| **5** | Rente | | | |
+| **6** | | | | |
+| **7** | År | Restlån | Renter | Terminbeløp |
+| **8** | 1 | | | |
+| **9** | 2 | | | |
+| **10** | 3 | | | |
+| **11** | 4 | | | |
+| **12** | 5 | | | |
 > 111 100 kr
 c) Sammenlikn lånene.
 > Serielånet blir litt billigere totalt, men krever større terminbeløp i starten.

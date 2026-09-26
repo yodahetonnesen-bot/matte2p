@@ -38,22 +38,30 @@ Du er rådgiver i en bank. Erik og Lea kan bruke inntil 18 000 kr i måneden på
 >> Låner de 3 millioner over 25 år med 4 % rente, blir terminbeløpet ca. 15 840 kr. Stiger renta til 6 %, blir det ca. 19 330 kr – nesten 3500 kr mer i måneden. De bør ha en buffer.
 
 ## 3.302 @3.8
-Ronja skjønner ikke hvor pengene blir av og ønsker seg en mobil til 8190 kr. Utdraget fra nettbanken er laget for denne siden:
+Ronja skjønner ikke hvor alle pengene hennes blir av. Hun ønsker seg en ny mobiltelefon som koster 8190 kr. I nettbanken finner hun dette om pengebruken sin forrige måned:
 
-| Post | Beløp |
+| Inntekter | Beløp |
 |---|---|
-| Lønn (netto) | 9 800 kr |
-| Mat i butikk | 1 900 kr |
-| Kafé og gatekjøkken (22 kjøp) | 2 640 kr |
-| Klær på nett | 1 450 kr |
-| Strømmetjenester (4 abonnementer) | 596 kr |
-| Mobilabonnement | 399 kr |
-| Transport | 520 kr |
-| Kino og konserter | 900 kr |
-| Diverse småkjøp | 1 210 kr |
+| Lønn | 5409,00 kr |
+| Overføringer | 2000,00 kr |
+| **Sum** | **7409,00 kr** |
 
-Lag en plan for hvordan Ronja kan spare til mobilen.
->> Utgiftene er 9615 kr, så hun har bare 185 kr til overs. Forslag: halver kafébesøkene (sparer ca. 1320 kr), behold ett eller to strømmeabonnementer (sparer ca. 300 kr) og kutt klær på nett til 700 kr (sparer 750 kr). Da sparer hun ca. 2500 kr i måneden og har råd til mobilen etter drøyt tre måneder.
+| Utgifter | Beløp |
+|---|---|
+| Mat og drikke – kafé, restaurant | 1785,00 kr |
+| Dagligvare – butikk og kiosk | 1200,00 kr |
+| Klær og sko | 1299,00 kr |
+| Ferie og fritid | 200,00 kr |
+| Transport | 849,00 kr |
+| Mobiltelefon | 490,00 kr |
+| Sparing | 500,00 kr |
+| Øvrige utgifter | 1200,00 kr |
+| **Sum** | **7523,00 kr** |
+
+**Differanse:** −114,00 kr
+
+Gjør utregninger, og lag en plan for hvordan Ronja kan spare penger slik at hun får råd til å kjøpe den nye mobiltelefonen.
+>> Ronja bruker 114 kr mer enn hun tjener. Hun sparer riktignok 500 kr, så hun legger egentlig bare til side 386 kr i måneden. Med det tar mobilen over 21 måneder. Forslag: halver kafé og restaurant (sparer ca. 890 kr), kjøp klær for 500 kr (sparer ca. 800 kr) og kutt øvrige utgifter til 800 kr (sparer 400 kr). Da kan hun spare ca. $386 + 890 + 800 + 400 \approx 2476$ kr i måneden, og har råd til mobilen etter $\frac{8190}{2476} \approx 3{,}3$, altså 4 måneder.
 
 ## 3.303 @3.8
 Ida Helene kjøpte leilighet i Trondheim for 2 500 000 kr i 2015 med 15 % egenkapital og et serielån på resten, med 1,3 % rente over 20 år. I 2020 vurderer hun en enebolig på Hamar til rundt 5 millioner.
@@ -83,13 +91,14 @@ Innlandet: 100 | 104,8 | 112,7 | 115,1 | 116,5 | 120,4
 ::
 
 ## 3.304 @3.2
-Diagrammet viser omtrent hvordan husholdningenes forbruk fordelte seg i 1980 og 2017 (tall avrundet og laget for denne siden ut fra SSBs forbruksundersøkelser). Hvordan har sammensetningen endret seg? Begynn med klær og skotøy.
-::diagram soyle liggende xl="Andel av forbruket (%)" verdier h=320
-kat: Mat og drikke | Klær og skotøy | Bolig, lys og brensel | Møbler og husholdning | Helse | Transport | Kultur og fritid | Annet
-1980: 24 | 9 | 18 | 8 | 2 | 17 | 10 | 12
-2017: 12 | 5 | 30 | 6 | 3 | 16 | 12 | 16
+Studer figuren (kilde: SSB, verdiene er lest av diagrammet i boka), og finn ut hvordan forbrukets sammensetning har endret seg fra 1980 til 2017. Begynn med klær og skotøy.
+::diagram soyle liggende tittel="Forbrukets sammensetning. Utgiftsandeler i 1980, 2000 og 2017" xl="Andel av forbruket (%)" h=520 ymax=25 ys=5
+kat: Bolig, lys og brensel | Transport | Matvarer og alkoholfri drikke | Kultur og fritid | Utenlandskonsum | Overnatting og servering | Møbler og husholdningsartikler | Klær og skotøy | Alkoholholdige drikker og tobakk | Egenandeler til helse | Post- og teletjenester | Utdanning
+1980: 20,8 | 15,3 | 19,9 | 8,7 | 3,2 | 3,6 | 7,5 | 7,8 | 4,8 | 1,7 | 1,4 | 0,3
+2000: 19,4 | 15,0 | 14,5 | 12,4 | 4,4 | 6,4 | 6,2 | 5,4 | 4,6 | 2,7 | 2,5 | 0,5
+2017: 21,5 | 14,5 | 11,3 | 10,9 | 8,5 | 6,7 | 5,8 | 4,4 | 3,8 | 2,9 | 2,0 | 0,3
 ::
->> Andelen til klær og sko er nesten halvert (9 % → 5 %), og andelen til mat er halvert (24 % → 12 %). Bolig tar en mye større del (18 % → 30 %). Vi bruker altså relativt mindre på mat og klær – som har blitt billigere i forhold til lønna – og mer på bolig.
+>> Andelen til klær og skotøy er nesten halvert, fra ca. 7,8 % i 1980 til 4,4 % i 2017. Andelen til matvarer har gått kraftig ned, fra ca. 20 % til 11 %. Utenlandskonsum og overnatting og servering har økt mye, og kultur og fritid har økt litt. Bolig og transport har omtrent samme andel hele tida. Vi bruker altså relativt mindre på mat og klær, som har blitt billigere i forhold til lønna, og mer på reiser, restaurant og fritid.
 
 ## 3.305 @3.8
 Espen er nyutdannet fysioterapeut i Bergen. Han får utbetalt 28 952 kr i måneden (brutto 41 360 kr). Han betaler 9000 kr i husleie, bruker 6500 kr på mat i kantine og kiosk, 3500 kr på kino, konserter og restaurant, 4500 kr på bilutgifter, 2500 kr på billånet og ca. 2000 kr på klær. Han har en Leeds-tur på 15 000 kr på kredittkortet (20 % rente per år) og betaler minstebeløpet 450 kr i måneden. Han vurderer en tv til 10 000 kr og drømmer om en leilighet til 2,5 millioner om fem år.

@@ -9,11 +9,11 @@ En vare kostet 100 kr i 2017, da indeksen var 110. I 2020 kostet den 120 kr. Hva
 > 132
 
 ## 3.202 @3.1
-En liter bensin kostet 9,59 kr i januar 2000, 12,385 kr i januar 2010 og 15,925 kr i januar 2020. Diagrammet viser omtrentlig gjennomsnittlig timelønn og bensinpris 2000–2016. Vurder påstanden «Bensinen blir stadig dyrere».
-::diagram linje yl="kr" h=260 ymin=0 ymax=300 ys=50
-kat: 2000 | 2002 | 2004 | 2006 | 2008 | 2010 | 2012 | 2014 | 2016
-Timelønn: 150 | 165 | 180 | 196 | 220 | 238 | 256 | 272 | 285
-Bensin (kr/L) × 10: 96 | 94 | 101 | 116 | 125 | 124 | 146 | 142 | 138
+En liter bensin kostet 9,59 kr i januar 2000, 12,385 kr i januar 2010 og 15,925 kr i januar 2020. Diagrammet viser timelønna og bensinprisen (kr per liter) for perioden 2000–2016 (fra Dinside.no, verdiene er lest av diagrammet i boka). Vurder påstanden «Bensinen blir stadig dyrere».
+::diagram soyle yl="kr" h=240 ymax=300 ys=50
+kat: 2000 | 2003 | 2006 | 2009 | 2012 | 2015 | 2016
+Timelønn: 165 | 178 | 210 | 222 | 262 | 280 | 285
+Bensinpris: 12 | 10 | 13 | 13 | 15 | 14 | 14
 ::
 >> I kroner har bensinen blitt dyrere: fra 9,59 kr til 15,93 kr er en økning på 66 %. Men lønna har økt mer. I 2000 fikk man ca. $\frac{150}{9{,}59} \approx 15{,}6$ liter for én timelønn, i 2016 ca. $\frac{285}{13{,}8} \approx 20{,}7$ liter. Målt i arbeidstid er bensinen blitt *billigere*. Påstanden stemmer i nominelle kroner, men ikke i forhold til lønna.
 !! Tallene i diagrammet er omtrentlige og laget for denne siden. Bensinprisen er ganget med 10 for å få den på samme skala som timelønna.
@@ -91,12 +91,14 @@ b) Hvor mye måtte han tjent i 2019 for samme reallønn?
 > 483 791 kr
 
 ## 3.210 @3.3
-**Jonas:** «Jeg fikk 2,0 % lønnsøkning fra 2018 til 2019. Da har jeg fått bedre råd.»
-**Vibeke:** «Ja, lønna di har jo økt!»
+Vibeke og Jonas diskuterer lønn.
 
-KPI var 108,4 i 2018 og 110,8 i 2019. Vurder svaret fra Vibeke.
-> Vibeke tar feil. Reallønna gikk ned: KPI økte med 2,2 %, mens lønna bare økte med 2,0 %.
-!! Samtalen er skrevet om fra en illustrasjon i boka.
+- **Vibeke:** Fra 2018 til 2019 fikk jeg 2,0 % i lønnsøkning. I den samme perioden økte konsumprisindeksen fra 108,4 til 110,8.
+- **Jonas:** Gikk reallønna da opp eller ned?
+- **Vibeke:** Nei, det er jeg usikker på, for jeg husker ikke hvor mye jeg tjente i 2018.
+
+Vurder svaret fra Vibeke.
+>> Vibeke trenger ikke å vite lønna si. Det holder å sammenlikne prosentene. KPI økte med $\frac{110{,}8 - 108{,}4}{108{,}4} \approx 2{,}2\,\%$, mens lønna bare økte med 2,0 %. Prisene steg altså mer enn lønna, så reallønna gikk ned.
 
 ## 3.211 @3.3
 Helge hadde 45 500 kr i månedslønn i 2018 (KPI 108,4) og 46 300 kr i 2020 (KPI 112,2).
@@ -169,21 +171,19 @@ I boka står 2016 med lønnsvekst 3,6 % og KPI 1,7 %, som gir positiv reallønns
 ::
 
 ## 3.218 @3.3
-Programmet nedenfor er en reallønnskalkulator.
+Se på programmet nedenfor.
 ```python
-lonn1 = float(input("Lønn år 1: "))
-kpi1 = float(input("KPI år 1: "))
-lonn2 = float(input("Lønn år 2: "))
-kpi2 = float(input("KPI år 2: "))
-real1 = lonn1 * 100 / kpi1
-real2 = lonn2 * 100 / kpi2
-endring = (real2 / real1 - 1) * 100
-print("Reallønna endret seg med", round(endring, 1), "%")
+nominell = 490000
+kpi = 110.8
+reallønn = nominell*100/kpi
+
+print("Reallønna er",
+ round(reallønn))
 ```
 a) Lag en oppgave som kan løses med programmet.
->> For eksempel: *Helge tjente 45 500 kr i 2018 (KPI 108,4) og 46 300 kr i 2020 (KPI 112,2). Hvor mange prosent endret reallønna seg?* Svar: −1,7 %.
+>> For eksempel: *Lise tjente 490 000 kr i 2019. KPI var 110,8 det året. Finn reallønna hennes målt i 2015-kroner.* Programmet gir svaret 442 238 kr.
 b) Forklar hvordan programmet virker.
->> Det leser inn lønn og KPI for to år, regner ut reallønna begge år og skriver ut den prosentvise endringen i reallønna.
+>> Linje 1 og 2 lagrer den nominelle lønna og KPI. Linje 3 regner ut reallønna med formelen $\text{reallønn} = \frac{\text{nominell lønn}\cdot 100}{\text{KPI}}$. Til slutt skrives reallønna ut, avrundet til hele kroner.
 
 ## 3.219 @3.4
 Karis bruttolønn i april var 42 350 kr og nettolønna 27 473 kr. Hvor stort var skattetrekket i prosent?
@@ -225,18 +225,23 @@ Ida setter inn 10 000 kr hvert år. Rett etter det tiende innskuddet har hun 101
 ## 3.226 @3.5
 Cecilie har 250 000 kr på sparekonto med 1,5 % rente og trenger 400 000 kr.
 ```python
-belop = 250000
-ar = 0
-while belop < 400000:
-    belop = belop * 1.015
-    ar = ar + 1
-print("Det tar", ar, "år")
+x = 250000
+rente = 1.5
+vekstfaktor = 1 + rente/100
+tid = 0
+
+while x < 400000:
+  x = x * vekstfaktor
+  tid = tid + 1
+
+print("Det er nok penger etter",
+ tid, "år.")
 ```
 a) Forklar hvordan programmet virker, og bruk det.
 > ca. 32 år
 b) Hun kan spare 30 000 kr ved slutten av hvert år. Utvid programmet. Hvor lang tid tar det nå?
 > 5 år
-!! Bytt linja i løkka med `belop = belop * 1.015 + 30000`.
+!! Bytt linja i løkka med `x = x * vekstfaktor + 30000`.
 
 ## 3.227 @3.6
 Guro har et serielån over fem år med én termin per år, avdrag 4500 kr og 3,5 % rente.
