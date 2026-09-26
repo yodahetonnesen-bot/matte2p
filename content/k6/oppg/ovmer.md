@@ -11,38 +11,48 @@ c) $\angle A = 90^\circ$ og $\angle C = 45^\circ$
 
 ## 6.111 @6.1
 $\triangle DEF$ er formlik med $\triangle ABC$.
-::svg w=641 h=233 mw=520 cap="△DEF er formlik med △ABC."
-<polygon class="ln f1" points="70.8,162.5 289.2,162.5 153.3,70.8"/>
-<text class="m" x="43.4" y="175.8" text-anchor="middle">A</text>
-<text class="m" x="316.9" y="174.6" text-anchor="middle">B</text>
-<text class="m" x="145.3" y="48.3" text-anchor="middle">C</text>
-<polygon class="ln f2" points="570,162.5 414,162.5 511.1,97"/>
-<polyline class="ln2" points="445.2,162.5 445.1,160.1 444.9,157.8 444.4,155.6 443.8,153.3 443.1,151.1 442.2,149 441.1,147 439.9,145"/>
-<text class="sm" x="465.4" y="151.7" text-anchor="middle">48°</text>
-<polyline class="ln2" points="485.2,114.4 486.5,116.2 487.9,117.9 489.5,119.5 491.1,121 492.9,122.4 494.8,123.6 496.7,124.7 498.7,125.6 500.8,126.4 502.9,127.1 505.1,127.6 507.3,128 509.5,128.1 511.7,128.2 513.9,128.1 516.1,127.8 518.3,127.3 520.4,126.7 522.5,126 524.6,125.1 526.5,124.1 528.4,122.9 530.2,121.6 531.9,120.2"/>
-<text class="sm" x="504.5" y="155.4" text-anchor="middle">98°</text>
-<text class="m" x="597.4" y="175.8" text-anchor="middle">E</text>
-<text class="m" x="386.3" y="174.6" text-anchor="middle">D</text>
-<text class="m" x="519" y="74.5" text-anchor="middle">F</text>
+::svg w=346 h=320 mw=340
+<polygon class="ln f1" points="34,156.6 312.4,156.6 142.8,39"/>
+<polygon class="ln f1" points="34,298.2 250,298.2 118,207"/>
+<polyline class="ln2" points="44.9,144.9 45.5,145.4 46,146 46.5,146.7 47,147.3 47.5,148 47.9,148.7 48.3,149.4 48.7,150.2 49,151 49.2,151.7 49.5,152.5 49.7,153.3 49.8,154.1 49.9,155 50,155.8 50,156.6"/>
+<text class="sm" x="65.2" y="147" text-anchor="middle">48°</text>
+<polyline class="ln2" points="296.4,156.6 296.4,156 296.4,155.4 296.5,154.8 296.6,154.2 296.7,153.6 296.8,153 297,152.4 297.1,151.8 297.3,151.2 297.5,150.7 297.8,150.1 298,149.6 298.3,149 298.6,148.5 298.9,148 299.3,147.5"/>
+<polyline class="ln2" points="292.4,156.6 292.4,155.8 292.5,155.1 292.5,154.3 292.6,153.6 292.8,152.8 292.9,152.1 293.1,151.4 293.3,150.6 293.6,149.9 293.8,149.2 294.1,148.5 294.4,147.8 294.8,147.1 295.1,146.5 295.5,145.8 296,145.2"/>
+<polyline class="ln2" points="154.3,47 153.4,48.2 152.3,49.2 151.2,50.2 150,51 148.6,51.7 147.2,52.3 145.8,52.7 144.3,52.9 142.8,53 141.3,52.9 139.9,52.7 138.4,52.3 137,51.8 135.7,51.1 134.4,50.2 133.3,49.3"/>
+<text class="sm" x="147.2" y="82.8" text-anchor="middle">98°</text>
+<polyline class="ln2" points="157.6,49.3 156.4,50.8 155.1,52.2 153.6,53.4 152,54.5 150.3,55.4 148.5,56.1 146.7,56.6 144.8,56.9 142.8,57 140.9,56.9 139,56.6 137.2,56.1 135.4,55.4 133.7,54.5 132.1,53.4 130.6,52.2"/>
+<polyline class="ln2" points="160.9,51.5 159.4,53.4 157.8,55.1 156,56.6 154,57.9 152,59 149.8,59.9 147.5,60.5 145.2,60.9 142.8,61 140.5,60.9 138.2,60.5 135.9,59.9 133.7,59 131.6,58 129.7,56.7 127.9,55.1"/>
+<polyline class="ln2" points="44.8,286.4 45.4,287 46,287.6 46.5,288.2 47,288.9 47.5,289.6 47.9,290.3 48.3,291 48.7,291.8 49,292.5 49.2,293.3 49.5,294.1 49.7,294.9 49.8,295.7 49.9,296.5 50,297.4 50,298.2"/>
+<polyline class="ln2" points="234,298.2 234,297.6 234,297 234.1,296.4 234.2,295.8 234.3,295.2 234.4,294.6 234.6,294 234.7,293.4 234.9,292.9 235.1,292.3 235.4,291.7 235.6,291.2 235.9,290.7 236.2,290.1 236.5,289.6 236.8,289.1"/>
+<polyline class="ln2" points="230,298.2 230,297.4 230.1,296.7 230.1,295.9 230.2,295.2 230.4,294.4 230.5,293.7 230.7,293 230.9,292.2 231.1,291.5 231.4,290.8 231.7,290.1 232,289.4 232.4,288.8 232.7,288.1 233.1,287.5 233.5,286.8"/>
+<polyline class="ln2" points="129.5,215 128.6,216.1 127.6,217.2 126.4,218.2 125.2,219 123.9,219.7 122.5,220.3 121,220.7 119.5,220.9 118.1,221 116.6,220.9 115.1,220.7 113.6,220.3 112.2,219.8 110.9,219.1 109.7,218.3 108.5,217.3"/>
+<polyline class="ln2" points="132.8,217.2 131.6,218.8 130.3,220.1 128.8,221.4 127.2,222.5 125.5,223.3 123.7,224.1 121.9,224.6 120,224.9 118.1,225 116.2,224.9 114.3,224.6 112.4,224.1 110.6,223.4 108.9,222.5 107.3,221.5 105.8,220.2"/>
+<polyline class="ln2" points="136.1,219.5 134.7,221.4 133,223.1 131.2,224.6 129.3,225.9 127.2,227 125,227.9 122.8,228.5 120.4,228.9 118.1,229 115.7,228.9 113.4,228.5 111.1,227.9 109,227.1 106.9,226 104.9,224.7 103.1,223.2"/>
+<text class="m" x="22" y="165.6" text-anchor="middle">D</text>
+<text class="m" x="324.4" y="165.6" text-anchor="middle">E</text>
+<text class="m" x="142.8" y="32" text-anchor="middle">F</text>
+<text class="m" x="22" y="307.2" text-anchor="middle">A</text>
+<text class="m" x="262" y="307.2" text-anchor="middle">B</text>
+<text class="m" x="118" y="200" text-anchor="middle">C</text>
 ::
 Finn de ukjente vinklene i de to trekantene.
 > $\angle E = 34^\circ$, $\angle A = 48^\circ$, $\angle B = 34^\circ$ og $\angle C = 98^\circ$
 
 ## 6.112 @6.1
 $\triangle ABC$ og $\triangle DEF$ er formlike.
-::svg w=463 h=176 mw=462 cap="△ABC og △DEF er formlike."
-<polygon class="ln f1" points="54.6,121.3 211,121.3 128.7,54.6"/>
-<polyline class="ln2" points="75,121.3 74.9,119.8 74.8,118.3 74.5,116.8 74.1,115.4 73.6,114 73.1,112.6 72.4,111.3 71.6,110 70.7,108.8 69.8,107.6"/>
-<text class="sm" x="90.5" y="112.5" text-anchor="middle">42°</text>
-<text class="m" x="36.6" y="131.5" text-anchor="middle">A</text>
-<text class="m" x="229" y="131.3" text-anchor="middle">B</text>
-<text class="m" x="127.5" y="40.9" text-anchor="middle">C</text>
-<polygon class="ln f2" points="292.6,121.3 408.2,121.3 347.3,72"/>
-<polyline class="ln2" points="392.3,108.4 391.4,109.7 390.6,111 389.9,112.3 389.2,113.7 388.7,115.2 388.3,116.7 388,118.2 387.9,119.7 387.8,121.3"/>
-<text class="sm" x="371.9" y="113.4" text-anchor="middle">39°</text>
-<text class="m" x="274.6" y="131.5" text-anchor="middle">D</text>
-<text class="m" x="426.2" y="131.3" text-anchor="middle">E</text>
-<text class="m" x="346.2" y="58.3" text-anchor="middle">F</text>
+::svg w=453 h=193 mw=420
+<polygon class="ln f1" points="32,160.5 240.8,160.5 141.8,39"/>
+<polygon class="ln f1" points="275,160.5 420.8,160.5 351.5,77.7"/>
+<polyline class="ln2" points="46.8,144.2 47.6,145 48.4,145.8 49.1,146.7 49.8,147.6 50.5,148.5 51.1,149.5 51.6,150.5 52.1,151.6 52.5,152.6 52.9,153.7 53.3,154.8 53.5,155.9 53.7,157.1 53.9,158.2 54,159.4 54,160.5"/>
+<text class="sm" x="68.6" y="148.3" text-anchor="middle">42°</text>
+<polyline class="ln2" points="398.8,160.5 398.8,159.3 398.9,158.1 399.1,156.9 399.3,155.7 399.6,154.6 400,153.4 400.4,152.3 400.9,151.2 401.4,150.1 402,149.1 402.7,148.1 403.4,147.1 404.1,146.2 404.9,145.3 405.8,144.4 406.7,143.6"/>
+<text class="sm" x="382.7" y="146.7" text-anchor="middle">39°</text>
+<text class="m" x="22" y="177.5" text-anchor="middle">A</text>
+<text class="m" x="244.8" y="181.5" text-anchor="middle">B</text>
+<text class="m" x="141.8" y="32" text-anchor="middle">C</text>
+<text class="m" x="271" y="181.5" text-anchor="middle">D</text>
+<text class="m" x="430.8" y="177.5" text-anchor="middle">E</text>
+<text class="m" x="351.5" y="70.7" text-anchor="middle">F</text>
 ::
 a) Finn $\angle B$ og $\angle C$.
 > $\angle B = 39^\circ$ og $\angle C = 99^\circ$
@@ -51,18 +61,14 @@ b) Finn $\angle D$ og $\angle F$.
 
 ## 6.113 @6.1
 I $\triangle ABC$ er $DE$ parallell med $AC$. $\angle A = 52^\circ$ og $\angle B = 44^\circ$.
-::svg w=352 h=256 mw=352 cap="DE er parallell med AC."
-<polygon class="ln f1" points="56,200 296,200 159.2,67.9"/>
-<line class="ln" x1="164" y1="200" x2="220.8" y2="127.3"/>
-<polyline class="ln2" points="80,200 79.9,198.3 79.8,196.7 79.5,195 79.1,193.4 78.6,191.8 77.9,190.2 77.2,188.7 76.4,187.3 75.4,185.9 74.4,184.6 73.3,183.3 72.1,182.2 70.8,181.1"/>
-<text class="sm" x="95.2" y="185.9" text-anchor="middle">52°</text>
-<polyline class="ln2" points="275.9,180.5 274.6,182 273.3,183.5 272.3,185.2 271.3,186.9 270.4,188.6 269.7,190.4 269.1,192.3 268.6,194.2 268.3,196.1 268.1,198 268,200"/>
-<text class="sm" x="251.9" y="187.2" text-anchor="middle">44°</text>
-<text class="m" x="39.2" y="211.5" text-anchor="middle">A</text>
-<text class="m" x="313" y="211" text-anchor="middle">B</text>
-<text class="m" x="156.9" y="55" text-anchor="middle">C</text>
-<text class="m" x="164" y="223" text-anchor="middle">D</text>
-<text class="m" x="229.8" y="116.8" text-anchor="middle">E</text>
+::svg w=425 h=222 mw=360 cap="DE er parallell med AC."
+<polygon class="ln f1" points="36,186.6 388.8,186.6 172.8,39"/>
+<line class="ln" x1="121.5" y1="186.6" x2="224.1" y2="75"/>
+<text class="m" x="172.8" y="32" text-anchor="middle">C</text>
+<text class="m" x="234.1" y="70" text-anchor="middle">E</text>
+<text class="m" x="22" y="197.6" text-anchor="middle">A</text>
+<text class="m" x="117.5" y="209.6" text-anchor="middle">D</text>
+<text class="m" x="402.8" y="197.6" text-anchor="middle">B</text>
 ::
 a) Finn de ukjente vinklene i $\triangle DBE$.
 > $\angle BDE = 52^\circ$ og $\angle DEB = 84^\circ$
@@ -72,30 +78,30 @@ b) Forklar at $\triangle ABC$ er formlik med $\triangle DBE$.
 ## 6.114 @6.1
 Finn de ukjente vinklene $u$, $v$ og $w$.
 ::cols
-::svg w=264 h=185 mw=230 cap="a)"
-<line class="ln" x1="31.2" y1="92.4" x2="232.8" y2="92.4"/>
-<line class="ln" x1="81.1" y1="153.1" x2="182.9" y2="31.7"/>
-<polyline class="ln2" points="151.8,92.4 151.7,91 151.6,89.5 151.3,88.1 151,86.7 150.5,85.4 149.9,84 149.3,82.8 148.5,81.5 147.7,80.3 146.8,79.2 145.8,78.2 144.7,77.2"/>
-<text class="sm" x="166.3" y="81.4" text-anchor="middle">50°</text>
-<polyline class="ln2" points="148.2,73.1 146.8,72 145.3,71 143.8,70.1 142.1,69.3 140.5,68.7 138.8,68.1 137.1,67.7 135.3,67.4 133.5,67.2 131.7,67.2 129.9,67.3 128.2,67.5 126.4,67.8 124.7,68.3 123,68.9 121.4,69.6 119.8,70.4 118.2,71.3 116.8,72.3 115.4,73.5 114.1,74.7 112.9,76 111.8,77.4 110.7,78.9 109.8,80.4 109,82 108.4,83.7 107.8,85.3 107.4,87.1 107.1,88.8 106.9,90.6 106.8,92.4"/>
-<text class="m" x="116" y="63.1" text-anchor="middle">u</text>
-<polyline class="ln2" points="112.2,92.4 112.3,93.8 112.4,95.3 112.7,96.7 113,98.1 113.5,99.4 114.1,100.8 114.7,102 115.5,103.3 116.3,104.5 117.2,105.6 118.2,106.6 119.3,107.6"/>
-<text class="m" x="97.7" y="113.4" text-anchor="middle">v</text>
-<polyline class="ln2" points="115.8,111.7 117.2,112.8 118.7,113.8 120.2,114.7 121.9,115.5 123.5,116.1 125.2,116.7 126.9,117.1 128.7,117.4 130.5,117.6 132.3,117.6 134.1,117.5 135.8,117.3 137.6,117 139.3,116.5 141,115.9 142.6,115.2 144.2,114.4 145.8,113.5 147.2,112.5 148.6,111.3 149.9,110.1 151.1,108.8 152.2,107.4 153.3,105.9 154.2,104.4 155,102.8 155.6,101.1 156.2,99.5 156.6,97.7 156.9,96 157.1,94.2 157.2,92.4"/>
-<text class="m" x="148" y="131.7" text-anchor="middle">w</text>
+::svg w=192 h=323 mw=230 cap="a)"
+<line class="ln" x1="22" y1="32.4" x2="169.5" y2="290.1"/>
+<line class="ln" x1="147.3" y1="22" x2="44.2" y2="300.5"/>
+<polyline class="ln2" points="78.9,131.7 80.5,130.9 82.2,130.1 83.9,129.4 85.7,128.8 87.5,128.3 89.3,127.9 91.1,127.6 93,127.4 94.8,127.3 96.7,127.3 98.5,127.4 100.4,127.6 102.2,127.9 104,128.3 105.8,128.8 107.6,129.4"/>
+<text class="sm" x="91.7" y="116.4" text-anchor="middle">50°</text>
+<polyline class="ln2" points="84,193.1 79.6,191.2 75.5,188.6 71.9,185.4 68.7,181.8 66.1,177.8 64,173.4 62.6,168.8 61.9,164.1 61.8,159.2 62.5,154.5 63.7,149.8 65.7,145.4 68.2,141.3 71.3,137.6 74.9,134.4 78.9,131.7"/>
+<text class="m" x="46.4" y="169.8" text-anchor="middle">u</text>
+<polyline class="ln2" points="107.6,129.4 112,131.4 116,133.9 119.7,137.1 122.9,140.7 125.5,144.7 127.5,149.1 128.9,153.7 129.7,158.5 129.7,163.3 129.1,168 127.8,172.7 125.9,177.1 123.3,181.2 120.2,184.9 116.7,188.1 112.7,190.8"/>
+<text class="m" x="145.1" y="161.7" text-anchor="middle">w</text>
+<polyline class="ln2" points="112.7,190.8 111,191.6 109.3,192.4 107.6,193.1 105.9,193.7 104.1,194.2 102.3,194.6 100.4,194.9 98.6,195.1 96.7,195.2 94.9,195.2 93,195.1 91.2,194.9 89.3,194.6 87.5,194.2 85.7,193.7 84,193.1"/>
+<text class="m" x="99.9" y="215.1" text-anchor="middle">v</text>
 ::
 ||
-::svg w=264 h=185 mw=230 cap="b)"
-<line class="ln" x1="31.2" y1="92.4" x2="232.8" y2="92.4"/>
-<line class="ln" x1="188" y1="148.4" x2="76" y2="36.4"/>
-<polyline class="ln2" points="151.8,92.4 151.7,91 151.6,89.6 151.3,88.2 151,86.8 150.6,85.5 150,84.2 149.4,82.9 148.7,81.7 147.9,80.5 147,79.4 146,78.4 145,77.4 143.9,76.5 142.7,75.7 141.5,75 140.2,74.4 138.9,73.8 137.6,73.4 136.2,73.1 134.8,72.8 133.4,72.7 132,72.6 130.6,72.7 129.2,72.8 127.8,73.1 126.4,73.4 125.1,73.8 123.8,74.4 122.5,75 121.3,75.7 120.1,76.5 119,77.4 118,78.4"/>
-<text class="sm" x="146.5" y="62.5" text-anchor="middle">135°</text>
-<polyline class="ln2" points="114.2,74.6 113,75.9 111.8,77.3 110.8,78.8 109.9,80.3 109.1,81.9 108.4,83.6 107.8,85.3 107.4,87 107.1,88.8 106.9,90.6 106.8,92.4"/>
-<text class="m" x="97.1" y="82.9" text-anchor="middle">u</text>
-<polyline class="ln2" points="112.2,92.4 112.3,93.8 112.4,95.2 112.7,96.6 113,98 113.4,99.3 114,100.6 114.6,101.9 115.3,103.1 116.1,104.3 117,105.4 118,106.4 119,107.4 120.1,108.3 121.3,109.1 122.5,109.8 123.8,110.4 125.1,111 126.4,111.4 127.8,111.7 129.2,112 130.6,112.1 132,112.2 133.4,112.1 134.8,112 136.2,111.7 137.6,111.4 138.9,111 140.2,110.4 141.5,109.8 142.7,109.1 143.9,108.3 145,107.4 146,106.4"/>
-<text class="m" x="117.5" y="132.3" text-anchor="middle">v</text>
-<polyline class="ln2" points="149.8,110.2 151,108.9 152.2,107.5 153.2,106 154.1,104.5 154.9,102.9 155.6,101.2 156.2,99.5 156.6,97.8 156.9,96 157.1,94.2 157.2,92.4"/>
-<text class="m" x="166.9" y="111.9" text-anchor="middle">w</text>
+::svg w=189 h=322 mw=230 cap="b)"
+<line class="ln" x1="22" y1="36.3" x2="166.8" y2="285.3"/>
+<line class="ln" x1="132.7" y1="22" x2="56.1" y2="299.6"/>
+<polyline class="ln2" points="77.3,131.4 78.8,130.6 80.3,129.9 81.9,129.2 83.5,128.6 85.1,128.1 86.7,127.7 88.4,127.3 90.1,127.1 91.7,126.9 93.4,126.8 95.1,126.8 96.8,126.9 98.5,127.1 100.2,127.3 101.8,127.6 103.5,128"/>
+<text class="m" x="88.1" y="116.2" text-anchor="middle">w</text>
+<polyline class="ln2" points="85.4,193.6 80.7,191.9 76.3,189.6 72.3,186.6 68.7,183.1 65.8,179.1 63.4,174.7 61.7,170.1 60.7,165.2 60.4,160.2 60.9,155.2 62,150.4 63.9,145.8 66.4,141.5 69.6,137.6 73.2,134.2 77.3,131.4"/>
+<text class="sm" x="45.3" y="171.7" text-anchor="middle">135°</text>
+<polyline class="ln2" points="103.5,128 108.2,129.7 112.6,132 116.6,135 120.1,138.5 123.1,142.5 125.4,146.9 127.1,151.6 128.1,156.4 128.4,161.4 128,166.4 126.8,171.2 124.9,175.8 122.4,180.1 119.3,184 115.6,187.4 111.5,190.2"/>
+<text class="m" x="143.5" y="158.9" text-anchor="middle">v</text>
+<polyline class="ln2" points="111.5,190.2 110,191 108.5,191.7 107,192.4 105.4,193 103.8,193.5 102.1,193.9 100.5,194.3 98.8,194.5 97.1,194.7 95.4,194.8 93.7,194.8 92,194.7 90.3,194.6 88.7,194.3 87,194 85.4,193.6"/>
+<text class="m" x="100.8" y="214.4" text-anchor="middle">u</text>
 ::
 ::
 a) Figur a)
@@ -105,36 +111,36 @@ b) Figur b)
 
 ## 6.115 @6.1
 Ei rett linje krysser to parallelle linjer. Finn vinklene $u$, $v$, $x$ og $y$.
-::svg w=344 h=240 mw=320 cap="Ei rett linje krysser to parallelle linjer."
-<line class="ln" x1="24" y1="152" x2="320" y2="152"/>
-<line class="ln" x1="24" y1="72" x2="320" y2="72"/>
-<line class="ln" x1="122" y1="204" x2="222.2" y2="30.4"/>
-<polyline class="ln2" points="216.2,72 216.1,70.7 216,69.5 215.8,68.3 215.5,67 215.1,65.8 214.6,64.7 214.1,63.5 213.5,62.5 212.8,61.4 212,60.4 211.1,59.5 210.2,58.6 209.3,57.8 208.3,57.1 207.2,56.4"/>
-<text class="sm" x="229.4" y="59" text-anchor="middle">60°</text>
-<polyline class="ln2" points="209.2,52.9 207.8,52.2 206.4,51.6 205,51.1 203.5,50.7 202,50.3 200.5,50.1 199,50 197.4,50 195.9,50.1 194.4,50.3 192.9,50.7 191.4,51.1 189.9,51.6 188.5,52.2 187.2,52.9 185.9,53.8 184.6,54.7 183.5,55.7 182.4,56.7 181.3,57.9 180.4,59.1 179.5,60.3 178.8,61.7 178.1,63.1 177.5,64.5 177,65.9 176.7,67.4 176.4,68.9 176.2,70.5 176.2,72"/>
-<text class="m" x="179.2" y="44.1" text-anchor="middle">u</text>
-<polyline class="ln2" points="180.2,72 180.2,73.3 180.4,74.5 180.6,75.7 180.9,77 181.3,78.2 181.7,79.3 182.3,80.5 182.9,81.5 183.6,82.6 184.4,83.6 185.2,84.5 186.1,85.4 187.1,86.2 188.1,86.9 189.2,87.6"/>
-<text class="m" x="167" y="95" text-anchor="middle">v</text>
-<polyline class="ln2" points="170,152 170,150.7 169.8,149.5 169.6,148.3 169.3,147 168.9,145.8 168.4,144.7 167.9,143.5 167.3,142.5 166.6,141.4 165.8,140.4 164.9,139.5 164,138.6 163.1,137.8 162.1,137.1 161,136.4"/>
-<text class="m" x="183.2" y="139" text-anchor="middle">x</text>
-<polyline class="ln2" points="141,171.1 142.4,171.8 143.8,172.4 145.2,172.9 146.7,173.3 148.2,173.7 149.7,173.9 151.2,174 152.8,174 154.3,173.9 155.8,173.7 157.3,173.3 158.8,172.9 160.2,172.4 161.6,171.8 163,171.1 164.3,170.2 165.5,169.3 166.7,168.3 167.8,167.3 168.9,166.1 169.8,164.9 170.7,163.7 171.4,162.3 172.1,160.9 172.7,159.5 173.1,158.1 173.5,156.6 173.8,155.1 173.9,153.5 174,152"/>
-<text class="m" x="171" y="189.9" text-anchor="middle">y</text>
+::svg w=330 h=372 mw=320 cap="Ei rett linje krysser to parallelle linjer."
+<line class="ln" x1="166" y1="22" x2="166" y2="337"/>
+<line class="ln" x1="22" y1="215.5" x2="308.2" y2="50.8"/>
+<line class="ln" x1="22" y1="350.5" x2="308.2" y2="185.8"/>
+<polyline class="ln2" points="166,108.6 167.6,108.7 169.1,108.8 170.7,109.1 172.2,109.5 173.7,109.9 175.2,110.5 176.6,111.1 178,111.9 179.3,112.7 180.6,113.6 181.8,114.6 183,115.7 184.1,116.8 185.1,118 186,119.3 186.8,120.7"/>
+<text class="sm" x="191.2" y="96.6" text-anchor="middle">60°</text>
+<polyline class="ln2" points="148.7,142.6 147.5,140.3 146.7,137.8 146.2,135.2 146,132.6 146.2,130 146.7,127.4 147.5,125 148.7,122.6 150.1,120.4 151.9,118.5 153.8,116.8 156,115.3 158.4,114.2 160.8,113.3 163.4,112.8 166,112.6"/>
+<text class="m" x="139" y="121.8" text-anchor="middle">u</text>
+<polyline class="ln2" points="166,152.6 164.7,152.6 163.4,152.5 162.1,152.2 160.8,151.9 159.6,151.6 158.3,151.1 157.1,150.6 156,149.9 154.9,149.3 153.8,148.5 152.8,147.7 151.8,146.8 150.9,145.8 150.1,144.8 149.4,143.7 148.7,142.6"/>
+<text class="m" x="144.4" y="168.6" text-anchor="middle">v</text>
+<polyline class="ln2" points="166,243.6 167.6,243.7 169.1,243.8 170.7,244.1 172.2,244.5 173.7,244.9 175.2,245.5 176.6,246.1 178,246.9 179.3,247.7 180.6,248.6 181.8,249.6 183,250.7 184.1,251.8 185.1,253 186,254.3 186.8,255.7"/>
+<text class="m" x="184" y="233.4" text-anchor="middle">x</text>
+<polyline class="ln2" points="183.3,257.7 184.5,260 185.3,262.5 185.8,265 186,267.7 185.8,270.3 185.3,272.8 184.5,275.3 183.3,277.6 181.9,279.8 180.1,281.8 178.2,283.5 176,285 173.6,286.1 171.2,287 168.6,287.5 166,287.6"/>
+<text class="m" x="191.2" y="294.6" text-anchor="middle">y</text>
 ::
 > $u = 120^\circ$, $v = 60^\circ$, $x = 60^\circ$ og $y = 120^\circ$
 
 ## 6.116 @6.1
 I $\triangle ABC$ er $\angle B = 35^\circ$. $\angle A$ og $\angle ADB$ er rette vinkler.
-::svg w=392 h=228 mw=392 cap="∠A og ∠ADB er rette vinkler."
-<polygon class="ln f1" points="243.9,36.4 56,168 336,168"/>
-<line class="ln2" x1="243.9" y1="36.4" x2="243.9" y2="168"/>
-<polyline class="ln2" points="234.7,42.9 241.1,52 250.3,45.6"/>
-<polyline class="ln2" points="232.7,168 232.7,156.8 243.9,156.8"/>
-<polyline class="ln2" points="88,168 87.9,165.6 87.6,163.1 87.2,160.7 86.5,158.4 85.7,156.1 84.7,153.8 83.5,151.7 82.2,149.6"/>
-<text class="sm" x="105.2" y="157.5" text-anchor="middle">35°</text>
-<text class="m" x="250" y="24.5" text-anchor="middle">A</text>
-<text class="m" x="38.7" y="177.9" text-anchor="middle">B</text>
-<text class="m" x="353" y="179" text-anchor="middle">C</text>
-<text class="m" x="243.9" y="191" text-anchor="middle">D</text>
+::svg w=413 h=308 mw=360 cap="∠A og ∠ADB er rette vinkler."
+<polygon class="ln f1" points="34,274.7 379.1,274.7 34,35"/>
+<line class="ln" x1="34" y1="274.7" x2="146.3" y2="113"/>
+<polyline class="ln2" points="48,274.7 48,260.7 34,260.7"/>
+<polyline class="ln2" points="138.3,124.5 149.8,132.5 157.8,121"/>
+<polyline class="ln2" points="339.1,274.7 339.1,273.2 339.2,271.7 339.4,270.2 339.6,268.7 339.8,267.2 340.1,265.7 340.5,264.2 340.9,262.7 341.4,261.3 341.9,259.9 342.5,258.5 343.2,257.1 343.9,255.8 344.6,254.4 345.4,253.1 346.2,251.9"/>
+<text class="sm" x="319.9" y="260.2" text-anchor="middle">35°</text>
+<text class="m" x="22" y="32" text-anchor="middle">C</text>
+<text class="m" x="22" y="295.7" text-anchor="middle">A</text>
+<text class="m" x="391.1" y="295.7" text-anchor="middle">B</text>
+<text class="m" x="150.3" y="102" text-anchor="middle">D</text>
 ::
 a) Finn $\angle C$.
 > $55^\circ$
@@ -147,19 +153,19 @@ d) Hvilke trekanter er formlike? Begrunn svaret.
 
 ## 6.117 @6.1
 Firkanten $ABCD$ er et trapes der $AB$ og $CD$ er parallelle. Diagonalene skjærer hverandre i $E$.
-::svg w=352 h=312 mw=352 cap="Trapeset ABCD der AB er parallell med CD."
-<polygon class="ln f1" points="56,256 296,256 294.4,56 223.2,56"/>
-<line class="ln2" x1="56" y1="256" x2="294.4" y2="56"/>
-<line class="ln2" x1="296" y1="256" x2="223.2" y2="56"/>
-<polyline class="ln2" points="92,256 91.9,253.5 91.6,251 91.2,248.5 90.6,246.1 89.8,243.7 88.9,241.4 87.8,239.1 86.5,236.9 85.1,234.8 83.6,232.9"/>
-<text class="sm" x="108.2" y="242" text-anchor="middle">40°</text>
-<polyline class="ln2" points="286.4,229.7 284.6,230.4 282.8,231.3 281,232.3 279.4,233.5 277.8,234.7 276.3,236.1 274.9,237.6 273.7,239.1 272.5,240.8 271.5,242.5 270.6,244.3 269.8,246.2 269.1,248.1 268.6,250 268.3,252 268.1,254 268,256"/>
-<text class="sm" x="257" y="233.7" text-anchor="middle">70°</text>
-<text class="m" x="40.7" y="270.5" text-anchor="middle">A</text>
-<text class="m" x="307.1" y="275.2" text-anchor="middle">B</text>
-<text class="m" x="305.3" y="46.7" text-anchor="middle">C</text>
-<text class="m" x="224.3" y="43" text-anchor="middle">D</text>
-<text class="m" x="239.9" y="122.7" text-anchor="middle">E</text>
+::svg w=313 h=339 mw=320 cap="Trapeset ABCD der AB er parallell med CD."
+<polygon class="ln f1" points="36,311.6 277.4,311.6 266.4,37 117.6,37"/>
+<line class="ln2" x1="36" y1="311.6" x2="266.4" y2="37"/>
+<line class="ln2" x1="277.4" y1="311.6" x2="117.6" y2="37"/>
+<polyline class="ln2" points="59.1,284 60.6,285.3 62,286.7 63.3,288.1 64.6,289.6 65.7,291.2 66.8,292.9 67.7,294.6 68.6,296.3 69.4,298.1 70.1,300 70.7,301.9 71.1,303.8 71.5,305.7 71.8,307.6 71.9,309.6 72,311.6"/>
+<text class="sm" x="86.8" y="291.9" text-anchor="middle">50°</text>
+<polyline class="ln2" points="241.4,311.6 241.5,309.2 241.7,306.9 242.1,304.6 242.6,302.3 243.3,300 244.1,297.8 245.1,295.7 246.2,293.6 247.4,291.6 248.8,289.7 250.3,287.9 251.9,286.2 253.6,284.6 255.4,283.1 257.3,281.7 259.3,280.4"/>
+<text class="sm" x="228.9" y="287.6" text-anchor="middle">60°</text>
+<text class="m" x="107.6" y="32" text-anchor="middle">D</text>
+<text class="m" x="276.4" y="32" text-anchor="middle">C</text>
+<text class="m" x="22" y="326.6" text-anchor="middle">A</text>
+<text class="m" x="291.4" y="326.6" text-anchor="middle">B</text>
+<text class="m" x="166.5" y="106.7" text-anchor="middle">E</text>
 ::
 a) Regn ut $\angle AEB$.
 > $70^\circ$
@@ -174,71 +180,86 @@ Trapesene $ABCD$ og $EFGH$ er formlike. $\angle A = 75^\circ$ og $\angle B = 65^
 
 ## 6.120 @6.2
 $\triangle ABC$ er formlik med $\triangle DEF$. Finn $AB$.
-::svg w=536 h=242 mw=520 cap="△ABC er formlik med △DEF."
-<polygon class="ln f1" points="60,182 252,182 136.5,60"/>
-<text class="sm" x="66.6" y="105.2" text-anchor="middle">3,6 cm</text>
-<text class="sm" x="156" y="209" text-anchor="middle">?</text>
-<text class="m" x="40" y="196.1" text-anchor="middle">A</text>
-<text class="m" x="272.4" y="195.1" text-anchor="middle">B</text>
-<text class="m" x="133" y="43.3" text-anchor="middle">C</text>
-<polygon class="ln f2" points="348,182 476,182 399,100.7"/>
-<text class="sm" x="412" y="209" text-anchor="middle">3,2 cm</text>
-<text class="sm" x="341.9" y="125.5" text-anchor="middle">2,4 cm</text>
-<text class="m" x="328" y="196.1" text-anchor="middle">D</text>
-<text class="m" x="496.4" y="195.1" text-anchor="middle">E</text>
-<text class="m" x="395.5" y="83.9" text-anchor="middle">F</text>
+::svg w=350 h=283 mw=330 cap="△ABC er formlik med △DEF."
+<polygon class="ln f1" points="32,241.4 182.4,241.4 182.4,39"/>
+<polygon class="ln f2" points="225.6,241.4 320,241.4 320,115"/>
+<text class="sm" x="91.1" y="132.3" text-anchor="middle">8,0 cm</text>
+<text class="sm" x="256.8" y="170.2" text-anchor="middle">5,0 cm</text>
+<text class="sm" x="272.8" y="261.4" text-anchor="middle">3,0 cm</text>
+<text class="m" x="22" y="260.4" text-anchor="middle">A</text>
+<text class="m" x="190.4" y="260.4" text-anchor="middle">B</text>
+<text class="m" x="182.4" y="32" text-anchor="middle">C</text>
+<text class="m" x="215.6" y="260.4" text-anchor="middle">D</text>
+<text class="m" x="328" y="260.4" text-anchor="middle">E</text>
+<text class="m" x="320" y="108" text-anchor="middle">F</text>
 ::
 > $AB = 4{,}8$ cm
 
 ## 6.121 @6.2
 $\triangle ABC$ er formlik med $\triangle DEF$. Finn $AC$ og $BC$.
-::svg w=588 h=248 mw=520 cap="△ABC er formlik med △DEF."
-<polygon class="ln f1" points="51,196.8 285,196.8 155.5,51"/>
-<text class="sm" x="168" y="218.8" text-anchor="middle">7,8 cm</text>
-<text class="m" x="35.8" y="208.3" text-anchor="middle">A</text>
-<text class="m" x="300.3" y="208" text-anchor="middle">B</text>
-<text class="m" x="154.1" y="39.6" text-anchor="middle">C</text>
-<polygon class="ln f2" points="357,196.8 537,196.8 437.4,84.6"/>
-<text class="sm" x="447" y="218.8" text-anchor="middle">6,0 cm</text>
-<text class="sm" x="371.3" y="126.2" text-anchor="middle">4,6 cm</text>
-<text class="sm" x="510.3" y="124.2" text-anchor="middle">5,0 cm</text>
-<text class="m" x="341.8" y="208.3" text-anchor="middle">D</text>
-<text class="m" x="552.3" y="208" text-anchor="middle">E</text>
-<text class="m" x="436" y="73.2" text-anchor="middle">F</text>
+::svg w=470 h=281 mw=420 cap="△ABC er formlik med △DEF."
+<polygon class="ln f1" points="32,237.2 215.3,237.2 101.5,39"/>
+<polygon class="ln f2" points="298.5,237.2 439.6,237.2 351.8,85.2"/>
+<text class="sm" x="123.7" y="259.3" text-anchor="middle">5,2 cm</text>
+<text class="sm" x="369" y="259.3" text-anchor="middle">4,0 cm</text>
+<text class="sm" x="295" y="154.6" text-anchor="middle">4,6 cm</text>
+<text class="sm" x="423.4" y="149.2" text-anchor="middle">5,0 cm</text>
+<text class="m" x="22" y="256.2" text-anchor="middle">A</text>
+<text class="m" x="223.3" y="256.2" text-anchor="middle">B</text>
+<text class="m" x="101.5" y="32" text-anchor="middle">C</text>
+<text class="m" x="288.5" y="256.2" text-anchor="middle">D</text>
+<text class="m" x="447.6" y="256.2" text-anchor="middle">E</text>
+<text class="m" x="351.8" y="78.2" text-anchor="middle">F</text>
 ::
 > $AC = 6{,}0$ cm (5,98 cm) og $BC = 6{,}5$ cm
 
 ## 6.122 @6.2
 Trekantene i hver figur er formlike. Finn $x$.
 ::cols
-::svg w=405 h=193 mw=404 cap="a)"
-<polygon class="ln f1" points="45.6,147.3 141.6,147.3 83.8,86.3"/>
-<text class="sm" x="93.6" y="166.3" text-anchor="middle">4</text>
-<text class="sm" x="51" y="112.1" text-anchor="middle">3</text>
-<text class="m" x="33.6" y="157.7" text-anchor="middle">A</text>
-<text class="m" x="153.9" y="157.1" text-anchor="middle">B</text>
-<text class="m" x="81.8" y="78.2" text-anchor="middle">C</text>
-<polygon class="ln f2" points="199.2,147.3 359.2,147.3 263,45.6"/>
-<text class="sm" x="279.2" y="166.3" text-anchor="middle">x</text>
-<text class="sm" x="217.3" y="91.8" text-anchor="middle">5</text>
-<text class="m" x="187.2" y="157.7" text-anchor="middle">D</text>
-<text class="m" x="371.5" y="157.1" text-anchor="middle">E</text>
-<text class="m" x="260.9" y="37.6" text-anchor="middle">F</text>
+::svg w=513 h=247 mw=380 cap="a)"
+<polygon class="ln f1" points="22,202.6 185.2,202.6 129.4,95.2"/>
+<line class="ln2" x1="129.4" y1="95.2" x2="129.4" y2="202.6"/>
+<polyline class="ln2" points="129.4,190.6 117.4,190.6 117.4,202.6"/>
+<polyline class="ln2" points="129.4,190.6 141.4,190.6 141.4,202.6"/>
+<text class="sm" x="119.8" y="158.2" text-anchor="middle">4</text>
+<polyline class="ln2" points="40.4,184.2 41.3,185.1 42.1,186.1 42.9,187.1 43.6,188.2 44.3,189.2 44.9,190.3 45.5,191.5 46,192.7 46.5,193.8 46.9,195.1 47.2,196.3 47.5,197.5 47.7,198.8 47.9,200.1 48,201.3 48,202.6"/>
+<polyline class="ln2" points="163.2,202.6 163.3,201.1 163.4,199.6 163.7,198.1 164,196.7 164.5,195.2 165,193.8 165.7,192.5 166.4,191.2 167.2,189.9 168.1,188.7 169.1,187.6 170.2,186.5 171.3,185.5 172.5,184.6 173.7,183.8 175.1,183.1"/>
+<polyline class="ln2" points="159.2,202.6 159.3,200.8 159.4,199.1 159.7,197.3 160.2,195.6 160.7,193.9 161.3,192.3 162.1,190.6 163,189.1 163.9,187.6 165,186.2 166.2,184.9 167.4,183.6 168.8,182.4 170.2,181.4 171.7,180.4 173.2,179.5"/>
+<line class="ln2" x1="22" y1="221.2" x2="185.2" y2="221.2"/>
+<polyline class="ln2" points="31,225.2 22,221.2 31,217.1"/>
+<polyline class="ln2" points="176.2,217.1 185.2,221.2 176.2,225.2"/>
+<text class="sm" x="103.6" y="218.2" text-anchor="middle">6</text>
+<polygon class="ln f2" points="220,202.6 490.6,202.6 397,22"/>
+<line class="ln2" x1="397" y1="22" x2="397" y2="202.6"/>
+<polyline class="ln2" points="397,190.6 385,190.6 385,202.6"/>
+<polyline class="ln2" points="397,190.6 409,190.6 409,202.6"/>
+<text class="m" x="380.8" y="128.2" text-anchor="middle">x</text>
+<polyline class="ln2" points="248,174 249.4,175.5 250.7,177 251.9,178.5 253.1,180.1 254.2,181.8 255.2,183.5 256.1,185.3 256.9,187.1 257.6,189 258.2,190.8 258.8,192.8 259.2,194.7 259.6,196.7 259.8,198.6 260,200.6 260,202.6"/>
+<polyline class="ln2" points="454.6,202.6 454.7,200.1 454.9,197.7 455.4,195.3 455.9,192.9 456.7,190.5 457.6,188.3 458.6,186 459.8,183.9 461.2,181.8 462.7,179.9 464.3,178 466,176.3 467.9,174.7 469.8,173.2 471.9,171.8 474,170.6"/>
+<polyline class="ln2" points="450.6,202.6 450.7,199.9 451,197.2 451.4,194.5 452.1,191.8 452.9,189.2 453.9,186.7 455.1,184.2 456.4,181.8 457.9,179.5 459.6,177.4 461.4,175.3 463.3,173.4 465.4,171.6 467.5,169.9 469.8,168.4 472.2,167.1"/>
+<line class="ln2" x1="220" y1="221.2" x2="490.6" y2="221.2"/>
+<polyline class="ln2" points="229,225.2 220,221.2 229,217.1"/>
+<polyline class="ln2" points="481.6,217.1 490.6,221.2 481.6,225.2"/>
+<text class="sm" x="356.8" y="218.2" text-anchor="middle">10</text>
 ::
 ||
-::svg w=401 h=190 mw=400 cap="b)"
-<polygon class="ln f1" points="45.6,144.8 117.6,144.8 90.6,105.1"/>
-<text class="sm" x="81.6" y="163.8" text-anchor="middle">3</text>
-<text class="sm" x="117.5" y="119.8" text-anchor="middle">2</text>
-<text class="m" x="33.1" y="154.1" text-anchor="middle">A</text>
-<text class="m" x="129.9" y="154.7" text-anchor="middle">B</text>
-<text class="m" x="93.5" y="97.3" text-anchor="middle">C</text>
-<polygon class="ln f2" points="175.2,144.8 355.2,144.8 287.7,45.6"/>
-<text class="sm" x="265.2" y="163.8" text-anchor="middle">x</text>
-<text class="sm" x="334.9" y="90.1" text-anchor="middle">5</text>
-<text class="m" x="162.7" y="154.1" text-anchor="middle">D</text>
-<text class="m" x="367.5" y="154.7" text-anchor="middle">E</text>
-<text class="m" x="290.6" y="37.7" text-anchor="middle">F</text>
+::svg w=382 h=332 mw=300 cap="b)"
+<polygon class="ln f1" points="22,310 78.2,310 103,130"/>
+<polyline class="ln" points="78.2,310 103,310 103,130"/>
+<polyline class="ln2" points="103,300 93,300 93,310"/>
+<polyline class="ln2" points="38.4,273.5 41,274.8 43.5,276.2 45.8,277.9 48.1,279.7 50.2,281.6 52.1,283.7 53.9,285.9 55.6,288.3 57.1,290.7 58.4,293.3 59.5,296 60.4,298.7 61.1,301.5 61.6,304.3 61.9,307.1 62,310"/>
+<polyline class="ln2" points="93.5,199.3 92.2,199.2 91,199 89.8,198.7 88.5,198.5 87.3,198.2 86.1,197.9 84.9,197.6 83.7,197.3 82.5,196.9 81.3,196.5 80.1,196.1 78.9,195.7 77.7,195.3 76.6,194.8 75.4,194.3 74.3,193.8"/>
+<polyline class="ln2" points="92.9,203.3 91.6,203.1 90.3,202.9 89,202.7 87.7,202.4 86.4,202.1 85.1,201.8 83.8,201.5 82.6,201.1 81.3,200.7 80,200.3 78.8,199.9 77.5,199.5 76.3,199 75.1,198.5 73.8,198 72.6,197.5"/>
+<text class="m" x="42.4" y="215" text-anchor="middle">x</text>
+<text class="sm" x="121" y="224" text-anchor="middle">5</text>
+<polygon class="ln f2" points="211.8,310 302.5,310 341.5,22"/>
+<polyline class="ln" points="302.5,310 341.5,310 341.5,22"/>
+<polyline class="ln2" points="341.5,300 331.5,300 331.5,310"/>
+<polyline class="ln2" points="228.2,273.5 230.8,274.8 233.2,276.3 235.6,277.9 237.8,279.7 239.9,281.6 241.9,283.7 243.7,285.9 245.3,288.3 246.8,290.8 248.1,293.3 249.2,296 250.1,298.7 250.8,301.5 251.3,304.3 251.6,307.1 251.8,310"/>
+<polyline class="ln2" points="332.1,91.4 330.9,91.2 329.6,91 328.4,90.8 327.1,90.5 325.9,90.2 324.7,89.9 323.4,89.6 322.2,89.3 321,88.9 319.8,88.6 318.6,88.2 317.4,87.7 316.2,87.3 315.1,86.8 313.9,86.3 312.7,85.8"/>
+<polyline class="ln2" points="331.6,95.3 330.2,95.1 328.9,94.9 327.6,94.7 326.3,94.4 325,94.1 323.7,93.8 322.4,93.5 321.1,93.1 319.8,92.8 318.6,92.4 317.3,91.9 316,91.5 314.8,91 313.6,90.5 312.3,90 311.1,89.5"/>
+<text class="sm" x="254.7" y="160.1" text-anchor="middle">12</text>
+<text class="sm" x="359.5" y="170" text-anchor="middle">8</text>
 ::
 ::
 a) Figur a)
@@ -248,36 +269,32 @@ b) Figur b)
 
 ## 6.123 @6.2
 $\triangle ABC$ og $\triangle DEF$ er formlike. Finn de ukjente sidene.
-::svg w=390 h=275 mw=389 cap="△ABC og △DEF er formlike."
-<polygon class="ln f1" points="58.9,218.4 199.3,218.4 56.4,56.4"/>
-<text class="sm" x="129.1" y="243.4" text-anchor="middle">3,9 cm</text>
-<text class="sm" x="21" y="142" text-anchor="middle">4,5 cm</text>
-<text class="sm" x="153.3" y="118.9" text-anchor="middle">6,0 cm</text>
-<text class="m" x="46.1" y="238.5" text-anchor="middle">A</text>
-<text class="m" x="216.5" y="233.2" text-anchor="middle">B</text>
-<text class="m" x="48.3" y="43.3" text-anchor="middle">C</text>
-<polygon class="ln f2" points="286.5,218.4 333.3,218.4 285.7,164.4"/>
-<text class="sm" x="335" y="172.9" text-anchor="middle">2,0 cm</text>
-<text class="m" x="273.7" y="238.5" text-anchor="middle">D</text>
-<text class="m" x="350.5" y="233.2" text-anchor="middle">E</text>
-<text class="m" x="277.6" y="151.3" text-anchor="middle">F</text>
+::svg w=536 h=325 mw=420 cap="△ABC og △DEF er formlike."
+<polygon class="ln f1" points="34.7,280.8 254.4,280.8 76.3,39"/>
+<polygon class="ln f2" points="383.1,280.8 504,280.8 406.5,150.8"/>
+<text class="sm" x="22" y="158.1" text-anchor="middle">2,7 cm</text>
+<text class="sm" x="144.6" y="302.8" text-anchor="middle">2,4 cm</text>
+<text class="sm" x="189.5" y="146.1" text-anchor="middle">3,3 cm</text>
+<text class="sm" x="479.3" y="201.8" text-anchor="middle">1,8 cm</text>
+<text class="m" x="24.7" y="299.8" text-anchor="middle">A</text>
+<text class="m" x="264.4" y="299.8" text-anchor="middle">B</text>
+<text class="m" x="76.3" y="32" text-anchor="middle">C</text>
+<text class="m" x="373.1" y="299.8" text-anchor="middle">D</text>
+<text class="m" x="514" y="299.8" text-anchor="middle">E</text>
+<text class="m" x="406.5" y="143.8" text-anchor="middle">F</text>
 ::
 > $DE = 1{,}3$ cm og $DF = 1{,}5$ cm
 
 ## 6.124 @6.2
 $AC$ er parallell med $DE$. $AB = 9{,}0$ cm, $AC = 7{,}0$ cm, $DB = 3{,}0$ cm og $EB = 2{,}0$ cm.
-::svg w=387 h=266 mw=387 cap="AC er parallell med DE."
-<polygon class="ln f1" points="49.6,209.6 337.6,209.6 216.7,60.4"/>
-<line class="ln" x1="241.6" y1="209.6" x2="297.3" y2="159.9"/>
-<text class="m" x="35.9" y="219.1" text-anchor="middle">A</text>
-<text class="m" x="351.1" y="219.5" text-anchor="middle">B</text>
-<text class="m" x="218.9" y="51.2" text-anchor="middle">C</text>
-<text class="m" x="241.6" y="229" text-anchor="middle">D</text>
-<text class="m" x="309.8" y="157.7" text-anchor="middle">E</text>
-<text class="sm" x="145.6" y="227.8" text-anchor="middle">6,0 cm</text>
-<text class="sm" x="289.6" y="227.8" text-anchor="middle">3,0 cm</text>
-<text class="sm" x="114.9" y="118.6" text-anchor="middle">7,0 cm</text>
-<text class="sm" x="340.1" y="170.4" text-anchor="middle">2,0 cm</text>
+::svg w=414 h=254 mw=360 cap="AC er parallell med DE."
+<polygon class="ln f1" points="34,216.6 380,216.6 234.6,39"/>
+<line class="ln" x1="265.2" y1="216.6" x2="331.5" y2="159.7"/>
+<text class="m" x="22" y="237.7" text-anchor="middle">A</text>
+<text class="m" x="391.9" y="237.7" text-anchor="middle">B</text>
+<text class="m" x="234.6" y="32" text-anchor="middle">C</text>
+<text class="m" x="265.2" y="241.6" text-anchor="middle">D</text>
+<text class="m" x="343.5" y="156.7" text-anchor="middle">E</text>
 ::
 a) Hvilke trekanter er formlike? Forklar.
 > $\triangle ABC$ er formlik med $\triangle DBE$. $\angle B$ er felles, og $\angle BDE = \angle BAC$ fordi $DE$ er parallell med $AC$.
@@ -286,20 +303,20 @@ b) Finn $BC$ og $DE$.
 
 ## 6.125 @6.2
 $AC = 8$ m, $AB = 6$ m, $BC = 10$ m og $DE = 3$ m.
-::svg w=413 h=341 mw=412 cap="△ABC og △DEC. BE og AD er rette linjer."
-<polygon class="ln f1" points="62.4,206.4 62.4,62.4 254.4,206.4"/>
-<polygon class="ln f2" points="254.4,206.4 350.4,206.4 350.4,278.4"/>
-<polyline class="ln2" points="62.4,193 75.8,193 75.8,206.4"/>
-<polyline class="ln2" points="337,206.4 337,219.8 350.4,219.8"/>
-<text class="m" x="42.1" y="218.8" text-anchor="middle">A</text>
-<text class="m" x="55" y="47.1" text-anchor="middle">B</text>
-<text class="m" x="254.4" y="189.8" text-anchor="middle">C</text>
-<text class="m" x="370.7" y="204" text-anchor="middle">D</text>
-<text class="m" x="361.2" y="302.1" text-anchor="middle">E</text>
-<text class="sm" x="43.2" y="139.4" text-anchor="end">6 m</text>
-<text class="sm" x="158.4" y="228.2" text-anchor="middle">8 m</text>
-<text class="sm" x="168" y="122.6" text-anchor="middle">10 m</text>
-<text class="sm" x="362.4" y="247.4" text-anchor="start">3 m</text>
+::svg w=398 h=313 mw=360 cap="△ABC og △DEC. BE og AD er rette linjer."
+<polygon class="ln f1" points="32,118.2 32,278.4 246.2,118.2"/>
+<polygon class="ln f1" points="246.2,118.2 353.6,118.2 353.6,39"/>
+<polyline class="ln2" points="48,118.2 48,134.2 32,134.2"/>
+<polyline class="ln2" points="337.6,118.2 337.6,102.2 353.6,102.2"/>
+<text class="sm" x="139.1" y="106.2" text-anchor="middle">8 m</text>
+<text class="sm" x="52" y="202.3" text-anchor="middle">6 m</text>
+<text class="sm" x="149.9" y="216.7" text-anchor="middle">10 m</text>
+<text class="sm" x="375.6" y="82.6" text-anchor="middle">3 m</text>
+<text class="m" x="22" y="111.2" text-anchor="middle">A</text>
+<text class="m" x="22" y="301.4" text-anchor="middle">B</text>
+<text class="m" x="240.2" y="109.2" text-anchor="middle">C</text>
+<text class="m" x="359.6" y="141.2" text-anchor="middle">D</text>
+<text class="m" x="361.6" y="32" text-anchor="middle">E</text>
 ::
 a) Forklar hvorfor $\triangle ABC$ og $\triangle DEC$ er formlike.
 >> Begge har en rett vinkel ($\angle A$ og $\angle D$), og $\angle ACB = \angle DCE$ er toppvinkler.
@@ -311,17 +328,18 @@ c) Finn lengden av $BE$.
 
 ## 6.126 @6.2
 I $\triangle ABC$ er $BC = 15{,}4$, $AB = 24{,}0$ og $AC = 18{,}4$.
-::svg w=453 h=273 mw=453 cap="D ligger på AB, og CD står vinkelrett på AB."
-<polygon class="ln f1" points="46.5,211.5 406.5,211.5 258.2,34.4"/>
-<line class="ln2" x1="258.2" y1="34.4" x2="258.2" y2="211.5"/>
-<polyline class="ln2" points="270.2,211.5 270.2,199.5 258.2,199.5"/>
-<text class="m" x="32.2" y="220.9" text-anchor="middle">A</text>
-<text class="m" x="420.7" y="221.4" text-anchor="middle">B</text>
-<text class="m" x="260.8" y="24.6" text-anchor="middle">C</text>
-<text class="m" x="258.2" y="231.5" text-anchor="middle">D</text>
-<text class="sm" x="226.5" y="248.5" text-anchor="middle">24,0</text>
-<text class="sm" x="138.1" y="109.9" text-anchor="middle">18,4</text>
-<text class="sm" x="350.3" y="111.9" text-anchor="middle">15,4</text>
+::svg w=442 h=270 mw=380 cap="D ligger på AB, og CD står vinkelrett på AB."
+<polygon class="ln f1" points="34,223 407.8,223 253.6,39"/>
+<line class="ln2" x1="253.6" y1="39" x2="253.6" y2="223"/>
+<polyline class="ln2" points="253.6,205 271.6,205 271.6,223"/>
+<polyline class="ln2" points="239.8,50.6 251.4,64.4 265.2,52.8"/>
+<text class="sm" x="128.4" y="116.6" text-anchor="middle">18,4</text>
+<text class="sm" x="349.1" y="119.6" text-anchor="middle">15,4</text>
+<text class="sm" x="238" y="258.4" text-anchor="middle">24,0</text>
+<text class="m" x="22" y="242" text-anchor="middle">A</text>
+<text class="m" x="419.8" y="242" text-anchor="middle">B</text>
+<text class="m" x="253.6" y="32" text-anchor="middle">C</text>
+<text class="m" x="253.6" y="248" text-anchor="middle">D</text>
 ::
 a) Forklar at $\triangle ABC$ er formlik med $\triangle CBD$.
 >> $\angle B$ er felles. $15{,}4^2 + 18{,}4^2 \approx 24{,}0^2$, så $\angle ACB = 90^\circ$, og $\angle CDB = 90^\circ$. To vinkler er parvis like.
@@ -331,41 +349,35 @@ b) Finn $BD$ og $CD$.
 
 ## 6.127 @6.2
 $\square ABCD$ og $\square EFGH$ er formlike, og $AB$ er samsvarende med $EF$. $\angle A = 50^\circ$, $\angle B = 110^\circ$ og $\angle C = 50^\circ$. Omkretsen av $\square ABCD$ er 42 cm.
-::svg w=596 h=270 mw=520 cap="□ABCD og □EFGH er formlike. Omkretsen av □ABCD er 42 cm."
-<polygon class="ln f1" points="56,213.9 296,213.9 353.5,56 115.9,142.5"/>
-<polyline class="ln2" points="76,213.9 75.9,212.4 75.8,211 75.5,209.5 75.2,208.1 74.7,206.8 74.1,205.4 73.5,204.1 72.7,202.9 71.9,201.7 70.9,200.6 69.9,199.5 68.9,198.5"/>
-<text class="sm" x="91.9" y="202.1" text-anchor="middle">50°</text>
-<polyline class="ln2" points="302.8,195.1 301.5,194.6 300.1,194.3 298.7,194.1 297.3,193.9 295.9,193.9 294.5,193.9 293,194.1 291.6,194.3 290.3,194.7 288.9,195.2 287.6,195.7 286.3,196.4 285.1,197.1 284,197.9 282.8,198.8 281.8,199.8 280.8,200.8 280,201.9 279.1,203.1 278.4,204.3 277.8,205.6 277.3,206.9 276.8,208.3 276.5,209.6 276.2,211 276.1,212.4 276,213.9"/>
-<text class="sm" x="271.5" y="183.8" text-anchor="middle">110°</text>
-<polyline class="ln2" points="334.7,62.8 335.2,64.2 335.9,65.5 336.6,66.7 337.4,67.9 338.3,69.1 339.3,70.1 340.4,71.1 341.5,72 342.7,72.9 344,73.6 345.3,74.2 346.6,74.8"/>
-<text class="sm" x="325.5" y="89" text-anchor="middle">50°</text>
-<text class="sm" x="176" y="236.9" text-anchor="middle">6,0 cm</text>
-<text class="m" x="39.2" y="225.3" text-anchor="middle">A</text>
-<text class="m" x="311.2" y="228.5" text-anchor="middle">B</text>
-<text class="m" x="368.4" y="50.9" text-anchor="middle">C</text>
-<text class="m" x="98.1" y="144.7" text-anchor="middle">D</text>
-<polygon class="ln f2" points="416,213.9 516,213.9 539.9,148.1 441,184.1"/>
-<text class="sm" x="466" y="236.9" text-anchor="middle">2,5 cm</text>
-<text class="m" x="399.2" y="225.3" text-anchor="middle">E</text>
-<text class="m" x="531.2" y="228.5" text-anchor="middle">F</text>
-<text class="m" x="554.8" y="143" text-anchor="middle">G</text>
-<text class="m" x="423.2" y="186.3" text-anchor="middle">H</text>
+::svg w=442 h=257 mw=380 cap="□ABCD og □EFGH er formlike."
+<polygon class="ln f1" points="32,212.8 248,212.8 311,37 120.8,107.2"/>
+<polygon class="ln f2" points="294.2,212.8 385.4,212.8 411.8,139 332.6,168.4"/>
+<text class="sm" x="140" y="234.8" text-anchor="middle">12 cm</text>
+<text class="sm" x="339.8" y="234.8" text-anchor="middle">5 cm</text>
+<text class="m" x="22" y="231.8" text-anchor="middle">A</text>
+<text class="m" x="256" y="231.8" text-anchor="middle">B</text>
+<text class="m" x="319" y="32" text-anchor="middle">C</text>
+<text class="m" x="112.8" y="100.2" text-anchor="middle">D</text>
+<text class="m" x="284.2" y="231.8" text-anchor="middle">E</text>
+<text class="m" x="393.4" y="231.8" text-anchor="middle">F</text>
+<text class="m" x="419.8" y="134" text-anchor="middle">G</text>
+<text class="m" x="324.6" y="161.4" text-anchor="middle">H</text>
 ::
 a) Finn $\angle D$.
 > $150^\circ$
 b) Finn omkretsen av $\square EFGH$.
 > 17,5 cm
-!! Forholdet er $\frac{2{,}5}{6{,}0}$, så omkretsen er $42 \cdot \frac{2{,}5}{6{,}0} = 17{,}5$ cm.
+!! Forholdet er $\frac{EF}{AB} = \frac{5}{12}$, så omkretsen er $42 \cdot \frac{5}{12} = 17{,}5$ cm.
 
 ## 6.128 @6.2
 To ovale duker er formlike. Den minste er $d = 90$ cm lang og har omkrets $o = 225$ cm. Den største er $D = 120$ cm lang.
-::svg w=378 h=168 mw=378 cap="To formlike ovale duker."
-<ellipse class="ln f1" cx="90" cy="84" rx="60" ry="36"/>
-<ellipse class="ln f2" cx="258" cy="84" rx="80.1" ry="48"/>
-<line class="hid" x1="30" y1="84" x2="150" y2="84"/>
-<text class="sm" x="90" y="80" text-anchor="middle">d = 90 cm</text>
-<line class="hid" x1="177.9" y1="84" x2="338.1" y2="84"/>
-<text class="sm" x="258" y="80" text-anchor="middle">D = 120 cm</text>
+::svg w=360 h=302 mw=340 cap="To formlike ovale duker."
+<path class="ln f4" d="M85.0,10 H275.0 A75.0,75.0 0 0 1 275.0,160 H85.0 A75.0,75.0 0 0 1 85.0,10 Z"/>
+<line class="ln2" x1="12" y1="85" x2="348" y2="85"/><polyline class="ln2" points="21,81 12,85 21,89"/><polyline class="ln2" points="339,81 348,85 339,89"/>
+<text x="180" y="76" text-anchor="middle">120 cm</text>
+<path class="ln f4" d="M66.0,180 H209.0 A56.0,56.0 0 0 1 209.0,292 H66.0 A56.0,56.0 0 0 1 66.0,180 Z"/>
+<line class="ln2" x1="12" y1="236" x2="263" y2="236"/><polyline class="ln2" points="21,232 12,236 21,240"/><polyline class="ln2" points="254,232 263,236 254,240"/>
+<text x="138" y="227" text-anchor="middle">90 cm</text>
 ::
 Finn omkretsen $O$ av den største duken.
 > 300 cm
